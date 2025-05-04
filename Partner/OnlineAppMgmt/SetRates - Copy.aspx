@@ -1,0 +1,1317 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SetRates.aspx.cs" Theme="AppTheme"
+    Inherits="SetRates" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+var cot_loc0=(window.location.protocol == "https:")? "https://secure.comodo.net/trustlogo/javascript/cot.js" :
+"http://www.trustlogo.com/trustlogo/javascript/cot.js";
+document.writeln('<scr' + 'ipt language="JavaScript" src="'+cot_loc0+'" type="text\/javascript">' + '<\/scr' + 'ipt>');
+//]]>
+</script>
+
+<head id="Head1" runat="server">
+    <title>Commerce Technologies - Partner Portal</title>
+
+    <script type="text/javascript" src="SetRates.js" language="javascript">
+    </script>
+
+    <link href="../PartnerCSS.css" type="text/css" rel="stylesheet" />
+</head>
+<a href="http://www.instantssl.com" id="comodoTL">SSL</a>
+
+<script language="JavaScript" type="text/javascript">
+COT("https://www.apps.commercetech.com/images/secure_site.gif", "SC2", "none");
+</script>
+
+<body>
+    <center>
+        <form id="form1" runat="server">
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <cc1:CollapsiblePanelExtender ID="CollapsiblePanelExtender1" runat="server" CollapseControlID="pnlAddlServices"
+                        Collapsed="false" CollapsedImage="~/images/expand_blue.jpg" CollapsedText="(Show)"
+                        ExpandControlID="pnlAddlServices" ExpandedImage="~/images/collapse_blue.jpg"
+                        ExpandedText="(Hide)" ImageControlID="imgShowDetails" SuppressPostBack="true"
+                        TargetControlID="pnlNews" TextLabelID="lblShowDetails">
+                    </cc1:CollapsiblePanelExtender>
+                    <asp:Label ID="lblError" CssClass="LabelsError" EnableTheming="false" runat="server"
+                        Visible="False"></asp:Label><br/>
+                    <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px" class="DivGreen">
+                        <tr>
+                            <td colspan="12" align="center" style="height: 25px; background-image: url(../Images/topMain.gif)">
+                                <b><span class="MenuHeader">Set Rates for App ID: &nbsp;
+                                    <asp:Label ID="lblAppId" runat="server" EnableTheming="true" CssClass="MenuHeader"></asp:Label>&nbsp;
+                                    <asp:Label ID="lblContact" runat="server" CssClass="MenuHeader"></asp:Label>
+                                    <!--  <asp:HyperLink ID="lnkBack" runat="server" ForeColor="Red">Back to Edit</asp:HyperLink> 
+                                 <asp:LinkButton ID="lnkBackEdit" Font-Bold=true runat="server" ForeColor="Red" Text="Back to Edit" OnClick="btnBack_Click"
+                                CausesValidation="False" />-->
+                                </span></b>
+                            </td>
+                        </tr>
+                        <tr height="10px">
+                        </tr>
+                        <tr>
+                            <td align="left" height="20" valign="bottom" colspan="12">
+                                <span class="LabelsSmall"><b>Last Modified Date: </b></span>
+                                <asp:Label ID="lblLastModifiedDate" runat="server" Font-Bold="true"></asp:Label></td>
+                        </tr>
+                        <tr>
+                            <td align="right" width="30%">
+                                <asp:Label ID="lblSelectPackage" runat="server" Text="Select Package"></asp:Label>&nbsp;</td>
+                            <td align="left" width="33%">
+                                <asp:DropDownList ID="lstPackageNames" runat="server">
+                                </asp:DropDownList></td>
+                            <td align="center">
+                                <asp:LinkButton ID="btnApplyPackage" Font-Names="Arial" Font-Size="Small" Font-Bold="True"
+                                    runat="server" Text="Apply Package" TabIndex="52" OnClick="btnApplyPackage_Click"/><br/>
+                                <span class="LabelsRedSmall">Note: This will overwrite all fees below</span></td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="12">
+                                <asp:Panel ID="pnlApplyPackage" Visible="false" runat="server" BackColor="#FFC0C0"
+                                    BorderColor="Salmon" BorderStyle="Double" Width="45%">
+                                    <center>
+                                        <span class="LabelsSmall">Are you sure you want to overwrite the fees with this Package?</span><br/>
+                                        <asp:Button ID="btnApplyYes" runat="server" OnClick="btnApplyPkgYes_Click" Text="Yes" />
+                                        <asp:Button ID="btnApplyNo" runat="server" OnClick="btnApplyPkgNo_Click" Text="No" />
+                                    </center>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+                        <tr height="10">
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="12">
+                                <table cellpadding="0" cellspacing="0" border="0" style="width: 100%">
+                                    <tr>
+                                        <td colspan="12" align="center" style="vertical-align: middle; width: 100%; height: 20px;
+                                            background-image: url(../Images/topMain.gif)">
+                                            <b><span class="MenuHeader">Merchant Account</span></b>
+                                        </td>
+                                    </tr>
+
+                                    
+                                    <asp:Panel ID="pnlMerchantRates" runat="server" Width="100%" Visible="False">
+                                        
+                                        <tr>
+                                         <td align="left" colspan="2">
+                                            &nbsp; &nbsp; &nbsp;
+                                            <asp:CheckBox ID="chkMA" runat="server" AutoPostBack="True" Font-Bold="True" OnCheckedChanged="chkMA_CheckedChanged"
+                                                Text="Merchant Account" />
+                                         </td>
+                                           <asp:Panel ID="pnlProcessor" runat="server" Width="100%" Visible="False">
+                                            <td align="left" colspan="4" >
+                                                <asp:DropDownList ID="lstProcessorNames" runat="server" AutoPostBack="True" OnSelectedIndexChanged="lstProcessorNames_SelectedIndexChanged"
+                                                    TabIndex="1">
+                                                </asp:DropDownList></td>
+                                            <td align="left" >
+                                           
+                                            <asp:Label ID="lblContractTerm" runat="server" AutoPostBack="True" Font-Bold="True" 
+                                                Text="Contract Term" /></td>
+                                           <td align="left" >
+                                                <asp:DropDownList ID="lstContractTerm" runat="server" AutoPostBack="True" TabIndex="1">
+                                                <asp:ListItem Text="" Selected="True" />
+                                                <asp:ListItem Text="1 month" />
+                                                <asp:ListItem Text="1 year" />
+                                                <asp:ListItem Text="3 years" />
+                                                </asp:DropDownList>
+                                           </td>
+                                           <td align="right" colspan="4"></td>
+                                             </asp:Panel>
+                                        </tr>
+                                        <asp:Panel ID="pnlMerchantDetails" runat="server" Width="100%" AutoPostBack="True" Visible="False">
+                                        <tr height="15px">
+                                            <td align="left" colspan="6">
+                                            </td>
+                                            <td align="left" colspan="4" style="display:none;">
+                                                <asp:RadioButton ID="rdbCP" runat="server" AutoPostBack="True" GroupName="CPCNP"
+                                                    Text="Card Present" TabIndex="2" OnCheckedChanged="rdbCP_CheckedChanged" />
+                                                &nbsp;<asp:RadioButton ID="rdbCNP" runat="server" AutoPostBack="True" GroupName="CPCNP"
+                                                    Text="Card Not Present" OnCheckedChanged="rdbCP_CheckedChanged" TabIndex="3" /></td>
+                                            <td align="left" colspan="2">
+                                                <asp:CheckBox ID="chkApplyInterchange" runat="server" AutoPostBack="True" OnCheckedChanged="chkApplyInterchange_CheckedChanged"
+                                                    Text="Apply Interchange Rates" />
+                                                <asp:CheckBox ID="chkBillAssessment" Visible="false" runat="server" Text="Billing Assessments" />
+                                            </td>
+                                            <td align="left" colspan="4">
+                                            </td>
+                                        </tr>
+                                        <tr height="10px">
+                                        </tr>
+
+                                        <tr style="height: 24px;">
+                                        
+                                           <td align="right">
+                                           </td>
+                                            <td align="left">
+
+                                            <span class="LabelsSmall">Offline Debit<br/>(CheckCard)</span>&nbsp;
+                                                
+                                            </td>
+                                            <td align="right">
+                                                </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Credit</span>&nbsp;
+                                            </td>
+
+                                            <td align="right">
+                                                </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Amex&nbsp;</span>
+                                            </td>
+                                            
+                                            <td  colspan="6">
+                                                </td>
+                                                
+                                        </tr>
+
+                                        <tr style="height: 24px;">
+                                        
+                                            <td align="right">
+                                                <span class="LabelsSmall">Qual Pres</span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtDRQD" runat="server" AutoPostBack="true" OnTextChanged="txtDRQD_TextChanged" 
+                                                    Width="40px" TabIndex="8" MaxLength="6" ></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender10" runat="server" TargetControlID="txtDRQD"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            <td align="right" width="5%">
+                                                <span class="LabelsSmall">&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtDRQP" runat="server" AutoPostBack="true" OnTextChanged="txtDRQP_TextChanged"
+                                                    Width="40px" TabIndex="4" MaxLength="6"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender6" runat="server" TargetControlID="txtDRQP" 
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            <td align="right" width="5%">
+                                                <span class="LabelsSmall"></span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtAmexQual" runat="server" Width="40px" TabIndex="8" MaxLength="6" OnTextChanged="txtAmexQual_TextChanged" AutoPostBack="true"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender25" runat="server" TargetControlID="txtAmexQual"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                           
+                                            <td align="right">
+                                                <span class="LabelsSmall">Transaction fee $</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtTransFee" runat="server" MaxLength="5" AutoPostBack="true" OnTextChanged="txtTransFee_TextChanged"
+                                                    TabIndex="14" Width="40px"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender3" runat="server" TargetControlID="txtTransFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                             <td align="right">
+                                                <span class="LabelsSmall">Customer Service $&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtCustomerService" runat="server" Width="40px" TabIndex="9" MaxLength="5"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" FilterType="Custom, Numbers"
+                                                    ValidChars="." TargetControlID="txtCustomerService" />
+                                            </td><td align="right">
+                                                <span class="LabelsSmall">Annual Fee $&nbsp;</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"></span>
+                                                <asp:DropDownList ID="lstAnnualFee" runat="server" TabIndex="19" Width="60px">
+                                                <asp:ListItem Text="99.00" />
+                                                <asp:ListItem Text="0.00" />
+                                                </asp:DropDownList></td>
+                                        </tr>
+                                       
+                                        <tr style="height: 24px;">
+                                        
+                                        <td align="right">
+                                                <span class="LabelsSmall">Mid Qual</span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtMidQualDebit" runat="server" Width="40px" TabIndex="8" MaxLength="6" AutoPostBack="True"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender28" runat="server" TargetControlID="txtMidQualDebit"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+
+                                        <td align="right" width="5%">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                             <td align="left">
+                                                <asp:TextBox ID="txtDRMQ" runat="server" Width="40px" TabIndex="6" MaxLength="6" AutoPostBack="True"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender8" runat="server" TargetControlID="txtDRMQ"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+
+                                            <td align="right" width="5%">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtAmexMidQual" runat="server" Width="40px" TabIndex="8" MaxLength="6"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender26" runat="server" TargetControlID="txtAmexMidQual"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                       <td align="right">
+                                                <span class="LabelsSmall">Batch Header $&nbsp;</span></td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender23" runat="server" TargetControlID="txtBatchHeader"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtBatchHeader" runat="server" Width="40px" TabIndex="15" MaxLength="5"></asp:TextBox></td>
+                                           
+                                            <td align="right">
+                                                <span class="LabelsSmall">Monthly Minimum $&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtMonMin" runat="server" Width="40px" TabIndex="10" MaxLength="5"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender2" runat="server" TargetControlID="txtMonMin"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            
+                                            <td align="right">
+                                                <span class="LabelsSmall">Chargeback Fee $&nbsp;</span></td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender12" runat="server" TargetControlID="txtChargebackFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtChargebackFee" runat="server" Width="40px" TabIndex="20" MaxLength="5"
+                                                    AutoPostBack="true" OnTextChanged="txtChargebackFee_TextChanged"></asp:TextBox></td>
+                                        </tr>
+                                        <tr style="height: 24px;">
+                                        
+                                        
+                                        
+                                        <td align="right">
+                                                <span class="LabelsSmall">Non Qual</span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtNonQualDebit" runat="server" Width="40px" TabIndex="8" MaxLength="6" AutoPostBack="True"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender30" runat="server" TargetControlID="txtNonQualDebit"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            
+
+                                            <td align="right" width="5%">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtDRNQ" runat="server" Width="40px" TabIndex="7" MaxLength="6" AutoPostBack="True"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender9" runat="server" TargetControlID="txtDRNQ"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+
+                                            <td align="right" width="5%">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtAmexNonQual" runat="server" Width="40px" TabIndex="8" MaxLength="6" AutoPostBack="True"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender27" runat="server" TargetControlID="txtAmexNonQual"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                                <td align="right">
+                                                <span class="LabelsSmall">Non Bankcard Trans $&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtNBCTransFee" runat="server" Width="40px" TabIndex="16" MaxLength="5"></asp:TextBox></td>
+                                            <td align="right">
+                                                <span class="LabelsSmall">Online Reporting $&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtInternetStmt" runat="server" MaxLength="5" AutoPostBack="true"
+                                                    OnTextChanged="txtTransFee_TextChanged" TabIndex="11" Width="40px"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender22" runat="server" TargetControlID="txtTransFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            
+                                            <td align="right">
+                                                <span class="LabelsSmall">Retrieval Fee $&nbsp;</span></td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender13" runat="server" TargetControlID="txtRetrievalFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtRetrievalFee" runat="server" Width="40px" TabIndex="21" MaxLength="5"></asp:TextBox></td>
+                                        </tr>
+                                        <tr style="height: 24px;">
+                                        <td colspan = "2">
+                                            </td>
+                                            <td align="right">
+                                                <span class="LabelsSmall">Discount Paid</span>&nbsp;</td>
+                                            <td align="left">
+                                                <asp:DropDownList ID="DropDownList1" runat="server" TabIndex="8">
+                                                <asp:ListItem Text="" Selected="True" />
+                                                <asp:ListItem Text="Daily" />
+                                                <asp:ListItem Text="Monthly" />
+                                                </asp:DropDownList>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender15" runat="server" TargetControlID="txtDRQD"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                             
+
+                                            <td colspan = "2">
+                                            </td>
+                                            <td align="right">
+                                                <span class="LabelsSmall">AVS $&nbsp;</span></td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender16" runat="server" TargetControlID="txtBatchHeader"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtAVS" runat="server" Width="40px" TabIndex="17" MaxLength="5"></asp:TextBox>
+                                                <asp:DropDownList ID="lstAVS" runat="server" AutoPostBack="false" Width="50px" visible="false">
+                                                                 <asp:ListItem Text="" Selected="True"/>
+                                                                    <asp:ListItem Text="0.00" />
+                                                                    <asp:ListItem Text="0.035" />
+                                                                    <asp:ListItem Text="0.05" />
+
+                                                                </asp:DropDownList>
+                                                </td>
+                                        <td align="right">
+                                                <span class="LabelsSmall">Regulatory Fee&nbsp;</span></td>
+                                            <td align="left" style="height: 24px; width: 80px" colspan="1">
+                                                <asp:TextBox ID="txtComplianceFee" runat="server" Width="40px" TabIndex="24" MaxLength="6"></asp:TextBox></td>
+                                            
+
+                                                
+                                            <td align="right">
+                                                <span class="LabelsSmall">Rolling Reserve</span>&nbsp;</td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender11" runat="server" TargetControlID="txtChargebackFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtRolling" runat="server" MaxLength="5" TabIndex="22" Width="40px"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span>
+                                            </td>
+                                        </tr>
+                                        <tr style="height: 24px;">
+                                            <td colspan = "4">
+                                            </td>
+                                            <td align="right" style="display:none;">
+                                                <span class="LabelsSmall" style="display:none;">Discount Paid</span>&nbsp;</td>
+                                            <td align="left" style="display:none;">
+                                                <asp:DropDownList ID="lstDiscountPaid" runat="server" TabIndex="8">
+                                                <asp:ListItem Text="" Selected="True" />
+                                                <asp:ListItem Text="Daily" />
+                                                <asp:ListItem Text="Monthly" />
+                                                </asp:DropDownList>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender24" runat="server" TargetControlID="txtDRQD"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            <td colspan = "2">
+                                            </td>    <td align="right">
+                                                <span class="LabelsSmall">Wireless Trans Fee $&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtWirelessTransFee" runat="server" Width="40px" TabIndex="13" MaxLength="5"
+                                                    AutoPostBack="true" OnTextChanged="txtWirelessFee_TextChanged"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender5" runat="server" TargetControlID="txtWirelessTransFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                             <td align="right">
+                                                <span class="LabelsSmall">Wireless Access $&nbsp;</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtWirelessAccess" runat="server" Width="40px" TabIndex="12" MaxLength="5"
+                                                    AutoPostBack="true" OnTextChanged="txtWirelessFee_TextChanged"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender4" runat="server" TargetControlID="txtWirelessAccess"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                        
+                                            
+                                            
+                                            <td align="right">
+                                                <span class="LabelsSmall">&nbsp;</span></td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender18" runat="server" TargetControlID="txtSetupFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtApplicationFee" runat="server" Width="40px" TabIndex="23" MaxLength="6"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender17" runat="server" TargetControlID="txtApplicationFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                        </tr>
+                                        <tr style="height: 24px;">
+                                        <td colspan = "6">
+                                            </td>
+                                            
+                                            
+                                           <!--<td align="left" colspan="2">
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>-->
+                                             
+                                            <td align="right">
+                                                <span class="LabelsSmall">Voice Authorization $&nbsp;</span></td>
+                                            <td align="left">
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender14" runat="server" TargetControlID="txtVoiceAuth"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                                <asp:TextBox ID="txtVoiceAuth" runat="server" Width="40px" TabIndex="18" MaxLength="5"></asp:TextBox></td>
+                                            <td colspan = "2">
+                                            </td>
+                                            
+                                                    <td align="right">
+                                                <span class="LabelsSmall">&nbsp;</span></td>
+                                            <td align="left" style="height: 24px; width: 80px" colspan="1">
+                                                <asp:TextBox ID="txtSetupFee" runat="server" Width="40px" TabIndex="24" MaxLength="6"></asp:TextBox></td>
+                                            
+                                            
+                                        </tr>
+
+                                        <!--<asp:Panel ID="pnlOnlineDebit" runat="server" Width="850px">-->
+                                        
+                                                        <tr>
+                                                            <td align="left" colspan="2">
+                                                            &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkOnlineDebit" runat="server" AutoPostBack="True" Font-Bold="True"
+                                                                    OnCheckedChanged="chkOnlineDebit_CheckedChanged" Text="Online (PIN) Debit" /></td>
+                                                                    
+                                                                    <td align="right">
+                                                                <span class="LabelsSmall">Discount Rate</span></td>
+                                                            <td align="left" >
+                                                                <asp:TextBox ID="txtPinDebitDiscount" runat="server" MaxLength="5" Width="40px" TabIndex="28"></asp:TextBox>
+                                                                <span class="LabelsSmall">%</span></td>
+                                                                <td align="left" colspan="2" >
+                                                            </td>  <td align="right" >
+                                                                <span class="LabelsSmall">Transaction Fee $</span></td>
+                                                               
+                                                            <td align="left" >
+                                                                <asp:TextBox ID="txtDebitTransFee" runat="server" MaxLength="5" Width="40px" TabIndex="29" visible=false></asp:TextBox>
+                                                                <asp:DropDownList ID="lstDebitTransFee" runat="server" AutoPostBack="false" Width="50px" visible=false>
+                                                                 <asp:ListItem Text="" Selected="True" />
+                                                                    <asp:ListItem Text="0.15" />
+                                                                    <asp:ListItem Text="0.21" />
+                                                                    <asp:ListItem Text="0.25" />
+                                                                    <asp:ListItem Text="0.27" />
+                                                                    <asp:ListItem Text="0.29" />
+                                                                    <asp:ListItem Text="0.30" />
+                                                                    <asp:ListItem Text="0.35" />
+                                                                    <asp:ListItem Text="0.40" />
+                                                                    <asp:ListItem Text="0.43" />
+                                                                    <asp:ListItem Text="0.45" />
+                                                                    <asp:ListItem Text="0.46" />
+                                                                    <asp:ListItem Text="0.47" />
+                                                                    <asp:ListItem Text="0.48" />
+                                                                    <asp:ListItem Text="0.49" />
+                                                                    <asp:ListItem Text="0.50" />
+                                                                    <asp:ListItem Text="0.55" />
+                                                                    <asp:ListItem Text="0.57" />
+                                                                    <asp:ListItem Text="0.60" />
+                                                                    <asp:ListItem Text="0.63" />
+                                                                </asp:DropDownList></td>
+                                                            <td align="right">
+                                                                <span class="LabelsSmall">Monthly Fee $</span></td>
+                                                            <td align="left" >
+                                                                <asp:TextBox ID="txtDebitMonFee" runat="server" MaxLength="5" Width="40px" TabIndex="28"></asp:TextBox></td>
+                                                           
+                                                                <td align="left" colspan="2" >
+                                                                </td>
+                                                                
+                                                                 
+                                                        </tr>
+                                                        
+                                                        
+                                        <!--</asp:Panel>-->
+                                        <!--<asp:Panel ID="pnlEBT" runat="server" Width="850px">-->
+                                                
+                                                        <tr>
+                                                            <td align="left"  colspan="2">
+                                                            &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkEBT" runat="server" AutoPostBack="True" Font-Bold="True" Text="Electronic Benefits Transfer (EBT)"
+                                                                    OnCheckedChanged="chkEBT_CheckedChanged" /></td>
+                                                                    <td align="left" colspan="4" >
+                                                                </td>         <td align="right" >
+                                                                <span class="LabelsSmall" >Transaction Fee $</span></td>
+                                                                
+                                                            <td align="left" >
+                                                                <asp:TextBox ID="txtEBTTransFee" runat="server" MaxLength="5" TabIndex="31" Width="40px"></asp:TextBox></td>
+                                                                
+                                                            <td align="right" >
+                                                                <span class="LabelsSmall">Monthly Fee $</span>&nbsp;</td>
+                                                            <td align="left" >
+                                                                <asp:TextBox ID="txtEBTMonFee" runat="server" Width="40px" TabIndex="30" MaxLength="5"></asp:TextBox></td>
+                                                            
+                                                                <td align="left" colspan="2" >
+                                                                </td>
+                                                        </tr>
+                                                    <!--</asp:Panel>-->    
+                                       </asp:Panel>
+                                    </asp:Panel>
+                                    <tr style="height: 24px;">
+                                           
+                                           <td align="center" colspan="12"> 
+
+<asp:Button ID="btnProcessorSubmit" runat="server" Text="Submit" 
+                                    TabIndex="50" OnClick="btnProcessorSubmit_Click"/>
+                                            </td>
+                                           
+                                    </tr>
+
+                                    <!--
+                                     <tr>
+                                                            <td align="right" colspan="1">
+                                                                <span class="LabelsSmall">Platform &nbsp</span></td>
+                                                            <td align="left" colspan="4">
+                                                                <asp:DropDownList ID="lstPlatform" runat="server" TabIndex="4" Width="170px"></asp:DropDownList>
+                                                                </td>
+                                                            <td align="right" colspan="2">
+                                                                <span class="LabelsSmall">Login ID</span></td>
+                                                            <td align="left" colspan="1">
+                                                                <asp:Label ID="lblLoginIDText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="1">
+                                                                <span class="LabelsSmall">Merchant ID &nbsp</span></td>
+                                                            <td align="left" colspan="4">
+                                                                <asp:Label ID="lblMerchantIDText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                            <td align="right" colspan="2">
+                                                                <span class="LabelsSmall">Terminal ID</span></td>
+                                                            <td align="left" colspan="1">
+                                                                <asp:Label ID="lblTerminalIDText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="1">
+                                                                <span class="LabelsSmall">&nbsp Bank ID Number (BIN) &nbsp </span></td>
+                                                            <td align="left" colspan="4">
+                                                                <asp:Label ID="lblBINNumberText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                            <td align="right" colspan="2">
+                                                                <span class="LabelsSmall">Agent Chain Number</span></td>
+                                                            <td align="left" colspan="1">
+                                                                <asp:Label ID="lblAgentChainNumberText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="1">
+                                                                <span class="LabelsSmall">&nbsp Agent Bank Number &nbsp </span></td>
+                                                            <td align="left" colspan="4">
+                                                                <asp:Label ID="lblAgentBankNumberText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                            <td align="right" colspan="2">
+                                                                <span class="LabelsSmall">Store Number</span></td>
+                                                            <td align="left" colspan="1">
+                                                                <asp:Label ID="lblStoreNumberText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="1">
+                                                                <span class="LabelsSmall">&nbsp MCC Category Code &nbsp </span></td>
+                                                            <td align="left" colspan="4">
+                                                                <asp:Label ID="lblMCCCodeText" runat="server" Font-Bold="true"></asp:Label></td>
+                                                            <td align="right" colspan="2">
+                                                            </td>
+                                                            <td align="left" colspan="1">
+                                                            </td>
+                                                        </tr>-->
+
+                                </table>
+                            </td>
+                        </tr>
+                        <tr height="15px">
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="12">
+                                <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px">
+                                    <tr>
+                                        <td colspan="12" align="center" style="vertical-align: middle; width: 100%; height: 20px;
+                                            background-image: url(../Images/topMain.gif)">
+                                            <b><span class="MenuHeader">Payment Gateway</span></b>
+                                        </td>
+                                    </tr>
+                                    
+                                    
+                                    <asp:Panel ID="pnlGatewayRates" runat="server" Width="100%" Visible="False">
+                                     
+                                        <tr>
+                                            <!--<td align="right" valign="middle" height="24px">
+                                                <asp:Label ID="lblGateway" runat="server" Text="Gateway" Font-Bold="True"></asp:Label>&nbsp;</td>-->
+                                            <td align="left" valign="middle" height="24px" colspan="2" width="15%">
+                                            &nbsp; &nbsp; &nbsp;
+                                            <asp:CheckBox ID="chkGateway" runat="server" AutoPostBack="true" Font-Bold="True"
+                                                OnCheckedChanged="chkGateway_CheckedChanged" Text="Payment Gateway" /></td>
+                                            <asp:Panel ID="pnlGatewaylist" runat="server" AutoPostBack="True" Visible="False">
+                                            <td align="left" colspan="4" width="165px" >
+                                                <asp:DropDownList ID="lstGatewayNames" runat="server" TabIndex="24" AutoPostBack="True"
+                                                    OnSelectedIndexChanged="lstGatewayNames_SelectedIndexChanged">
+                                                </asp:DropDownList>
+                                                <!--<asp:CheckBox ID="chkECheck" runat="server" AutoPostBack="True" Text="Include E-Check"
+                                                    OnCheckedChanged="chkECheck_CheckedChanged" Visible="true" />--></td>
+</td>
+                                            <td align="right" width="55px">
+                                                <span class="LabelsSmall">Transaction Fee $</span></td>
+                                            <td align="left" width="57px">
+                                                <asp:TextBox ID="txtGWTransFee" runat="server" Width="40px" TabIndex="27" MaxLength="5"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender21" runat="server" TargetControlID="txtGWTransFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            <td align="right" valign="middle"width="45px">
+                                                <span class="LabelsSmall">Monthly Fee</span>&nbsp;</td>
+                                            <td align="left" valign="middle" width="40px">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txtGWMonthlyFee" runat="server" Width="40px" TabIndex="25" MaxLength="5"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender20" runat="server" TargetControlID="txtGWMonthlyFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            
+                                            <td align="right">
+                                                <span class="LabelsSmall">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
+                                            <td align="left" valign="middle" style="height: 24px; width: 55px" colspan="1">
+                                                <asp:TextBox ID="txtGWSetupFee" runat="server" Width="40px" TabIndex="25" MaxLength="6"></asp:TextBox>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender19" runat="server" TargetControlID="txtGWSetupFee"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                            </asp:Panel>
+                                        </tr>
+                                         <asp:Panel ID="pnlGatewayratessetup" runat="server" Width="100%" Visible="False">
+                                        <tr>
+                                            <td align="left" colspan="12">
+                                            </td>
+                                        </tr>
+                                        </asp:Panel>
+                                       
+                                    </asp:Panel>
+                                    
+                                </table>
+                            </td>
+                        </tr>
+                        <tr height="15px">
+                        </tr>
+                        
+                        <td align="center" colspan="12">
+                                <asp:Button ID="btnGatewaySubmit" runat="server" Text="Submit" 
+                                    TabIndex="50" OnClick="btnGatewaySubmit_Click"/>
+                            </td>
+                        
+
+                        
+
+                            </tr>
+                      
+                        <tr>
+                            <td colspan="12" align="center" valign="middle">
+                                <asp:Panel ID="pnlAddlServices" runat="server" Height="20px">
+                                <tr>
+                                        <td colspan="12" align="center" style="vertical-align: middle; width: 100%; height: 20px;
+                                            background-image: url(../Images/topMain.gif)">
+                                            <b><span class="MenuHeader">  <asp:Label ID="Label1" runat="server" Font-Bold="True" CssClass="MenuHeader"
+                                                EnableTheming="False" Text="Additional Services"></asp:Label></span></b>
+                                        </td>
+                                    </tr>
+                                    <!--<div style="cursor: pointer; vertical-align: middle; width: 100%; height: 20px; background-image: url(../Images/topMain.gif)">
+                                        <div style="float: left; text-align: center; margin-left: 230px;">
+                                            <asp:Label ID="lblAddlServices" runat="server" Font-Bold="True" CssClass="MenuHeader"
+                                                EnableTheming="False" Text="Additional Services (Optional)"></asp:Label>
+                                        </div>
+                                        <div style="float: left; margin-left: 20px;">
+                                            <asp:Label ID="lblShowDetails" runat="server" CssClass="MenuHeader" EnableTheming="false">(Show)</asp:Label>
+                                        </div>
+                                        <div style="float: right; vertical-align: middle;">
+                                            <asp:Image ID="imgShowDetails" runat="server" ImageUrl="~/images/expand_blue.jpg" /></div>
+                                    </div>-->
+                                </asp:Panel>
+                                <asp:Panel ID="pnlNews" runat="server" Width="100%" Visible="True">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr height="10px">
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                
+                                                <asp:Panel ID="pnlCheckGuarantee" runat="server" Width="100%">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px;">
+                                                        <tr>
+                                                            <td align="left" colspan="1"  width="15%" valign="top">
+                                                            &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkCheckGuarantee" runat="server" AutoPostBack="true" Font-Bold="True"
+                                                                    Text="Check/ACH" OnCheckedChanged="chkCheckGuarantee_CheckedChanged" /></td>
+                                                                    
+                                                                        <td align="left" colspan="1" width="110px">
+                                                                            <asp:DropDownList ID="lstCheckService" runat="server" TabIndex="32" AutoPostBack="True" OnSelectedIndexChanged="lstCheckService_SelectedIndexChanged">
+
+                                                                                
+                                                                            </asp:DropDownList>
+                                                                        </td>
+                                                                        <td align="right" width="40px">
+                                                                            <span class="LabelsSmall">Discount</span>&nbsp;</td>
+                                                                        <td align="left" width="55px">
+                                                                        	<span class="LabelsSmall"><asp:TextBox ID="txtCGDiscRate" runat="server" MaxLength="5" Width="40px" TabIndex="33"></asp:TextBox>%</span></td>
+                                                                        	<td align="left" colspan="1" width="15px"></td><td align="right" width="148px">
+                                                                            <span class="LabelsSmall">Transaction Fee $</span>&nbsp;</td>
+                                                                        <td align="left" width="25px">
+                                                                            <asp:TextBox ID="txtCGTransFee" runat="server" MaxLength="5" Width="40px" TabIndex="36"></asp:TextBox></td>
+                                                                        <td align="right" width="177px">
+                                                                            <span class="LabelsSmall">Monthly Fee $</span>&nbsp;</td>
+                                                                        <td align="left" width="40px" >
+                                                                            <asp:TextBox ID="txtCGMonFee" runat="server" MaxLength="5" Width="40px" TabIndex="34"></asp:TextBox></td>
+
+                                                                        
+                                                                    		
+                                                                            <td align="right" width="120px">
+                                                                            <span class="LabelsSmall">Monthly Minimum $</span>&nbsp;</td>
+                                                                            <td align="left" width="40px">
+                                                                            <asp:TextBox ID="txtCGMonMin" runat="server" MaxLength="5" Width="40px" TabIndex="35"></asp:TextBox></td>
+                                                                            <td align="left" colspan="2" width="25px">
+                                                                            </td>
+                                                                        
+                                                           
+                                                        </tr>
+
+                                                        
+
+                                                        <tr>
+                                                            <td align="right" colspan="12" style="height: 5px">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlGiftCard" runat="server" Width="100%">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px;">
+                                                        <tr>
+                                                            <td align="left" colspan="2"  width="15%" valign="top">
+                                                             &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkGiftCard" runat="server" AutoPostBack="True" Font-Bold="True"
+                                                                    Text="Gift/Loyalty" OnCheckedChanged="chkGiftCard_CheckedChanged" /></td>
+                                                            
+                                                            <td align="left" colspan="2" width="120px" >
+                                                                <asp:DropDownList ID="lstGCType" runat="server" AutoPostBack="True" TabIndex="36" OnSelectedIndexChanged="lstGiftCard_SelectedIndexChanged">
+                                                                    <asp:ListItem Text="Sage EFT Gift & Loyalty" />
+                                                                   
+                                                                    
+                                                                </asp:DropDownList></td>
+                                                         <td align="right" width="106px" >
+                                                                <span class="LabelsSmall">Transaction Fee $</span>&nbsp;</td>
+                                                            <td align="left" width="57px">
+                                                                <asp:TextBox ID="txtGCTransFee" MaxLength="5" runat="server" TabIndex="38" Width="40px"></asp:TextBox></td>
+                                                            <td align="right"   >
+                                                                <span class="LabelsSmall">Monthly Fee $</span>&nbsp;</td>
+                                                            <td align="left" width="43px">
+                                                                <asp:TextBox ID="txtGCMonFee" MaxLength="5" runat="server" TabIndex="37" Width="40px"></asp:TextBox></td>
+
+                                                            
+                                                                
+                                                                <td align="right" width="43px">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                            <td align="left" valign="middle" style="height: 24px; width: 91px" colspan="3">
+                                                
+
+                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="12" style="height: 5px">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlMerchantFunding" runat="server" Width="100%">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px;">
+                                                        <tr>
+                                                            <td align="left" colspan="2" width="15%" valign="top">
+                                                             &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkMerchantFunding" runat="server" AutoPostBack="True" Font-Bold="True"
+                                                                    Text="Business Funding" OnCheckedChanged="chkMerchantFunding_CheckedChanged" /></td>
+                                                            
+                                                            <td align="left" colspan="2" width="120px">
+                                                                <asp:DropDownList ID="lstMCAType" runat="server" Width="185px" TabIndex="39">
+                                                                    <asp:ListItem Text="RapidAdvance" />
+                                                                </asp:DropDownList></td>
+                                                                
+                                                            <td align="right" width = "67px" >
+                                                                <span class="LabelsSmall" >Amount $</span></td>
+                                                            <td align="right" ><asp:TextBox ID="txtCashDesired" runat="server" width="40px"  />
+                                                               </td>
+                                                               <td colspan="6" width="280px" >
+                                                               </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="12" style="height: 5px">
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                    </table>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlPayroll" runat="server" Width="100%">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px;">
+                                                        <tr>
+                                                            <td align="left" colspan="2" width="15%" valign="top">
+                                                             &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkPayroll" runat="server" AutoPostBack="True" Font-Bold="True"
+                                                                    Text="Payroll" OnCheckedChanged="chkPayroll_CheckedChanged" /></td>
+                                                            
+                                                            <td align="left" colspan="2" width="120px">
+                                                                <asp:DropDownList ID="lstPayrollType" runat="server" Width="185px" TabIndex="39">
+                                                                    
+                                                                    
+                                                                    <asp:ListItem Text="Intuit Payroll Full Service" />
+
+                                                                    <asp:ListItem Text="Intuit QuickBooks Payroll Assisted" />
+                                                                    <asp:ListItem Text="Sage 50 Managed Payroll" />
+                                                                </asp:DropDownList></td>
+                                                                <td align="right" colspan="8" >
+                                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" colspan="12" style="height: 5px">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlLease" runat="server" Width="100%">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 1000px;">
+                                                        <tr>
+                                                            <td align="left" colspan="2" width="15%" valign="top">
+                                                            &nbsp; &nbsp; &nbsp;
+                                                                <asp:CheckBox ID="chkLease" runat="server" AutoPostBack="True" Font-Bold="True" Text="Lease"
+                                                                    OnCheckedChanged="chkLease_CheckedChanged" /></td>
+                                                            
+                                                            <td align="left" colspan="2" width="120px">
+                                                                <asp:DropDownList ID="lstLeaseCompany" runat="server" AutoPostBack="True" TabIndex="40">
+                                                                    <asp:ListItem Text=""/>
+                                                                    <asp:ListItem Text="Northern Leasing Systems, Inc." Selected="True"/>
+                                                                    
+                                                                </asp:DropDownList></td>
+                                                                
+                                                            <!--<td align="right" >
+                                                                <span class="LabelsSmall">Payment $</span>&nbsp;</td>
+                                                            <td align="left" width="57px">
+                                                                <asp:TextBox ID="txtLeasePayment11"  runat="server" TabIndex="41" Width="40px" MaxLength="7"></asp:TextBox></td>
+
+                                                               </td>
+                                                            <td align="right" >
+                                                                <span class="LabelsSmall">Lease Term</span>&nbsp;</td>
+                                                            <td align="left" width="43px">
+                                                                <asp:DropDownList ID="lstLeaseTerm11" runat="server" TabIndex="42" Width="40px">
+                                                                    <asp:ListItem Text="" Selected="True" />
+                                                                    <asp:ListItem Text="12" />
+                                                                    <asp:ListItem Text="24" />
+                                                                    <asp:ListItem Text="36" />
+                                                                    <asp:ListItem Text="48" />
+                                                                </asp:DropDownList>
+                                                                <span class="LabelsSmall">&nbsp;Months</span></td>
+                                                               <td align="right" width="43px">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                                                <td align="left" valign="middle" style="height: 24px; width: 91px" colspan="2"></td>-->
+
+
+                                                            <td align="right" width="85px">
+                                                                <span class="LabelsSmall">Payment $ &nbsp;</span></td>
+                                                            <td align="left" width="95px">
+                                                                <asp:TextBox ID="txtLeasePayment" MaxLength="7" runat="server" TabIndex="41" Width="40px"></asp:TextBox></td>
+
+                                                            <td align="right" width="130px">
+                                                                <span class="LabelsSmall">Lease Term</span>&nbsp;</td>
+                                                            <td align="left" width="35px">
+                                                                <asp:DropDownList ID="lstLeaseTerm" runat="server" TabIndex="42" Width="35px">
+                                                                    <asp:ListItem Text="" Selected="True" />
+                                                                    <asp:ListItem Text="12" />
+                                                                    <asp:ListItem Text="24" />
+                                                                    <asp:ListItem Text="36" />
+                                                                    <asp:ListItem Text="48" />
+                                                                </asp:DropDownList></td>
+                                                                
+                                                                <td align="right" width="55px">
+                                                <span class="LabelsSmall"></span>&nbsp;</td>
+                                            <td align="left" valign="middle" style="height: 24px; width: 91px" colspan="3">
+                                                
+
+                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    </asp:Panel>
+                                                              </asp:Panel>     
+
+                                                <tr><td align="center" colspan="12">
+                                <asp:Button ID="btnAddlServSubmit" runat="server" Text="Submit" 
+                                    TabIndex="50" OnClick="btnAddlServSubmit_Click"/>
+                            </td></tr>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" colspan="3">
+                                <asp:Panel ID="pnlECheckRates" runat="server" Width="100%" Visible="False">
+                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+                                        <tr>
+                                            <td colspan="4" align="center" style="height: 20px; background-image: url(../Images/topMain.gif)">
+                                                <b><span class="MenuHeader">eCheck Rates</span></b>
+                                            </td>
+                                        </tr>
+                                        <tr height="10px">
+                                        </tr>
+                                        <tr>
+                                            <td align="center" colspan="4">
+                                                <span class="LabelsSmall"><b>eChecks Standard Industry Rates</b></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Buy Rates</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Sell Rates</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Setup Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.0</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.0</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Chargeback Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$25.00</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$25.00</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Returned Item Fee Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$3.00</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$3.00</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Batch Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.20</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.30</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Monthly Minimum Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$5.00</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txteSIRMonMin" runat="server" Width="40px" TabIndex="38"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Per-Transaction Fee</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(Cumulative Tier)</b></span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(MUS 30%)</b></span></td>
+                                            <td align="left">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0-$4,999.99</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.15</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txteSIRTransFee1" runat="server" Width="40px" TabIndex="39"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">$5,000.00-$49,999.99</span></td>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">$0.15</span></td>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txteSIRTransFee2" runat="server" Width="40px" TabIndex="40"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$50,000.00-$199,999.99</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.15</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txteSIRTransFee3" runat="server" Width="40px" TabIndex="41"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$200,000.00 or more</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.15</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txteSIRTransFee4" runat="server" Width="40px" TabIndex="33"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Discount Rate</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(Cumulative Tier)</b></span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(MUS 30%)</b></span></td>
+                                            <td align="left">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0-$4,999.99</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">0.75%</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txteSIRDiscountRate1" runat="server" Width="40px" TabIndex="42"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$5,000.00-$49,999.99</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">0.65%</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txteSIRDiscountRate2" runat="server" Width="40px" TabIndex="43"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$50,000.00-$199,999.99</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">0.45%</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txteSIRDiscountRate3" runat="server" Width="40px" TabIndex="44"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">$200,000.00 or more</span></td>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left" style="height: 24px">
+                                                <span class="LabelsSmall">0.25%</span></td>
+                                            <td align="left" style="height: 24px">
+                                                <asp:TextBox ID="txteSIRDiscountRate4" runat="server" Width="40px" TabIndex="45"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 15px" align="left" colspan="4">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" colspan="4">
+                                                <span class="LabelsSmall"><b>eCheck Preferred Industry Rates</b></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Setup Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.0</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.0</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Chargeback Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$25.00</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$25.00</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Returned Item Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$3.00</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$3.00</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Batch Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.20</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.30</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Monthly Minimum Fee</span></td>
+                                            <td align="left">
+                                            </td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$5.00</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txtePIRMonMin" runat="server" Width="40px" TabIndex="46"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck per Transaction Fee</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(Cumulative Tier)</b></span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(MUS 30%)</b></span></td>
+                                            <td align="left">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0 or more</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0.25</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$</span>
+                                                <asp:TextBox ID="txtePIRTransFee1" runat="server" Width="40px" TabIndex="47"></asp:TextBox></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">eCheck Discount Rate</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(Cumulative Tier)</b></span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall"><b>(MUS 30%)</b></span></td>
+                                            <td align="left">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <span class="LabelsSmall">$0 or more</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">Charge Transaction Dollar Volume</span></td>
+                                            <td align="left">
+                                                <span class="LabelsSmall">0.00%</span></td>
+                                            <td align="left">
+                                                <asp:TextBox ID="txtePIRDiscountRate1" runat="server" Width="40px" TabIndex="48"></asp:TextBox>
+                                                <span class="LabelsSmall">%</span></td>
+                                        </tr>
+                                        <tr height="10px">
+                                        </tr>
+                                        
+
+                                    </table>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+
+                        <tr>
+            <td colspan="12">
+            <hr color="a1b6b6" style="border:none; height:1px;"/>
+            </td>
+        </tr>
+                        <tr>
+                        <td style="display: none;">
+                        <td align="right" style="display: none;">
+                                                <span class="LabelsSmall" style="display: none;">DR Qual NP</span>&nbsp;</td>
+                                            <td align="left" style="display: none;">
+                                               <asp:TextBox ID="txtQualNPDebit" runat="server" Width="40px" TabIndex="8" MaxLength="6" OnTextChanged="txtQualNPDebit_TextChanged" AutoPostBack="true" style="display: none;"></asp:TextBox>
+                                                <span class="LabelsSmall" style="display: none;">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender29" runat="server" TargetControlID="txtQualNPDebit"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+                                         <td align="right" width="5%" style="display: none;">
+                                                <span class="LabelsSmall" style="display: none;"> </span></td>
+                                                 <td align="left" style="display: none;">
+                                                <asp:TextBox ID="txtDRQNP" AutoPostBack="true" OnTextChanged="txtDRQP_TextChanged"
+                                                    runat="server" Width="40px" TabIndex="5" MaxLength="6" style="display: none;"></asp:TextBox>
+                                                <span class="LabelsSmall" style="display: none;">%</span>
+                                                <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender7" runat="server" TargetControlID="txtDRQNP"
+                                                    FilterType="Custom, Numbers" ValidChars="." />
+                                            </td>
+
+                            <!--<td align="left" style="background-image: url(../Images/topMain.gif); height: 25px; width:380px; " colspan="4">
+                                <asp:Button ID="btnBack" runat="server" Text="Back" TabIndex="49" OnClick="btnBack_Click"
+                                    CausesValidation="False" />
+                            </td>
+                            <td style="background-image: url(../Images/topMain.gif);" align="left" colspan="4">
+                                <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"
+                                    TabIndex="50" />
+                            </td>
+                            <td align="right" style="background-image: url(../Images/topMain.gif);" colspan="4">
+                                <asp:Button ID="btnClose" runat="server" Text="Close" TabIndex="51" OnClientClick="javascript:window.close();"
+                                    CausesValidation="False" />
+                            </td>-->
+
+
+                        </td>
+                        </tr>
+                    </table>
+                    
+                    <asp:HiddenField ID="CustServLow" runat="server" />
+                    <asp:HiddenField ID="InternetStmtLow" runat="server" />
+                    <asp:HiddenField ID="MonMinLow" runat="server" />
+                    <asp:HiddenField ID="TransFeeLow" runat="server" />
+                    <asp:HiddenField ID="NBCTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="WirelessAccessFeeLow" runat="server" />
+                    <asp:HiddenField ID="WirelessTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="DiscRateQualPresLow" runat="server" />
+                    <asp:HiddenField ID="DiscRateQualNPLow" runat="server" />
+                    <asp:HiddenField ID="DiscRateMidQualLow" runat="server" />
+                    <asp:HiddenField ID="DiscRateMidQualStep" runat="server" />
+                    <asp:HiddenField ID="DiscRateNonQualLow" runat="server" />
+                    <asp:HiddenField ID="DiscRateNonQualStep" runat="server" />
+                    <asp:HiddenField ID="DiscRateQualDebitLow" runat="server" />
+
+                    <asp:HiddenField ID="AmexDiscRateQualLow" runat="server" />
+                    <asp:HiddenField ID="AmexDiscRateMidQualLow" runat="server" />
+                    <asp:HiddenField ID="AmexDiscRateNonQualLow" runat="server" />
+
+                    <asp:HiddenField ID="DebitQualNPLow" runat="server" />
+                    <asp:HiddenField ID="DebitMidQualLow" runat="server" />
+                    <asp:HiddenField ID="DebitNonQualLow" runat="server" />
+
+                    <asp:HiddenField ID="ChargebackFeeLow" runat="server" />
+                    <asp:HiddenField ID="RetrievalFeeLow" runat="server" />
+                    <asp:HiddenField ID="VoiceAuthLow" runat="server" />
+                    <asp:HiddenField ID="BatchHeaderLow" runat="server" />
+                    <asp:HiddenField ID="AVSLow" runat="server" />
+                    <asp:HiddenField ID="AnnualFeeLow" runat="server" />
+                    <asp:HiddenField ID="GatewayMonFeeLow" runat="server" />
+                    <asp:HiddenField ID="GatewayTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="GatewaySetupFeeLow" runat="server" />
+                    <asp:HiddenField ID="DebitMonFeeLow" runat="server" />
+                    <asp:HiddenField ID="PinDebitDiscountLow" runat="server" />
+                    <asp:HiddenField ID="DebitTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="CGMonFeeLow" runat="server" />
+                    <asp:HiddenField ID="CGTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="CGMonMinLow" runat="server" />
+                    <asp:HiddenField ID="CGDiscRateLow" runat="server" />
+                    <asp:HiddenField ID="GCMonFeeLow" runat="server" />
+                    <asp:HiddenField ID="GCTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="EBTMonFeeLow" runat="server" />
+                    <asp:HiddenField ID="EBTTransFeeLow" runat="server" />
+                    <asp:HiddenField ID="eSIRMonMinLow" runat="server" Value="5.00" />
+                    <asp:HiddenField ID="eSIRTransFee1Low" runat="server" Value="0.15" />
+                    <asp:HiddenField ID="eSIRTransFee2Low" runat="server" Value="0.15" />
+                    <asp:HiddenField ID="eSIRTransFee3Low" runat="server" Value="0.15" />
+                    <asp:HiddenField ID="eSIRTransFee4Low" runat="server" Value="0.15" />
+                    <asp:HiddenField ID="eSIRDiscountRate1Low" runat="server" Value="0.75" />
+                    <asp:HiddenField ID="eSIRDiscountRate2Low" runat="server" Value="0.65" />
+                    <asp:HiddenField ID="eSIRDiscountRate3Low" runat="server" Value="0.45" />
+                    <asp:HiddenField ID="eSIRDiscountRate4Low" runat="server" Value="0.25" />
+                    <asp:HiddenField ID="ePIRMonMinLow" runat="server" Value="5.00" />
+                    <asp:HiddenField ID="ePIRTransFee1Low" runat="server" Value="0.25" />
+                    <asp:HiddenField ID="ePIRDiscountRate1Low" runat="server" Value="0.00" />
+                    
+                    
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </form>
+    </center>
+</body>
+</html>

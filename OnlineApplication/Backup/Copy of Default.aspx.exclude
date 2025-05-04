@@ -1,0 +1,122 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
+    CodeFile="Copy of Default.aspx.cs" Inherits="_Default" Title="Commerce Technologies - Merchant Account And Payment Gateway"
+    Theme="Admin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
+	<table width="90%" cellspacing="0" cellpadding="5" border="0">
+        <tr>
+            <td align="center" colspan="3">
+                <img src="../AffiliateWiz/images/creditcards.gif" alt="Accept Credit Cards" border="0" width="255" height="30" />
+            </td>
+        </tr>
+        <tr>
+            <td align="right" style="width: 20%">
+                <img src="../AffiliateWiz/images/woman.gif" alt=" e-Commerce" border="0" width="200" height="150">
+                <div align="center" style="text-align: justify">
+                    <span class="LabelsHeaderSmall">&quot;Designed for any level of e-commerce
+                        vendor, this five-star rated payment solution is particularly well-suited for the
+                        smaller, entry-level vendors that may not have a lot of experience with e-commerce.&quot;
+                    </span>                    
+                    <div align="right">
+                        <img height="15" alt="internet.com" src="../AffiliateWiz/images/internetcom.gif" width="100px" border="0">
+                    </div>
+                </div>
+            </td>
+            <td align="center" colspan="2">
+                <span class="LabelsHeader"><b>We make it easy,
+                    affordable, and secure for businesses to accept credit cards and checks for any
+                    type of business on or off the Internet.</b></span><br />
+                <br />
+                <span class="LabelsRed">EASY ~ FAST<br />
+                    AFFORDABLE ~ SECURE<br />
+                    SINCE 1989</span><br /><br />
+                <div style="width: 40%;" class="DivGreen"
+                    onmouseout="style.backgroundColor='#edf7ff';" onmouseover="style.backgroundColor='#c5e8fc';">
+                    <strong><span class="LabelsHeader">Request a
+                        <br />
+                        <a class="Link" href="../AffiliateWiz/consult.aspx">FREE E-CONSULTATION</a><br />
+                        today!
+                        <br />
+                        No Obligation!
+                        <br />
+                    </span></strong>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle" colspan="3">
+                <table width="100%" cellspacing="5" cellpadding="0" border="0">
+                    <tr>
+                        <td valign="top">
+                            <div align="center" style="width: 300px;" class="DivHeader">
+                                <span class="LabelsWhite"><b>Why accept credit
+                                    cards?</b></span><br /><br />                            
+                            <div align="left" style="width: 300px; background-color:White">
+                                &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0" />&nbsp; <span class="LabelsHeaderSmall"><b>Greater profits</b></span><br />
+                                &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0" />&nbsp; <span class="LabelsHeaderSmall"><b>Increased credibility</b></span><br />
+                                &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0" />&nbsp; <span class="LabelsHeaderSmall"><b>Customer convenience</b></span><br />
+                                &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0" />&nbsp; <span class="LabelsHeaderSmall"><b>Confidence and security</b></span><br />
+                                &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Speed - fast access to funds</b></span><br />
+                                <br />
+                                <a class="Link" href="../AffiliateWiz/join.aspx"><b>Take your business to the next level. Get started today.</b></a>                                
+                            </div>
+                            </div>
+                            <br />
+                            
+                                <a href="../AffiliateWiz/affiliate.aspx" target="_self" onmouseover="status=&quot; Join Our Affiliate Program! &quot;;return(true);"
+                                    onmouseout="status=&quot;&quot;;" class="HMenu">
+                                    <img src="../AffiliateWiz/images/sale_new.gif" alt="Earn as much as $300 per sale!" border="0" width="200" height="75"><br />
+                                    <span class="LabelsRed"><b>. . . Join Our
+                                        Affiliate Program</b></span></a>
+                            
+                        </td>
+                        <td align="center">
+                            <img src="../AffiliateWiz/images/qc-vr.gif" width="10" height="350" border="0"></td>
+                        <td align="center" valign="top">
+                            <div align="center" style="width: 300px;" class="DivHeader">
+                                    <span class="LabelsWhite"><b>When you want
+                                        a complete e-commerce solution for your website or storefront...</b></span>                                    
+                                    <div align="left" style="width: 300px; background-color:White">
+                                    <span class="LabelsBodySmall">With
+                                        10 offices nationwide, Commerce Technologies provides e-commerce to thousands of entrepreneurs.
+                                        Whether you are starting your business from scratch, or already have an existing
+                                        business, Commerce Technologies offers a full range of products to fit your needs.<br />
+                                        <br />
+                                    </span>
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Ground-breaking 95% approval
+                                            rate</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Bank-approved merchant
+                                            account</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Secure real-time, online
+                                            transactions</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Accept checks online</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Address Verification System
+                                            (AVS)</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Terminals & printers</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Fast 1-3 day setup</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>Quick access to funds:
+                                            48-72 hours</b></span><br />
+                                    &nbsp;<img src="../AffiliateWiz/images/obullet.gif" height="8" width="8" border="0">&nbsp; <span class="LabelsHeaderSmall"><b>24/7 Customer Service</b></span><br />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="bottom" colspan="3">
+                            <span class="LabelsBodySmall">Commerce Technologies, a wholly owned subsidiary of iPayment, Inc., is a Registered ISO/MSP of the following FDIC Insured Bank:  
+Wells Fargo Bank, N.A., Walnut Creek, Ca.
+
+Credit Card Processing services are also provided by WorldPay, a part of the Royal Bank of Scotland Group and Innovative Merchant Solutions, an Intuit Company, a Registered ISO/MSP of the following FDIC Insured Banks:
+Innovative Bank, Oakland, CA; National Bank of the Redwoods, Santa Rosa, CA and JP Morgan Chase Bank, Columbus, OH.
+ </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</asp:Content>

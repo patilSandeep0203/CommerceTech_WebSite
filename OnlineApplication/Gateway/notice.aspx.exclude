@@ -1,0 +1,104 @@
+<%@ Page Language="C#" MasterPageFile="/OnlineApplication/Main.master" AutoEventWireup="true"
+    CodeFile="notice.aspx.cs" Inherits="Gateway_notice" Title="E-Commerce Exchange - Online Application"
+    Theme="TextBoxSkin" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContentHolder" runat="Server">
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+    <table border="0" cellpadding="2" cellspacing="0" Width="100%" class="DivGreen">
+        <tr>
+            <td colspan="3" align="center" class="DivHeader2" height="26px">
+                <b><span class="MenuHeader">Gateway Signup Information</span></b>
+            </td>
+        </tr> 
+        <tr>
+            <td align="center">                
+                <a href="companyinfo.aspx" onmouseover="document.gcontact.src='/OnlineApplication/Images/oa_Contact_mouseout.gif'"
+                    onmouseout="document.gcontact.src='/OnlineApplication/Images/oa_Contact_mouseover.gif'">
+                    <img name="gcontact" style="border: 0" alt="" src="/OnlineApplication/Images/oa_Contact_mouseover.gif" /></a>
+                <a href="businessinfo.aspx" onmouseover="document.gbusiness.src='/OnlineApplication/Images/oa_Business_mouseout.gif'"
+                    onmouseout="document.gbusiness.src='/OnlineApplication/Images/oa_Business_mouseover.gif'">
+                    <img name="gbusiness" style="border: 0" alt="" src="/OnlineApplication/Images/oa_Business_mouseover.gif" /></a>
+                <a href="principalinfo.aspx" onmouseover="document.gprincipal.src='/OnlineApplication/Images/oa_Principal_mouseout.gif'"
+                    onmouseout="document.gprincipal.src='/OnlineApplication/Images/oa_Principal_mouseover.gif'">
+                    <img name="gprincipal" style="border: 0" alt="" src="/OnlineApplication/Images/oa_Principal_mouseover.gif" /></a>
+                <a href="bankinginfo.aspx" onmouseover="document.gbanking.src='/OnlineApplication/Images/oa_Banking_mouseout.gif'"
+                    onmouseout="document.gbanking.src='/OnlineApplication/Images/oa_Banking_mouseover.gif'">
+                    <img name="gbanking" style="border: 0" alt="" src="/OnlineApplication/Images/oa_Banking_mouseover.gif" /></a>
+                <a href="reprogram.aspx" onmouseover="document.gplatform.src='/OnlineApplication/Images/oa_Platform_mouseout.gif'"
+                    onmouseout="document.gplatform.src='/OnlineApplication/Images/oa_Platform_mouseover.gif'">
+                    <img name="gplatform" alt="" style="border: 0" src="/OnlineApplication/Images/oa_Platform_mouseover.gif" /></a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">
+                <asp:Label ID="lblError" runat="server" BackColor="Red" Font-Size="Medium" ForeColor="White"
+                    Visible="False"></asp:Label></td>
+        </tr>
+        <tr>
+            <td align="left">
+                <br />
+                <span style="font-family: Arial; color: #383838; font-size: small">Click on the button below and follow these instructions to complete the application process:</span>
+                <ul style="margin-left:50px; margin-top:0px; margin-bottom:0px; font-family: Arial; color: #383838; font-size: small">
+                <li>Print the document</li>
+                <li>Make any corrections and fill out the blank areas</li>
+                <li>Initial, sign and date where highlighted</li>
+                <li>Fax completed application along with a voided check pre-printed with your business name, business license and/or 
+                utility bill to your sales consultant or our general fax 1 (310) 321-5410</li></ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <asp:Label ID="lblIncomplete" runat="server" ForeColor="Red" Text="Your application is not yet complete. Click on the red button(s) to the left to complete your application."
+                    Visible="False" Font-Names="Arial"></asp:Label><br />
+                <asp:Label ID="lblComplete" runat="server" Text="Your Payment Gateway application is now complete"
+                    Visible="False" Font-Size="Larger"></asp:Label><br />
+                <b><span style="font-family: Arial; color: #383838; font-size: small">Your Application
+                    has been saved with Application ID #: </span>
+                    <asp:Label ID="lblAppId" runat="server"></asp:Label><br />
+                </b><span style="font-family: Arial; color: #383838; font-size: small">Please retain
+                    this number for future reference.</span>
+                <br />
+                <asp:HyperLink ID="lnkMerchantSignup" runat="server" NavigateUrl="../UpdateAcct.aspx"
+                    Visible="False" Font-Names="Arial"><b>If you do not have a existing merchant account, click here to Sign up for a Merchant Account</b></asp:HyperLink>
+                <br />
+                <asp:Panel ID="pnlMerchantIncomplete" runat="server" Height="50px" Visible="False"
+                    Width="100%">
+                    <span style="color: #ff0000; font-family: Arial; text-align: left">Your Merchant Account
+                        information is still Incomplete.
+                        <br />
+                        Please </span>
+                    <asp:HyperLink ID="lnlMerchantIncomplete" runat="server" Font-Names="Arial" Font-Size="Small"
+                        Font-Bold="True" NavigateUrl="/OnlineApplication/Merchant/companyinfo.aspx">click here</asp:HyperLink>
+                    <span style="color: #ff0000; font-family: Arial;">to complete the information.</span></asp:Panel>
+                <asp:Panel ID="pnlCreatePDF" runat="server" Width="100%">
+                    <br />
+                    <asp:ImageButton ID="imgCreatePDF" runat="server" ImageUrl="~/Images/CreatePDF.gif"
+                        OnClick="imgCreatePDF_Click" />
+                    <cc1:PopupControlExtender ID="PopupControlExtender3" runat="server" PopupControlID="pnlPDFNote" 
+                        TargetControlID="imgPDFHelp1" Position="Bottom" />
+                    <asp:Image ID="imgPDFHelp1" runat="server" ImageUrl="~/Images/help.gif" 
+                        Style="cursor: pointer"/><br />                    
+                    <asp:Label ID="lblDownload" runat="server" Font-Bold="True" Visible="False"></asp:Label><br />
+                    <asp:Panel ID="pnlPDFNote" runat="server" BackColor="Ivory" BorderColor="silver"
+                        BorderWidth="1px" Width="20%">
+                        <asp:Label ID="lblPDFNote" runat="server" Font-Names="Arial" Font-Size="Small" ForeColor="Red"
+                            Text="NOTE: PDF Creation works only with the Microsoft Internet Explorer browser (Version 6.0 or above) and Mozilla Firefox Version 2.0 or above. For Creating PDFs, please install Abode Acrobat Reader Version 8.0 or higher. Download the latest Adobe Reader version: "></asp:Label><asp:HyperLink
+                                ID="lnkAdobe" runat="server" Font-Names="Arial" Font-Size="Small" NavigateUrl="http://www.adobe.com"
+                                Target="_blank">www.adobe.com</asp:HyperLink></asp:Panel>
+                </asp:Panel>
+                <asp:Label ID="lblGatewayOnly" runat="server" Text="You will soon receive a startup e-mail in MS Word or PDF format containing the information neccessary to start using your account. If you have any questions, contact your Sales Agent or click on the Contact Us link at the top of the page."
+                    Visible="False"></asp:Label>&nbsp;<br />
+                    
+                <b><span style="font-family: Arial; color: #383838; font-size: small">Thank you for
+                    applying with E-Commerce Exchange!<br />
+                    </span></b>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 31px" valign="middle">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+</asp:Content>

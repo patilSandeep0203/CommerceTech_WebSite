@@ -1,0 +1,28 @@
+#contact-form {
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
+
+.contact-container {
+    padding-top: 1%;
+    width: 80%;
+}
+
+.contact-error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 13px;
+    color: red;
+}
+
+.contact-col-md-12 {
+    padding-bottom: 5%;
+}
+
+.contact-support,
+.contact-phone,
+.contact-email,
+.contact-address,
+.contact-time {
+    font-size: 20px;
+}

@@ -1,0 +1,46 @@
+.login-navbutton-small {
+    position: absolute;
+    right: 10;
+}
+
+.register-navbutton-small {
+    position: absolute;
+    right: 75;
+}
+
+
+
+@media only screen and (min-width: 360px) {
+    .wrapper .content-page .content .nav_container .container .container-fluid .footer {
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .wrapper .content-page .content .nav_container .container .container-fluid .footer {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper .content-page .content .nav_container .container .container-fluid .footer {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper .content-page .content .nav_container .container .container-fluid .footer {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper .content-page .content .nav_container .container .container-fluid .footer {
+        display: flex;
+    }
+}
+
+.content-page {
+    padding: 0;
+}

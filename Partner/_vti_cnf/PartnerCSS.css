@@ -1,0 +1,63 @@
+vti_encoding:SR|utf8-nl
+ï»¿.MenuCss:LINK, .MenuCss:VISITED, .MenuCss:ACTIVE
+text-decoration:none;
+font-size:x-small;
+font-family:Arial;
+.HMenu:Active
+.MenuCss:Active
+color:#ffffff;
+filter:alpha(opacity=70 );
+-moz-opacity:0.75;
+.One:Active
+.TealLink:Active
+.LinkXSmall:Active
+border:1px thin white;
+padding:2px,0px,0px,2px;
+background-color:Transparent;
+text-align:center;
+font-weight:bold;
+border-color:#ffffff;
+border-style:solid;
+border-width:medium;
+height:5px;
+width:100%;
+border-right:#589cdb 1px solid;
+border-top:#589cdb 1px solid;
+border-left:#589cdb 1px solid;
+border-bottom:#589cdb 1px solid;
+font-style:italic;  
+.ajax__tab_CSS .ajax__tab_header {height:24px;font-family:Arial;font-size:8pt;background:url(/PartnerPortal/Images/tab-line.gif) repeat-x bottom}
+.ajax__tab_CSS .ajax__tab_outer { background-image:url(/PartnerPortal/Images/homeback.gif); color:#383838; font-weight:bold;height:21px;}
+.ajax__tab_CSS .ajax__tab_inner {padding-left:3px; background-image:url(/PartnerPortal/Images/homeback.gif); color:#383838; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_tab {height:15px;padding:4px;margin:0; background-image:url(/PartnerPortal/Images/homeback.gif); color:#383838; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_outer { background-image:url(/PartnerPortal/Images/TopMain.gif); color:#383838; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_inner { background-image:url(/PartnerPortal/Images/TopMain.gif); color:#383838; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_tab {background:url(/PartnerPortal/Images/TopMain.gif) repeat-x; color:#ffffff; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_outer {background:url(/PartnerPortal/Images/TopMain.gif) repeat-x; color:#ffffff; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_inner {background:url(/PartnerPortal/Images/TopMain.gif) repeat-x; color:#ffffff; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_tab {background:url(/PartnerPortal/Images/TopMain.gif) repeat-x; color:#ffffff; font-weight:bold}
+.ajax__tab_CSS .ajax__tab_body {border:0px solid #999999;border-top:0;padding:8px;background-color:#ffffff;}
+.ajax__tab_CSSBlue .ajax__tab_header {height:24px;font-family:Arial;font-size:8pt;background:url(/PartnerPortal/Images/tab-line.gif) repeat-x bottom}
+.ajax__tab_CSSBlue .ajax__tab_outer { color:#383838; font-weight:bold;height:21px;}
+.ajax__tab_CSSBlue .ajax__tab_inner {padding-left:3px; color:#383838; font-weight:bold;}
+margin:auto;
+/*.ajax__tab_CSSBlue .ajax__tab_hover .ajax__tab_outer { background-image:url(/PartnerPortal/Images/TopMain.gif); color:#383838; font-weight:bold}
+.ajax__tab_CSSBlue .ajax__tab_hover .ajax__tab_inner { background-image:url(/PartnerPortal/Images/TopMain.gif); color:#383838; font-weight:bold}*/
+/*.ajax__tab_CSSBlue .ajax__tab_active .ajax__tab_outer {background:url(/PartnerPortal/Images/TopMain.gif) repeat-x; color:#ffffff; font-weight:bold}
+.ajax__tab_CSSBlue .ajax__tab_active .ajax__tab_inner {background:url(/PartnerPortal/Images/TopMain.gif) repeat-x; color:#ffffff; font-weight:bold}*/
+position:relative;
+visibility:visible;
+vertical-align:middle;
+display:inline;
+z-index:99999;
+top:50%;
+vti_timelastmodified:TR|05 Jun 2007 23:36:08 -0000
+vti_extenderversion:SR|4.0.2.3406
+vti_cacheddtm:TX|05 Jun 2007 23:36:08 -0000
+vti_filesize:IR|12279
+vti_cachedlinkinfo:VX|S|/PartnerPortal/Images/topmain.gif S|/PartnerPortal/Images/tab-line.gif S|/PartnerPortal/Images/homeback.gif S|/PartnerPortal/Images/homeback.gif S|/PartnerPortal/Images/homeback.gif S|/PartnerPortal/Images/TopMain.gif S|/PartnerPortal/Images/TopMain.gif S|/PartnerPortal/Images/TopMain.gif S|/PartnerPortal/Images/TopMain.gif S|/PartnerPortal/Images/TopMain.gif S|/PartnerPortal/Images/TopMain.gif S|/PartnerPortal/Images/tab-line.gif
+vti_cachedsvcrellinks:VX|NSUS|file:///PartnerPortal/Images/topmain.gif NSUS|file:///PartnerPortal/Images/tab-line.gif NSUS|file:///PartnerPortal/Images/homeback.gif NSUS|file:///PartnerPortal/Images/homeback.gif NSUS|file:///PartnerPortal/Images/homeback.gif NSUS|file:///PartnerPortal/Images/TopMain.gif NSUS|file:///PartnerPortal/Images/TopMain.gif NSUS|file:///PartnerPortal/Images/TopMain.gif NSUS|file:///PartnerPortal/Images/TopMain.gif NSUS|file:///PartnerPortal/Images/TopMain.gif NSUS|file:///PartnerPortal/Images/TopMain.gif NSUS|file:///PartnerPortal/Images/tab-line.gif
+vti_cachedhasbots:BR|false
+vti_cachedhastheme:BR|false
+vti_cachedhasborder:BR|false
+vti_backlinkinfo:VX|PartnerPortal/Admin/SetBounds.aspx PartnerPortal/OnlineAppMgmt/CreatePackage.aspx PartnerPortal/OnlineAppMgmt/SetRates.aspx PartnerPortal/Payroll/ReferralsPrint.aspx PartnerPortal/UpdatePartner.aspx PartnerPortal/Admin/SetDefaults.aspx PartnerPortal/OnlineAppMgmt/SendReminder.aspx PartnerPortal/HelpAgent.aspx PartnerPortal/HelpAgent2.aspx PartnerPortal/OnlineAppMgmt/ModifyPackage.aspx

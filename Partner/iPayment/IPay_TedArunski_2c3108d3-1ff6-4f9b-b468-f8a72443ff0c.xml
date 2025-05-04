@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>SALTMAN ENTERPRISES INC</BusName>
+      <DBA>SALTCELLS.COM LLC</DBA>
+      <BusAddr>
+        <st_name>6704 E JUNIPER ST </st_name>
+        <city>MESA</city>
+        <state>AZ</state>
+        <country>United States</country>
+        <zip>85205</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>6704 E JUNIPER ST </st_name>
+        <city>MESA</city>
+        <state>AZ </state>
+        <country>United States</country>
+        <zip>85205</zip>
+      </MailAddr>
+      <LOS>48</LOS>
+      <FedTaxId>202868336</FedTaxId>
+      <BusPhone>480-892-8251</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>877-733-0259</CustPhone>
+      <ContactName>Ted Arunski</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>4</LOB>
+      <BusHrs>8am to 5pm</BusHrs>
+      <email>kim@saltcells.com</email>
+      <url>saltcells.com</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>80</Internet>
+      <Moto>20</Moto>
+      <OwnershipType>LLC</OwnershipType>
+      <CustRefundPol>Refund Within 30 Days</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>SaltCells.com, LLC is an online Store for all Saltwater Chlorinators and Salt Water chlorinator replacement Cells (electrodes). Also sells parts for all brands of salt pool chlorinators worldwide.</ProdType>
+      <DelTime>1</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>0</EverProcessed>
+      <EverTerminated>0</EverTerminated>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Ted</FirstName>
+      <LastName>Arunski</LastName>
+      <SSN>273541947</SSN>
+      <PercentOwnership>51</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>6704 E JUNIPER ST </st_name>
+        <city>MESA</city>
+        <state>AZ  </state>
+        <country>United States</country>
+        <zip>85205</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>180</LOS>
+      <Phone>480-807-9469</Phone>
+      <DOB>10/31/1954</DOB>
+      <LicNum>273541947AZ</LicNum>
+      <LicState>AZ  </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>THURANE AUNG KHIN</RepName>
+      <RepNum>52985</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>3.50</DiscFee>
+          <MidQualFee>4.30</MidQualFee>
+          <NonQualFee>5.40</NonQualFee>
+        </CardPresent>
+        <TransFee>0.29</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>20.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.29</BatchHeaders>
+      <ExternalGWFee>10.00</ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>10000</MonthlyProcLimit>
+      <AvgTicket>500</AvgTicket>
+      <NeedAmex>1</NeedAmex>
+      <NeedDiscover>1</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Wells Fargo Bank</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>122105278</TransroutingNum>
+      <DDA>5508830592</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

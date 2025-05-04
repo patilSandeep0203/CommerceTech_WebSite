@@ -1,0 +1,42 @@
+.story-image-button {
+    width: 150px;
+    text-align: center;
+}
+
+.share-story-border-radius-for-card {
+    border-radius: 30;
+}
+
+.listsharestory-pas-text-styling-fs-ff {
+    font-size: 50px;
+    font-family: 'georgia';
+}
+
+.lss-pagination-fs {
+    font-size: 12px;
+}
+
+.storycard-cardtext-pas-fs {
+    font-size: 14px;
+}
+
+.storycard-reacticons-bs {
+    height: 20px;
+    width: 35px;
+}
+
+.storydetail-cardbody-text-fs {
+    font-size: 15px;
+}
+
+.storycard-img-top {
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+}
+
+.storycard-position {
+    justify-content: space-evenly;
+}
+
+/* Add all classes to a storycard */

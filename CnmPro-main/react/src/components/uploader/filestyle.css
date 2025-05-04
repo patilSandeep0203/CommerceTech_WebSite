@@ -1,0 +1,50 @@
+.mod-header {
+    margin-top: 25%;
+    margin-left: 130%;
+    font-family: Arial;
+    font-size: 35px;
+}
+
+.p-5-dz {
+    position: relative !important;
+    padding: 120px 0px 120px 5%;
+}
+
+.file-load-main {
+    background: #00b4db;
+    background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+    background: linear-gradient(to right, #0083b0, #00b4db);
+    height: 100vh;
+}
+
+.rounded-lg {
+    border-radius: 1rem;
+}
+.custom-file-label.rounded-pill {
+    border-radius: 50rem;
+}
+
+.custom-file-label.rounded-pill::after {
+    border-radius: 0 50rem 50rem 0;
+}
+
+.display-4 {
+    text-align: center;
+    font-size: 3rem;
+}
+.dropzone input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+
+.dropzone {
+    text-align: center;
+    min-height: 100px;
+    padding: 30px;
+}

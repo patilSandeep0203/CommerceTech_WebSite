@@ -1,0 +1,2338 @@
+﻿<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+      <_items href="#ref-2"/>
+      <_size>16</_size>
+      <_version>65</_version>
+    </a1:ArrayList>
+    <SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]">
+      <item href="#ref-3"/>
+      <item href="#ref-4"/>
+      <item href="#ref-5"/>
+      <item href="#ref-6"/>
+      <item href="#ref-7"/>
+      <item href="#ref-8"/>
+      <item href="#ref-9"/>
+      <item href="#ref-10"/>
+      <item href="#ref-11"/>
+      <item href="#ref-12"/>
+      <item href="#ref-13"/>
+      <item href="#ref-14"/>
+      <item href="#ref-15"/>
+      <item href="#ref-16"/>
+      <item href="#ref-17"/>
+      <item href="#ref-18"/>
+      <item href="#ref-1118"/>
+    </SOAP-ENC:Array>
+    <a3:LayoutToolboxItem id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-22">Dial Alternate Phone</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-23"/>
+      <Bitmap href="#ref-24"/>
+      <Description id="ref-25">Raises an event when the user clicks it.</Description>
+      <AssemblyName href="#ref-26"/>
+      <DisplayName id="ref-27">DialAlternate</DisplayName>
+      <DependentAssemblies href="#ref-28"/>
+      <TypeName id="ref-29">RSI.Tools.ActDialer.ContactFields.DialAlternate</TypeName>
+      <Company id="ref-30">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-31"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-32">Dial Main Phone</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-33"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-34"/>
+      <DisplayName id="ref-35">DialBusiness</DisplayName>
+      <DependentAssemblies href="#ref-36"/>
+      <TypeName id="ref-37">RSI.Tools.ActDialer.ContactFields.DialBusiness</TypeName>
+      <Company id="ref-38">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-39"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-5" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-40">Dial Fax Phone</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-41"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-42"/>
+      <DisplayName id="ref-43">DialFax</DisplayName>
+      <DependentAssemblies href="#ref-44"/>
+      <TypeName id="ref-45">RSI.Tools.ActDialer.ContactFields.DialFax</TypeName>
+      <Company id="ref-46">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-47"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-6" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-48">Dial Home Phone</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-49"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-50"/>
+      <DisplayName id="ref-51">DialHome</DisplayName>
+      <DependentAssemblies href="#ref-52"/>
+      <TypeName id="ref-53">RSI.Tools.ActDialer.ContactFields.DialHome</TypeName>
+      <Company id="ref-54">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-55"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-56">Dial Mobile Phone</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-57"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-58"/>
+      <DisplayName id="ref-59">DialMoblie</DisplayName>
+      <DependentAssemblies href="#ref-60"/>
+      <TypeName id="ref-61">RSI.Tools.ActDialer.ContactFields.DialMoblie</TypeName>
+      <Company id="ref-62">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-63"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-8" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-64">Dial Pager Phone</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-65"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-66"/>
+      <DisplayName id="ref-67">DialPager</DisplayName>
+      <DependentAssemblies href="#ref-68"/>
+      <TypeName id="ref-69">RSI.Tools.ActDialer.ContactFields.DialPager</TypeName>
+      <Company id="ref-70">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-71"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-9" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-72">Dial User1 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-73"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-74"/>
+      <DisplayName id="ref-75">DialUser1</DisplayName>
+      <DependentAssemblies href="#ref-76"/>
+      <TypeName id="ref-77">RSI.Tools.ActDialer.ContactCustomFields.DialUser1</TypeName>
+      <Company id="ref-78">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-79"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-10" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-80">Dial User10 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-81"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-82"/>
+      <DisplayName id="ref-83">DialUser10</DisplayName>
+      <DependentAssemblies href="#ref-84"/>
+      <TypeName id="ref-85">RSI.Tools.ActDialer.ContactCustomFields.DialUser10</TypeName>
+      <Company id="ref-86">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-87"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-11" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-88">Dial User2 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-89"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-90"/>
+      <DisplayName id="ref-91">DialUser2</DisplayName>
+      <DependentAssemblies href="#ref-92"/>
+      <TypeName id="ref-93">RSI.Tools.ActDialer.ContactCustomFields.DialUser2</TypeName>
+      <Company id="ref-94">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-95"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-12" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-96">Dial User3 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-97"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-98"/>
+      <DisplayName id="ref-99">DialUser3</DisplayName>
+      <DependentAssemblies href="#ref-100"/>
+      <TypeName id="ref-101">RSI.Tools.ActDialer.ContactCustomFields.DialUser3</TypeName>
+      <Company id="ref-102">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-103"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-13" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-104">Dial User4 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-105"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-106"/>
+      <DisplayName id="ref-107">DialUser4</DisplayName>
+      <DependentAssemblies href="#ref-108"/>
+      <TypeName id="ref-109">RSI.Tools.ActDialer.ContactCustomFields.DialUser4</TypeName>
+      <Company id="ref-110">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-111"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-14" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-112">Dial User5 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-113"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-114"/>
+      <DisplayName id="ref-115">DialUser5</DisplayName>
+      <DependentAssemblies href="#ref-116"/>
+      <TypeName id="ref-117">RSI.Tools.ActDialer.ContactCustomFields.DialUser5</TypeName>
+      <Company id="ref-118">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-119"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-15" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-120">Dial User6 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-121"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-122"/>
+      <DisplayName id="ref-123">DialUser6</DisplayName>
+      <DependentAssemblies href="#ref-124"/>
+      <TypeName id="ref-125">RSI.Tools.ActDialer.ContactCustomFields.DialUser6</TypeName>
+      <Company id="ref-126">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-127"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-16" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-128">Dial User7 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-129"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-130"/>
+      <DisplayName id="ref-131">DialUser7</DisplayName>
+      <DependentAssemblies href="#ref-132"/>
+      <TypeName id="ref-133">RSI.Tools.ActDialer.ContactCustomFields.DialUser7</TypeName>
+      <Company id="ref-134">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-135"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-17" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-136">Dial User8 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-137"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-138"/>
+      <DisplayName id="ref-139">DialUser8</DisplayName>
+      <DependentAssemblies href="#ref-140"/>
+      <TypeName id="ref-141">RSI.Tools.ActDialer.ContactCustomFields.DialUser8</TypeName>
+      <Company id="ref-142">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-143"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-18" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-144">Dial User9 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-145"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-146"/>
+      <DisplayName id="ref-147">DialUser9</DisplayName>
+      <DependentAssemblies href="#ref-148"/>
+      <TypeName id="ref-149">RSI.Tools.ActDialer.ContactCustomFields.DialUser9</TypeName>
+      <Company id="ref-150">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-151"/>
+    </a3:LayoutToolboxItem>
+    <a3:LayoutToolboxItem id="ref-1118" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Act.UI.Designer.Layout/Act.UI.Designer.Layout%2C%20Version%3D14.1.108.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Debf6b2ff4d0a08aa">
+      <FriendlyName id="ref-144">Dial User9 Field</FriendlyName>
+      <Locked>false</Locked>
+      <Filter href="#ref-145"/>
+      <Bitmap href="#ref-24"/>
+      <Description href="#ref-25"/>
+      <AssemblyName href="#ref-146"/>
+      <DisplayName id="ref-147">DialUser9</DisplayName>
+      <DependentAssemblies href="#ref-148"/>
+      <TypeName id="ref-149">RSI.Tools.ActDialer.ContactCustomFields.DialUser9</TypeName>
+      <Company id="ref-150">Resource Software International Ltd.</Company>
+      <PropertyNames href="#ref-151"/>
+    </a3:LayoutToolboxItem>
+    <SOAP-ENC:Array id="ref-23" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-153"/>
+    </SOAP-ENC:Array>
+    <a5:Bitmap id="ref-24" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+      <Data href="#ref-154"/>
+    </a5:Bitmap>
+    <a6:AssemblyName id="ref-26" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-155">RSIActDial</_Name>
+      <_PublicKey href="#ref-156"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-157">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-158"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-28" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-159"/>
+      <item href="#ref-160"/>
+      <item href="#ref-161"/>
+      <item href="#ref-162"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-31" SOAP-ENC:arrayType="xsd:string[8]">
+      <item id="ref-163">Filter</item>
+      <item id="ref-164">Bitmap</item>
+      <item id="ref-165">Description</item>
+      <item id="ref-166">AssemblyName</item>
+      <item id="ref-167">DisplayName</item>
+      <item id="ref-168">DependentAssemblies</item>
+      <item id="ref-169">TypeName</item>
+      <item id="ref-170">Company</item>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-33" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-171"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-34" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-172">RSIActDial</_Name>
+      <_PublicKey href="#ref-173"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-174">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-175"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-36" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-176"/>
+      <item href="#ref-177"/>
+      <item href="#ref-178"/>
+      <item href="#ref-179"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-39" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-41" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-180"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-42" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-181">RSIActDial</_Name>
+      <_PublicKey href="#ref-182"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-183">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-184"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-44" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-185"/>
+      <item href="#ref-186"/>
+      <item href="#ref-187"/>
+      <item href="#ref-188"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-47" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-49" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-189"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-50" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-190">RSIActDial</_Name>
+      <_PublicKey href="#ref-191"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-192">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-193"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-52" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-194"/>
+      <item href="#ref-195"/>
+      <item href="#ref-196"/>
+      <item href="#ref-197"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-55" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-57" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-198"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-58" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-199">RSIActDial</_Name>
+      <_PublicKey href="#ref-200"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-201">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-202"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-60" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-203"/>
+      <item href="#ref-204"/>
+      <item href="#ref-205"/>
+      <item href="#ref-206"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-63" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-65" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-207"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-66" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-208">RSIActDial</_Name>
+      <_PublicKey href="#ref-209"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-210">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-211"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-68" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-212"/>
+      <item href="#ref-213"/>
+      <item href="#ref-214"/>
+      <item href="#ref-215"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-71" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-73" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-216"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-74" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-217">RSIActDial</_Name>
+      <_PublicKey href="#ref-218"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-219">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-220"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-76" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-221"/>
+      <item href="#ref-222"/>
+      <item href="#ref-223"/>
+      <item href="#ref-224"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-79" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-81" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-225"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-82" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-226">RSIActDial</_Name>
+      <_PublicKey href="#ref-227"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-228">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-229"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-84" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-230"/>
+      <item href="#ref-231"/>
+      <item href="#ref-232"/>
+      <item href="#ref-233"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-87" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-89" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-234"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-90" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-235">RSIActDial</_Name>
+      <_PublicKey href="#ref-236"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-237">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-238"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-92" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-239"/>
+      <item href="#ref-240"/>
+      <item href="#ref-241"/>
+      <item href="#ref-242"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-95" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-97" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-243"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-98" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-244">RSIActDial</_Name>
+      <_PublicKey href="#ref-245"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-246">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-247"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-100" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-248"/>
+      <item href="#ref-249"/>
+      <item href="#ref-250"/>
+      <item href="#ref-251"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-103" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-105" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-252"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-106" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-253">RSIActDial</_Name>
+      <_PublicKey href="#ref-254"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-255">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-256"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-108" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-257"/>
+      <item href="#ref-258"/>
+      <item href="#ref-259"/>
+      <item href="#ref-260"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-111" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-113" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-261"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-114" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-262">RSIActDial</_Name>
+      <_PublicKey href="#ref-263"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-264">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-265"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-116" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-266"/>
+      <item href="#ref-267"/>
+      <item href="#ref-268"/>
+      <item href="#ref-269"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-119" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-121" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-270"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-122" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-271">RSIActDial</_Name>
+      <_PublicKey href="#ref-272"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-273">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-274"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-124" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-275"/>
+      <item href="#ref-276"/>
+      <item href="#ref-277"/>
+      <item href="#ref-278"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-127" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-129" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-279"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-130" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-280">RSIActDial</_Name>
+      <_PublicKey href="#ref-281"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-282">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-283"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-132" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-284"/>
+      <item href="#ref-285"/>
+      <item href="#ref-286"/>
+      <item href="#ref-287"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-135" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-137" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-288"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-138" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-289">RSIActDial</_Name>
+      <_PublicKey href="#ref-290"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-291">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-292"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-140" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-293"/>
+      <item href="#ref-294"/>
+      <item href="#ref-295"/>
+      <item href="#ref-296"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-143" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-145" SOAP-ENC:arrayType="a4:ToolboxItemFilterAttribute[2]" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <item href="#ref-152"/>
+      <item href="#ref-297"/>
+    </SOAP-ENC:Array>
+    <a6:AssemblyName id="ref-146" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-298">RSIActDial</_Name>
+      <_PublicKey href="#ref-299"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-300">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-301"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-148" SOAP-ENC:arrayType="a6:AssemblyName[4]" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <item href="#ref-302"/>
+      <item href="#ref-303"/>
+      <item href="#ref-304"/>
+      <item href="#ref-305"/>
+    </SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-151" SOAP-ENC:arrayType="xsd:string[8]">
+      <item href="#ref-163"/>
+      <item href="#ref-164"/>
+      <item href="#ref-165"/>
+      <item href="#ref-166"/>
+      <item href="#ref-167"/>
+      <item href="#ref-168"/>
+      <item href="#ref-169"/>
+      <item href="#ref-170"/>
+    </SOAP-ENC:Array>
+    <a4:ToolboxItemFilterAttribute id="ref-152" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString id="ref-306">System.Windows.Forms</filterString>
+      <typeId id="ref-307">System.ComponentModel.ToolboxItemFilterAttributeSystem.Windows.Forms</typeId>
+    </a4:ToolboxItemFilterAttribute>
+    <a4:ToolboxItemFilterAttribute id="ref-153" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-29"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-154" xsi:type="SOAP-ENC:base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqdJREFUOE+Fk99PUnEYxo939n/UlVmpW9lIqwuXznQqWygqglsCLi3jgJrizIRUTFGsBDdBIWfq1lJTEHUg4q/MjfVz05wXunlVc2vNMHt6OTRIy3pvzs57vp/neb7vuxPBHFGNDSuIjDzG7Ox8Zfx+hqnXxEUcdZbru11rsFi2oW9dR+Bde28Zk05gfOw7hAIL12tqnIVM/hQFIhumppa4Hldzc2/Q1r6JsRd+TDh+oLJyCUrWAzvBw8+/oeqOC4WSXrAKOwyGLVRUeMDPMv0u8Brp6U6MDO9yrhOOfdjHg/DgwBdYrZ9gNG6jg+Dm5g3cLptGXGxxWCCQwuPxQVzgpMh7BO+jteU9UpJ1SL7SgPtaHzlvcrBS6cHJKFEYtpifQatZR7PuAx493MDYqB+G9lXIZT3k/Ao22wrKywcpvgv1mlWKvwKh0ArBtU5kZOjBsAoDtNp1uF37NIM9ir2LlBQ9BgbehlzM3YvIFhihrnkHpcqHYrkXWZnduHypFoyS7aAEH0MDC9w5IUGN/n5fSMBk8pJAF8X3oaR0GUXSeUgks0ikc0xbWx9yheMQ5gwhP28U1t7PqKxwg89vhNm8hK6ueeiaZiCV2n/BC+DxHuB8/C2cO1t6cJA3ikfQ+XiLW5WSnYFEbCNRC2QyR8iZz3+C2JjrB0GT0Yu7tbMUcZKDA9PWaNagVgfvHIy9QLE9yM2bJncWdXVDYRFd0xREor7QqqqrX4JVerk7lxIsJZjPp8lnjyIv340c4QTFvxkW6O1xI+2qDuUqN6qqFhEVVYCYM3JIi5ycc1KSHieOp5GzApmZ/fRU0SpphYfrYmIZ4uPLuA88ngCpqS0Q07Sjo8VcT6WaxulTMpSUdP8JHxYrLKwhMQUu8FQEBQX+WmD+L/av3/gnf6PhNPNJ5AEAAAAASUVORK5CYII=</SOAP-ENC:Array>
+    <SOAP-ENC:Array id="ref-156" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-158" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-159" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-308">RSIActDial</_Name>
+      <_PublicKey href="#ref-309"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-310">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-311"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-160" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-312">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-313"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-314"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-161" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-315">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-316"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-317"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-162" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-318">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-319"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-320"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-171" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-37"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-173" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-175" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-176" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-321">RSIActDial</_Name>
+      <_PublicKey href="#ref-322"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-323">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-324"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-177" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-325">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-326"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-327"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-178" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-328">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-329"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-330"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-179" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-331">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-332"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-333"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-180" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-45"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-182" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-184" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-185" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-334">RSIActDial</_Name>
+      <_PublicKey href="#ref-335"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-336">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-337"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-186" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-338">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-339"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-340"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-187" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-341">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-342"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-343"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-188" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-344">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-345"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-346"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-189" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-53"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-191" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-193" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-194" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-347">RSIActDial</_Name>
+      <_PublicKey href="#ref-348"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-349">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-350"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-195" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-351">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-352"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-353"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-196" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-354">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-355"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-356"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-197" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-357">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-358"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-359"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-198" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-61"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-200" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-202" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-203" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-360">RSIActDial</_Name>
+      <_PublicKey href="#ref-361"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-362">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-363"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-204" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-364">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-365"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-366"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-205" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-367">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-368"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-369"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-206" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-370">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-371"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-372"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-207" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-69"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-209" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-211" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-212" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-373">RSIActDial</_Name>
+      <_PublicKey href="#ref-374"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-375">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-376"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-213" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-377">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-378"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-379"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-214" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-380">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-381"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-382"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-215" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-383">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-384"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-385"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-216" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-77"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-218" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-220" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-221" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-386">RSIActDial</_Name>
+      <_PublicKey href="#ref-387"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-388">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-389"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-222" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-390">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-391"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-392"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-223" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-393">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-394"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-395"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-224" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-396">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-397"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-398"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-225" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-85"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-227" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-229" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-230" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-399">RSIActDial</_Name>
+      <_PublicKey href="#ref-400"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-401">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-402"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-231" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-403">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-404"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-405"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-232" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-406">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-407"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-408"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-233" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-409">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-410"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-411"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-234" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-93"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-236" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-238" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-239" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-412">RSIActDial</_Name>
+      <_PublicKey href="#ref-413"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-414">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-415"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-240" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-416">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-417"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-418"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-241" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-419">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-420"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-421"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-242" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-422">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-423"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-424"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-243" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-101"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-245" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-247" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-248" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-425">RSIActDial</_Name>
+      <_PublicKey href="#ref-426"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-427">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-428"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-249" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-429">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-430"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-431"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-250" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-432">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-433"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-434"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-251" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-435">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-436"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-437"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-252" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-109"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-254" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-256" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-257" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-438">RSIActDial</_Name>
+      <_PublicKey href="#ref-439"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-440">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-441"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-258" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-442">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-443"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-444"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-259" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-445">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-446"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-447"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-260" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-448">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-449"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-450"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-261" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-117"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-263" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-265" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-266" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-451">RSIActDial</_Name>
+      <_PublicKey href="#ref-452"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-453">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-454"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-267" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-455">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-456"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-457"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-268" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-458">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-459"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-460"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-269" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-461">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-462"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-463"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-270" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-125"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-272" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-274" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-275" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-464">RSIActDial</_Name>
+      <_PublicKey href="#ref-465"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-466">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-467"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-276" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-468">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-469"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-470"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-277" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-471">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-472"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-473"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-278" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-474">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-475"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-476"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-279" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-133"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-281" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-283" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-284" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-477">RSIActDial</_Name>
+      <_PublicKey href="#ref-478"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-479">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-480"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-285" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-481">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-482"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-483"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-286" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-484">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-485"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-486"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-287" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-487">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-488"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-489"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-288" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-141"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-290" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-292" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-293" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-490">RSIActDial</_Name>
+      <_PublicKey href="#ref-491"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-492">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-493"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-294" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-494">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-495"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-496"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-295" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-497">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-498"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-499"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-296" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-500">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-501"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-502"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a4:ToolboxItemFilterAttribute id="ref-297" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.ComponentModel/System%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+      <filterType>Allow</filterType>
+      <filterString href="#ref-149"/>
+      <typeId xsi:null="1"/>
+    </a4:ToolboxItemFilterAttribute>
+    <SOAP-ENC:Array id="ref-299" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-301" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <a6:AssemblyName id="ref-302" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-503">RSIActDial</_Name>
+      <_PublicKey href="#ref-504"/>
+      <_PublicKeyToken xsi:null="1"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase id="ref-505">file:///C:/Program Files/ACT/Act for Windows/Tools/RSIActDial.DLL</_CodeBase>
+      <_Version href="#ref-506"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">33</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-303" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-507">System.Windows.Forms</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-508"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-509"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-304" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-510">System</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-511"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-512"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <a6:AssemblyName id="ref-305" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">
+      <_Name id="ref-513">mscorlib</_Name>
+      <_PublicKey xsi:null="1"/>
+      <_PublicKeyToken href="#ref-514"/>
+      <_CultureInfo>127</_CultureInfo>
+      <_CodeBase xsi:type="xsd:anyType" xsi:null="1"/>
+      <_Version href="#ref-515"/>
+      <_HashAlgorithm xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SHA1</_HashAlgorithm>
+      <_HashAlgorithmForControl xsi:type="a7:AssemblyHashAlgorithm" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">None</_HashAlgorithmForControl>
+      <_StrongNameKeyPair xsi:null="1"/>
+      <_VersionCompatibility xsi:type="a7:AssemblyVersionCompatibility" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Configuration.Assemblies">SameMachine</_VersionCompatibility>
+      <_Flags xsi:type="a6:AssemblyNameFlags" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Reflection">None</_Flags>
+      <_HashForControl xsi:null="1"/>
+    </a6:AssemblyName>
+    <SOAP-ENC:Array id="ref-309" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-311" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-313" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-314" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-316" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-317" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-319" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-320" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-322" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-324" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-326" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-327" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-329" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-330" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-332" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-333" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-335" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-337" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-339" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-340" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-342" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-343" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-345" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-346" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-348" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-350" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-352" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-353" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-355" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-356" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-358" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-359" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-361" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-363" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-365" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-366" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-368" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-369" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-371" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-372" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-374" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-376" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-378" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-379" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-381" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-382" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-384" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-385" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-387" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-389" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-391" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-392" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-394" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-395" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-397" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-398" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-400" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-402" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-404" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-405" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-407" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-408" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-410" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-411" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-413" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-415" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-417" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-418" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-420" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-421" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-423" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-424" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-426" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-428" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-430" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-431" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-433" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-434" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-436" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-437" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-439" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-441" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-443" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-444" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-446" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-447" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-449" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-450" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-452" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-454" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-456" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-457" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-459" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-460" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-462" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-463" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-465" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-467" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-469" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-470" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-472" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-473" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-475" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-476" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-478" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-480" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-482" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-483" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-485" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-486" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-488" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-489" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-491" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-493" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-495" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-496" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-498" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-499" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-501" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-502" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-504" xsi:type="SOAP-ENC:base64"></SOAP-ENC:Array>
+    <a2:Version id="ref-506" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>1</_Major>
+      <_Minor>1</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-508" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-509" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-511" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-512" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+    <SOAP-ENC:Array id="ref-514" xsi:type="SOAP-ENC:base64">t3pcVhk04Ik=</SOAP-ENC:Array>
+    <a2:Version id="ref-515" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+      <_Major>2</_Major>
+      <_Minor>0</_Minor>
+      <_Build>0</_Build>
+      <_Revision>0</_Revision>
+    </a2:Version>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

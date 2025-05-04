@@ -1,0 +1,33 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ASP.NET AJAX Control Project</Name>
+    <Description>Create new ASP.NET AJAX Control Extenders and Behaviors</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AjaxControlExtender</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$baseitemname$" Value="$safeprojectname$"/>
+      <CustomParameter Name="$rootnamespace$" Value="$safeprojectname$"/>
+    </CustomParameters>
+
+    <Project TargetFileName="AjaxControlExtender.csproj" File="AjaxControlExtender.csproj" ReplaceParameters="true">
+
+      <ProjectItem TargetFileName="$safeprojectname$Behavior.js" ReplaceParameters="true">Behavior.js</ProjectItem>
+      <ProjectItem TargetFileName="$safeprojectname$Extender.cs" ReplaceParameters="true">Extender.cs</ProjectItem>
+      <ProjectItem TargetFileName="$safeprojectname$Designer.cs" ReplaceParameters="true">Designer.cs</ProjectItem>
+      
+
+      <Folder Name="bin"  TargetFolderName="bin">
+        <ProjectItem>AjaxControlToolkit.dll</ProjectItem>
+      </Folder>
+
+    </Project>
+  </TemplateContent>
+</VSTemplate>

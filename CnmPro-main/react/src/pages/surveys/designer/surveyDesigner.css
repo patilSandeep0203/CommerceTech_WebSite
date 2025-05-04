@@ -1,0 +1,100 @@
+.sD-center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.surveyDesigner-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--ct-card-bg);
+    background-clip: border-box;
+    border: 1px solid var(--ct-card-border-color);
+    border-radius: 0.25rem;
+}
+
+div {
+    display: block;
+}
+
+.surveyDesigner-form-control {
+    display: block;
+    width: 100%;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--ct-input-color);
+    background-color: var(--ct-input-bg);
+    background-clip: padding-box;
+    border: 1px solid var(--ct-input-border-color);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.surveyDesigner-card-body {
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+.surveyDesigner-card .surveyDesigner-header-title {
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.sD-btn-outline-primary {
+    color: #727cf5;
+    border-color: #727cf5;
+}
+.sD-btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+
+    padding: 0.45rem 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 0.15rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.surveyDesigner-btn-outline-danger {
+    color: #fa5c7c;
+    border-color: #fa5c7c;
+}
+.surveyDesigner-form-label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.sd-content {
+    display: flex;
+    justify-content: space-between;
+}
+.sD-form-control-small {
+    display: block;
+    width: 50%;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--ct-input-color);
+    background-color: var(--ct-input-bg);
+    background-clip: padding-box;
+    border: 1px solid var(--ct-input-border-color);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

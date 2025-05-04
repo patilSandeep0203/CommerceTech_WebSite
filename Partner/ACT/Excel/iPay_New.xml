@@ -1,0 +1,57 @@
+    <iPaymentApplication xmlns="https://www.ipaymentinc.com" Stamp="IPI0608">
+      <ExtendedInfo></ExtendedInfo>
+    <BusinessInfo></BusinessInfo>
+    <SalesBreakDown></SalesBreakDown>
+    <PrincipalCollection>
+      <Principal></Principal>
+    </PrincipalCollection>
+    <ReferenceCollection/>
+    <Fees>
+    </Fees>
+
+      <Equipment>
+
+        <Terminals>
+          <Terminal TerminalID="8" TerminalBrand="Other" TerminalModel="See Notes" FrontEndName="Omaha" ModelID="705" PrinterID="-1" PrinterName="" PinPadID="-1" ReProgram="false" Notes="" WirelessID="4" automaticClose="false" AutomaticCloseTime="0001-01-01T00:00:00" TimeZoneID="0" PhoneDialOutCodeID="4" FrontEndID="1" IsLease="false" IsCashSale="false">
+            <DownloadInformation Application="" AdditionalFeatures="" TiedMultiMerchantNumber="" SpecialPrompts="" SpecialFeaturesProvider="" ApplicationDDLTID="" ApplicationDDLPhone="" DateFileBuilt="0001-01-01T00:00:00" LoadInstructions="" EquipmentLocation="" PaywareMobileDevice="G3" PaywayreMobileDeviceVersion="" xmlns="http://www.ipaymentinc.com" />
+            <WirelessInformation WirelessCommType="DialUp" WirelessCarrier="" WirelessTcpIpGateway="" WirelessDatawireDID="" WirelessSIMCard="" WirelessESNNumber="" WirelessMANNumber="" xmlns="http://www.ipaymentinc.com" />
+            <ShippingInformation ShipTo="AgentOffice" ShippingServiceType="Ground" SerialNumber="" DeploymentDate="0001-01-01T00:00:00" Condition="New" Origin="0" xmlns="http://www.ipaymentinc.com" />
+            <PinPadInformation PinPadModelName="" PinPadCount="1" CheckReaderCount="0" CardReaderCount="0" FreeTerminalProgram="false" EncryptionMethod="Blank" xmlns="http://www.ipaymentinc.com" />
+            <IsDeployPinPad xmlns="http://www.ipaymentinc.com">false</IsDeployPinPad>
+            <IsDeployPrinter xmlns="http://www.ipaymentinc.com">false</IsDeployPrinter>
+            <IsDeployCheckReader xmlns="http://www.ipaymentinc.com">false</IsDeployCheckReader>
+            <IsDeployCardReader xmlns="http://www.ipaymentinc.com">false</IsDeployCardReader>
+            <IsDeployPinPadCable xmlns="http://www.ipaymentinc.com">false</IsDeployPinPadCable>
+          </Terminal>
+        </Terminals>
+        <Gateways>
+          <DownloadInformation AdditionalFeatures="" SpecialPrompts="" SpecialFeaturesProvider="" DateFileBuilt="" PaywareMobileDevice="" PaywayreMobileDeviceVersion="" xmlns="http://www.ipaymentinc.com" />
+          <DownloadInformation xmlns="" />
+        </Gateways>
+
+
+        <Software xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" GatewayType="TSYS" SoftwareID="" FrontEndID="4" SoftwareVersion="" TCPIP="" Notes="" FrontEndName="" />
+      </Equipment>
+
+    <LeaseInfo></LeaseInfo>
+      <Terminal>
+      </Terminal>
+
+        <Gateway>
+
+        </Gateway>
+
+      <Software xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" />
+      <ExistingMerchant id="-1">
+    </ExistingMerchant>
+    <Amex></Amex>
+    <Discover></Discover>
+      <BankInformation id="-1"></BankInformation>
+      <SiteSurvey id="-1"></SiteSurvey>
+      <ServiceEnrollment ID="-1"></ServiceEnrollment>
+    <CardAcceptance ID="-1"></CardAcceptance>
+    <SalesRepInfo ID="-1"></SalesRepInfo>
+    <ApplicationMetadata>
+    </ApplicationMetadata>
+
+  </iPaymentApplication>

@@ -1,0 +1,349 @@
+<!--#Include File="top.shtml"-->
+<!-- INSERT MAIN CONTENT BELOW -->
+<CENTER>
+<SCRIPT Language="JavaScript">
+
+MaxCartItems = 15;
+
+function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+  if (endstr == -1)
+    endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie (name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+           if (document.cookie.substring(i, j) == arg)
+     return getCookieVal (j);
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0) break; 
+  }
+  return null;
+}
+
+function SetCookie (name, value) {
+  var argv = SetCookie.arguments;
+  var argc = SetCookie.arguments.length;
+  var expires = (argc > 2) ? argv[2] : null;
+  var path = (argc > 3) ? argv[3] : null;
+  var domain = (argc > 4) ? argv[4] : null;
+  var secure = (argc > 5) ? argv[5] : false;
+  document.cookie = name + "=" + escape (value) +
+    ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+    ((path == null) ? "" : ("; path=" + path)) +
+    ((domain == null) ? "" : ("; domain=" + domain)) +
+    ((secure == true) ? "; secure" : "");
+}
+
+function DeleteCookie (name) {
+  var exp = new Date();
+  exp.setTime (exp.getTime() - 1);  // This cookie is history
+  var cval = GetCookie (name);
+  if (cval != null)
+    document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+
+function AddItem(ID,Sdesc,Price,Qty,Weight,WeightUnit)
+{
+        if (Qty <= 0) 
+        {
+                rc = alert('The Quantity must be greater than 0');
+                return false;
+        }
+
+        if (confirm('Adding ' +Qty+ ': "' +Sdesc+ '" to the shopping cart')) 
+        {
+                for(NumItems = 0; NumItems<=MaxCartItems; NumItems++)
+                {
+                        if(NumItems == MaxCartItems)
+                        {
+alert('Maximum of '+MaxCartItems+' different items can fit in the shopping cart, please go to the Checkout Counter and submit your order.  Then empty your cart and shop some more later.');
+                        }
+                        else
+                        {
+                                CookieName = 'ItemList' +NumItems;
+                                CookieValue = GetCookie(CookieName);
+                                if(CookieValue == null)
+                                {
+                                CookieValue = "["+ID+"À"+Sdesc+"Á"+Price+"Â"+Qty+"Ã"+Weight+"Ä"+WeightUnit+"]";
+									 SetCookie(CookieName,CookieValue);
+                                break;
+                                }
+                        }
+                }
+        }
+        return true;
+}
+
+</SCRIPT>
+
+<TABLE width="100%" cellspacing="0" cellpadding="10" border="0" bgcolor="#ffffff">
+	<TR>
+		<TD>
+		<TABLE align="center" border="0" cellpadding="0" cellspacing="0">
+            <TR>
+				<TD >
+					<IMG src="images/qc-logo-12.gif"></TD>				
+			</TR>
+		</TABLE>
+
+<TABLE width="97%" cellspacing="0" cellpadding="0" border="0">
+	<TR>
+      <TD valign="middle" align="left" colspan="2">
+	  <BR>
+      <FONT face="Arial" size="-1" color="#000000">This is a <i>demo</i>
+      Internet storefront, and is an example only. It is designed to simulate a
+      commerce-enabled website and demonstrate secure online credit card
+      transactions using our Payment Gateway. The shopping cart which is used in
+      this Internet demo storefront is one of many which are compatible with our
+      Payment Gateway. In order to process credit cards it is necessary to
+      establish a merchant account. Please contact Commerce Technologies at
+      800-477-5363 for information on secure credit card acceptance and online
+      credit card processing.
+	  </FONT>
+      <FONT face="Arial" size="-1" color="#000000">
+<BR><BR>
+<b>TO USE THIS DEMO STORE:</b>
+	  </FONT>
+	  </TD>
+	</TR>
+    <TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+			<FONT face="Arial" size="-1" color="#000000">
+			Select items to be purchased by clicking on the &quot;Add to Cart&quot; buttons. (You can always remove items from your cart later.)
+			</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+			<FONT face="Arial" size="-1" color="#000000">
+			Review your order by clicking VIEW CART.
+			</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+		<FONT face="Arial" size="-1" color="#000000">Click on CHECK OUT.</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+		<FONT face="Arial" size="-1" color="#000000">
+		NOTE: This page is for demonstration purposes only! No products will be shipped, and you will not be billed.
+		<BR><BR>
+        </FONT>
+      	</TD>
+    </TR>
+    <TR>
+      <TD align="center" valign="top" colspan="2">
+	  
+        <FORM name="ItemList">
+          <TABLE width="500" cellspacing="0" cellpadding="5" bordercolor="#064787" border="1">
+            <tr bgcolor="#ffffff">
+              <TD align="center" valign="middle">
+                <TABLE border="0" cellspacing="0" cellpadding="5">
+                  <TR>
+                    <TD align="center" valign="middle">
+					<FONT size="-1" color="#000000" face="Arial, Helvetica">
+					<b><a href="demo-store.shtml" target="_self" onmouseover="status=&quot; Return to the demo homepage &quot;;return(true);">ORDER &nbsp;&nbsp;</a>|
+                    <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">&nbsp;&nbsp; VIEW CART &nbsp;&nbsp;</a>|
+                    <a href="demo-checkout.shtml" target="_self" onmouseover="status=&quot; Confirm your order and submit payment ! &quot;; return(true);">&nbsp;&nbsp; CHECK OUT</a></b>
+					</FONT>
+					</TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><BR>
+                      <IMG src="images/qc-hr.gif" border="0" width="375" height="10">
+                      <BR>
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><BR>
+                      <img src="images/exotic-cars.jpg" alt=" Only the finest model cars in the world! " width="400" height="100" border="0"><BR>
+                      <BR>
+                      <FONT size="2" face="Arial"><i>Each cast-iron model is
+                      1/15 scale, and is carefully crafted and hand-painted to<BR>
+                      capture the beauty and elegance of these high-performance
+                      machines.</i></FONT></TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle">
+                      <TABLE border="2" cellspacing="1" cellpadding="0">
+                        <TR>
+                          <TD align="center" valign="middle">
+                            <TABLE border="0" cellspacing="5" cellpadding="0">
+                              <TR>
+                                <TD align="center" valign="middle" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica"><img src="images/jaguar.jpg" width="100" height="50" alt="Jaguar" border="0"><BR>
+                                  <input type="button" name="CapAdd" value="Add to Cart" onclick="AddItem('Jag','XJ220','229','1','1','lbs')" style="font-size: 8pt"></FONT></TD>
+                                <TD align="left" valign="bottom" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica">JAGUAR<BR>
+                                  Hand-made by craftsmen and race-proven, the
+                                  XJ220 is the ultimate sports car. The
+                                  prototype of this machine was built by
+                                  Jaguar's engineers on their own time.</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Color</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Weight</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Price</FONT></TD>
+                              </TR>
+                              <TR>
+                                <TD align="center" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>SILVER</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>2
+                                  lbs</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b>$229.00</b></FONT></TD>
+                              </TR>
+                            </TABLE>
+                          </TD>
+                        </TR>
+                      </TABLE>
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><IMG src="images/qc-hr.gif" border="0" width="375" height="10"></TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle">
+                      <TABLE border="2" cellspacing="1" cellpadding="0">
+                        <TR>
+                          <TD align="center" valign="middle">
+                            <TABLE border="0" cellspacing="5" cellpadding="0">
+                              <TR>
+                                <TD align="center" valign="middle" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica"><img src="images/lambo.jpg" width="100" height="50" alt="Lambo" border="0"><BR>
+                                  <input type="button" name="TopAdd" value="Add to Cart" onclick="AddItem('Lambo','Diablo','189','1','1','lbs')" style="font-size: 8pt"></FONT></TD>
+                                <TD align="left" valign="bottom" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica">LAMBORGHINI<BR>
+                                  In Italian supercar tradition, the Diablo has
+                                  a steel spaceframe chassis constructed of
+                                  welded tubes. In 1997, one more option became
+                                  available for the car - an open roof, the
+                                  &quot;Diablo Roadster.&quot;</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Color</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Weight</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Price</FONT></TD>
+                              </TR>
+                              <TR>
+                                <TD align="center" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>RED</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>2
+                                  lbs</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b>$189.00</b></FONT></TD>
+                              </TR>
+                            </TABLE>
+                          </TD>
+                        </TR>
+                      </TABLE>
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><IMG src="images/qc-hr.gif" border="0" width="375" height="10"></TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle">
+                      <TABLE border="2" cellspacing="1" cellpadding="0">
+                        <TR>
+                          <TD align="center" valign="middle">
+                            <TABLE border="0" cellspacing="5" cellpadding="0">
+                              <TR>
+                                <TD align="center" valign="middle" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica"><img src="images/ferrari.jpg" width="100" height="50" alt="Ferarri" border="0"><BR>
+                                  <input type="button" name="TopAdd" value="Add to Cart" onclick="AddItem('Ferarri','Testarosa','219','1','1','lbs')" style="font-size: 8pt"></FONT></TD>
+                                <TD align="left" valign="bottom" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica">FERARRI<BR>
+                                  If you could create lightning in the shape of
+                                  a car, the result would be the Ferarri
+                                  Testarossa 512. Grand Prix performance is only
+                                  a throttle pedal away, delivered with an
+                                  effortless rush of endless horsepower.</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Color</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Weight</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Price</FONT></TD>
+                              </TR>
+                              <TR>
+                                <TD align="center" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>RED</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>2
+                                  lbs</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b>$219.00</b></FONT></TD>
+                              </TR>
+                            </TABLE>
+                          </TD>
+                        </TR>
+                      </TABLE>
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><IMG src="images/qc-hr.gif" border="0" width="375" height="10"></TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle">
+                      <TABLE border="2" cellspacing="1" cellpadding="0">
+                        <TR>
+                          <TD align="center" valign="middle">
+                            <TABLE border="0" cellspacing="5" cellpadding="0">
+                              <TR>
+                                <TD align="center" valign="middle" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica"><img src="images/bugati.jpg" width="100" height="50" alt="Bugati" border="0"><BR>
+                                  <input type="button" name="TopAdd" value="Add to Cart" onclick="AddItem('Bugati','EB110','199','1','1','lbs')" style="font-size: 8pt"></FONT></TD>
+                                <TD align="left" valign="bottom" rowspan="2"><FONT size="-2" color="#000000" face="Arial, Helvetica">BUGATTI<BR>
+                                  Ettore Bugatti's pre-war supercars inspired
+                                  one, Romano Artioli, to reform the company and
+                                  build the car that Ettore himself might have
+                                  built if he had lived in our age: the
+                                  incredible quad-turbo V12 EB110.</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Color</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Weight</FONT></TD>
+                                <TD align="center" valign="bottom"><FONT size="-2" color="#007b79" face="Arial, Helvetica">Price</FONT></TD>
+                              </TR>
+                              <TR>
+                                <TD align="center" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>BLUE</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-2" color="#000000" face="Arial, Helvetica"><b>2
+                                  lbs</b></FONT></TD>
+                                <TD align="right" valign="top"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b>$199.00</b></FONT></TD>
+                              </TR>
+                            </TABLE>
+                          </TD>
+                        </TR>
+                      </TABLE>
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><FONT size="-1" color="#007b79" face="Arial, Helvetica"><BR>
+                      </FONT>
+                      <b><FONT size="-1" color="#064787" face="Arial, Helvetica">To review your order, <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);"><i>c</i></a></FONT><FONT size="-1" color="#007b79" face="Arial, Helvetica"><i><a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">lick
+                      here</a></i>.</FONT></b></TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><BR>
+                      <IMG src="images/qc-hr.gif" border="0" width="375" height="10"><BR>
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD align="center" valign="middle"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b><a href="demo-store.shtml" target="_self" onmouseover="status=&quot; Return to the demo homepage &quot;;return(true);">ORDER
+                      &nbsp;&nbsp;</a>| <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">&nbsp;&nbsp;
+                      VIEW CART &nbsp;&nbsp;</a>| <a href="demo-checkout.shtml" target="_self" onmouseover="status=&quot; Confirm your order and submit payment ! &quot;; return(true);">&nbsp;&nbsp;
+                      CHECK OUT</a></b></FONT></TD>
+                  </TR>
+                  <TR>
+                    <TD align="right" valign="bottom">
+                      <p align="center"></p>
+                    </TD>
+                  </TR>
+                </TABLE>
+              </TD>
+            </TR>
+          </TABLE>
+        </form>
+      </TD>
+    </TR>
+    <tr bgcolor="#ffffff">
+      <TD valign="top" align="center"  colspan="2">
+        <p align="center"><FONT size="-2" color="#000000" face="Arial, Helvetica">(All
+        copyrights property of their respective owners.)</FONT></p>
+      </TD>
+    </TR>
+  </TABLE>
+  </center>
+<!-- INSERT MAIN CONTENT BELOW -->
+<!--#Include File="bottom.shtml"-->

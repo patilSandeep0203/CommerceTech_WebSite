@@ -1,0 +1,75 @@
+.stripe-container-layout-cnmpro {
+    padding-top: 10% !important;
+    width: 50%;
+    margin: auto;
+
+}
+
+.stripe-checkout-margin-cnmpro {
+    margin-top: 10% !important;
+}
+
+.stripe-product-layout-cnmpro {
+    padding-top: 10% !important;
+}
+
+.stripe-subs-header-cnmpro {
+    -webkit-text-size-adjust: auto;
+}
+
+.stripe-product-margin-cnmpro {
+    margin-top: 10% !important;
+}
+
+.stripe-title {
+    margin-top: 1px;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    text-shadow: 1px;
+}
+
+.stripe-card-cnmpro {
+    font-size: small;
+    font-weight: lighter;
+    color: black;
+    outline-style: groove;
+    outline-color: whitesmoke;
+    padding: 2px;
+    align-items: flex-start;
+
+}
+
+.stripe-card-banner {
+    text-align: center;
+    text-emphasis-color: white;
+    text-shadow: white;
+}
+
+.stripe-description-cnmpro {
+    font-size: small;
+    font-weight: lighter;
+    color: black;
+}
+
+.card-stripe-details {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.stripe-checkout-buttons-area-cnmpro {
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.stripe-checkout-buttons-cnmpro {
+    color: white;
+    padding: 3px;
+    margin: 5px;
+}
+
+.invoice-logo {
+    width: 100px;
+    height: 100px;
+}

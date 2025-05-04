@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Inventive Media Solutions, LLC</BusName>
+      <DBA>Inventive Media Solutions, LLC</DBA>
+      <BusAddr>
+        <st_name>27915 Mattahorn Drive </st_name>
+        <city>Lake arrowhead</city>
+        <state>CA</state>
+        <country>United States</country>
+        <zip>92352</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>po box 3443 </st_name>
+        <city>Blue Jay</city>
+        <state>CA</state>
+        <country>United States</country>
+        <zip>92317</zip>
+      </MailAddr>
+      <LOS>48</LOS>
+      <FedTaxId>204743179</FedTaxId>
+      <BusPhone>909-273-0820</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>909-273-0820</CustPhone>
+      <ContactName>Thomas R Childress</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>2</LOB>
+      <BusHrs>9-6</BusHrs>
+      <email>hunt4stuff1@yahoo.com</email>
+      <url>hunt4stuff.com</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>99</Internet>
+      <Moto>1</Moto>
+      <OwnershipType>LLC</OwnershipType>
+      <CustRefundPol>Refund within 30 days</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>Sells small adverts on a information and search engine website.  Monthly adds only.</ProdType>
+      <DelTime>1-30</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>1</EverProcessed>
+      <WhoProcessed>Ipayment, Inc.</WhoProcessed>
+      <EverTerminated>0</EverTerminated>
+      <TerminationReason>Previous account closed over 6 months</TerminationReason>
+      <FormerMerchNum>4223696700001529</FormerMerchNum>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Thomas</FirstName>
+      <LastName>Childress</LastName>
+      <SSN>551970107</SSN>
+      <PercentOwnership>75</PercentOwnership>
+      <Title>President</Title>
+      <Address>
+        <st_name>27915 Mattahorn Drive </st_name>
+        <city>Lake arrowhead</city>
+        <state>CA</state>
+        <country>United States</country>
+        <zip>92352</zip>
+      </Address>
+      <AddrType>Rent</AddrType>
+      <LOS>96</LOS>
+      <Phone>909-337-4506</Phone>
+      <DOB>08/13/1982</DOB>
+      <LicNum>D2445213</LicNum>
+      <LicState>CA</LicState>
+    </Principal>
+    <Principal>
+      <FirstName>Thomas</FirstName>
+      <LastName>Childress</LastName>
+      <SSN>552589846</SSN>
+      <PercentOwnership>25</PercentOwnership>
+      <Title>Treasurer</Title>
+      <Address>
+        <st_name>27915 Mattahorn Drive </st_name>
+        <city>Lake arrowhead</city>
+        <state>CA</state>
+        <country>United States</country>
+        <zip>92352</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>
+      </LOS>
+      <Phone>909-337-4506</Phone>
+      <DOB>02/23/1942</DOB>
+      <LicNum>H0696322</LicNum>
+      <LicState>
+      </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>40558</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.35</DiscFee>
+          <MidQualFee>3.15</MidQualFee>
+          <NonQualFee>4.25</NonQualFee>
+        </CardPresent>
+        <TransFee>0.29</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>15.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.29</BatchHeaders>
+      <ExternalGWFee>0.00</ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>3000</MonthlyProcLimit>
+      <AvgTicket>75</AvgTicket>
+      <NeedAmex>1</NeedAmex>
+      <NeedDiscover>1</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Arrowhead Credit Union</BankName>
+      <BankAddr>P.O. Box 735</BankAddr>
+      <TransroutingNum>122287413</TransroutingNum>
+      <DDA>5485302205</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

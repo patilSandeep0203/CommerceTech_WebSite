@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+var cot_loc0=(window.location.protocol == "https:")? "https://secure.comodo.net/trustlogo/javascript/cot.js" :
+"http://www.trustlogo.com/trustlogo/javascript/cot.js";
+document.writeln('<scr' + 'ipt language="JavaScript" src="'+cot_loc0+'" type="text\/javascript">' + '<\/scr' + 'ipt>');
+//]]>
+</script>
+<head id="Head1" runat="server">
+<title id="metaTitle" runat="server"></title>
+<meta http-equiv=”X-UA-Compatible” content=”IE=edge” />
+<meta http-equiv=”X-UA-Compatible” content=”IE=8″ />
+<meta http-equiv=”X-UA-Compatible” content=”IE=EmulateIE7″/>
+    <meta name="description" content="description" id="metaDesc" runat="server" />
+    <meta name="keywords" content="keys" id="metaKeyword" runat="server" />    
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+
+    <script type="text/javascript" language="javascript">
+    function popupMerchantDesc()
+    {
+        pop = window.open('MerchantDescription.htm', 'mer','width=600,height=500,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');
+    }
+    
+    function popupGatewayDesc()
+    {
+        pop = window.open('GatewayDescription.htm', 'gat','width=600,height=150,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');
+    }
+    
+    function popupEquipDesc()
+    {
+        pop = window.open('EquipmentDesc.htm', 'gat','width=600,height=150,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');
+    }
+    
+    function popupHelp(id)
+    {
+        strURL = "help.aspx?ID="+id;
+        pop = window.open(strURL, 'help','width=450,height=200,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+    }
+
+    </script>
+    <link type="text/css" href="onlineappcss.css" rel="stylesheet" />
+    <link rel="icon" href="https://cdn11.bigcommerce.com/s-1x33si/product_images/uploaded_images/favicon2.png?t=1644943835&_gl=1*hvxnyw*_ga*MTIwMTU0MDM0OC4xNjI4MTAxMTYy*_ga_WS2VZYPC6G*MTY0NDk0MzgxOS4xNTYuMS4xNjQ0OTQzODM5LjQw" />
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22103620-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</head>
+
+<!--<a href="http://www.instantssl.com" id="comodoTL">SSL</a>
+<script language="JavaScript" type="text/javascript">
+    COT("https://ssl.comodo.com/images/seals/sectigo_trust_seal_sm_2x.png", "SC2", "none");
+</script>-->
+
+
+<script type="text/javascript"> //<![CDATA[
+    var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
+    document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+//]]></script>
+<script language="JavaScript" type="text/javascript">
+    TrustLogo("https://sectigo.com/images/seals/sectigo_trust_seal_md_2x.png", "SECDV", "none");
+</script>
+
+
+<body topmargin="0px">
+    <center>
+        <form id="form1" runat="server">
+                <table border="0" cellpadding="0" cellspacing="0" style="width: 900px;">
+                    <tr>
+                        <td align="center" >
+                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                                <tr>
+                                    <td align="left" style="width: 19%">
+                                        <!--<a href="http://www.ecenow.com" target="_blank">-->
+                                        <asp:HyperLink ID="lnkHomePage" runat="Server" >
+                                            <img src="/Application/Images/ctc-logo-3.png" name="ecenow" alt="" border="0" /></asp:HyperLink></td>
+                                    <td align="left" style="width: 8%"> </td>  
+                                    <td align="center" style="width: 45%">                                 
+                                    <asp:Panel ID="pnlPageHeading" runat="server" Visible="false">
+                                    <b><span class="BannerText">This</span>
+                                    <span class="BannerText"><asp:Label ID="lblPartnerType" runat="server" CssClass="BannerText"></asp:Label></span>
+                                    <span class="BannerText">Site Presented By: </span></b>
+                                    <br />
+                                    <asp:Label ID="lblPartnerLogo" runat="server" ><asp:Image id="imgPartnerLogo" ImageUrl="" runat="server" height="48px" AlternateText="Partner Logo" /></asp:Label>
+                                    <asp:Label ID="lblPartnerName" runat="server" CssClass="BannerText"></asp:Label>
+                                </asp:Panel> </td>
+                                    
+                                    <td align="right" style="width: 8%" valign="middle">
+                                        <span class="LabelsHeaderSmall"><b>
+                                            <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink3" Target="_blank" NavigateUrl="https://commercetech.com/about-us/">About Us</asp:HyperLink></b></span></td>
+                                    <td align="center" style="width: 1%" valign="middle"> <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;</b></span> </td>                            
+                                    <td align="right" style="width: 8%" valign="middle">
+                                        <span class="LabelsHeaderSmall"><b>
+                                            <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink4" Target="_blank" NavigateUrl="https://commercetech.com/contact-us/">Contact Us</asp:HyperLink></b></span></td>
+                                   <td align="right" style="width: 1%" valign="middle"> <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;</b></span> </td>
+                                    <td align="right" style="width: 9%" valign="middle">
+                                        <span class="LabelsHeaderSmall"><b>
+                                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="LinkSmall" NavigateUrl="tel:1-800-477-5363">800-477-5363</asp:HyperLink></b></span></td>
+                                </tr>
+                                <tr height="10px">
+                                    <td colspan="8" align="center">    
+                                        <asp:Label ID="Label1" Font-Bold="true" runat="server"></asp:Label>                                   
+                                    </td>
+                                </tr>
+                                <asp:Panel Visible=true ID="pnlTopBar" runat="server">
+                                <tr height="17px">
+                                    <td class="DivHeader2" colspan="8" align="center">    
+                                        <asp:Label ID="lblHeader" Font-Bold="true" runat="server"></asp:Label>                                   
+                                    </td>
+                                </tr>
+                                </asp:Panel>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- END TOP NAVBAR -->
+                    <tr>
+                        <td style="width: 100%" align="center" valign="top">
+                            <table style="height: 400px; width: 100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td colspan="2" align="center" valign="top">
+                                        <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+                                            <!-- INSERT MAIN CONTENT BELOW -->
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr height="20px">
+                    </tr>
+                    <tr>
+                        <td align="center" class="DivHeader2">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <span class="MenuHeader">
+                                            &nbsp;|&nbsp;</span>
+                                    </td>
+                                    <td align="center">
+                                        <asp:HyperLink ID="HyperLink5" runat="server" CssClass="MenuFooter" Target="_blank" NavigateUrl="https://commercetech.com/policies/">Policies</asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        <span class="MenuHeader">
+                                            &nbsp;|&nbsp;</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+        </form>
+    </center>
+</body>
+</html>

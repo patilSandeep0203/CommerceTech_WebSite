@@ -1,0 +1,68 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>AJAX Control Toolkit Web Site</Name>
+    <Description>A blank ASP.NET AJAX Web Application with AJAX Control Toolkit support</Description>
+    <Icon Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" ID="4701"/>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>50</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AjaxControlToolkitWebSite</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <EnableEditOfLocationField>true</EnableEditOfLocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <LocationField>Hidden</LocationField>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="AjaxControlToolkitWebsiteCS.webproj" ReplaceParameters="false">
+      <Folder Name="Bin">
+        <ProjectItem>AjaxControlToolkit.dll</ProjectItem>
+        <Folder Name="ar">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.ar.dll</ProjectItem>
+        </Folder>
+        <Folder Name="de">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.de.dll</ProjectItem>
+        </Folder>
+        <Folder Name="es">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.es.dll</ProjectItem>
+        </Folder>
+        <Folder Name="fr">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.fr.dll</ProjectItem>
+        </Folder>
+        <Folder Name="he">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.he.dll</ProjectItem>
+        </Folder>
+        <Folder Name="hi">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.hi.dll</ProjectItem>
+        </Folder>
+        <Folder Name="it">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.it.dll</ProjectItem>
+        </Folder>
+        <Folder Name="ja">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.ja.dll</ProjectItem>
+        </Folder>
+        <Folder Name="ko">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.ko.dll</ProjectItem>
+        </Folder>
+        <Folder Name="pt">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.pt.dll</ProjectItem>
+        </Folder>
+        <Folder Name="ru">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.ru.dll</ProjectItem>
+        </Folder>
+        <Folder Name="zh-CHS">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.zh-CHS.dll</ProjectItem>
+        </Folder>
+        <Folder Name="zh-CHT">
+          <ProjectItem TargetFileName="AjaxControlToolkit.resources.dll">AjaxControlToolkit.resources.zh-CHT.dll</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem>Default.aspx</ProjectItem>
+      <ProjectItem>Default.aspx.cs</ProjectItem>
+      <Folder Name="App_Data" />
+      <ProjectItem>web.config</ProjectItem>
+      <ProjectItem OpenInEditor="true">readme.txt</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  description="Home">
+    <siteMapNode url="prodservices.aspx" title="Products and Services" description="Products and Services">
+      <siteMapNode url="prodservices.aspx" title="Services"  description="Services">
+        <siteMapNode url="gateways.aspx" title="Secure Payment Gateways" description="Secure Payment Gateways"></siteMapNode>
+        <siteMapNode url="merchant.aspx" title="US Merchant Services" description="US Merchant Services"></siteMapNode>
+        <siteMapNode url="international.aspx" title="International Merchant Services" description="International Merchant Services"></siteMapNode>
+        <siteMapNode url="echeck.aspx" title="Electronic Checks" description="Electronic Checks"></siteMapNode>
+        <siteMapNode url="gift.aspx" title="Gift/Loyalty Card Services" description="Gift/Loyalty Card Services"></siteMapNode>
+        <siteMapNode url="CashAdvance.aspx" title="Business Cash Advance" description="Business Cash Advance"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="prodservices.aspx" title="Products"  description="Products">
+        <siteMapNode url="merchmaster.aspx" title="Software" description="Software"></siteMapNode>
+        <siteMapNode url="equipment.aspx" title="Equipment" description="Equipment"></siteMapNode>
+        <siteMapNode url="PCI.aspx" title="PCI Compliancy" description="PCI Compliancy"></siteMapNode>
+        <siteMapNode url="SSL.aspx" title="SSL Certificates" description="SSL Certificates"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="infocenter.aspx" title="Solutions"  description="Solutions">
+      <siteMapNode url="merchmaster.aspx" title="E-Commerce Solutions" description="E-Commerce Solutions">
+        <siteMapNode url="echeck.aspx" title="Electronic Checks" description="Electronic Checks"></siteMapNode>
+        <siteMapNode url="shopcart.aspx" title="Shopping Carts" description="Shopping Carts"></siteMapNode>
+        <siteMapNode url="virtualterminal.aspx" title="Virtutal Terminal" description="Virtutal Terminal"></siteMapNode>
+        <siteMapNode url="Weblink.aspx" title="Web Link" description="Web Link"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Wireless.aspx" title="Wireless Solutions" description="Wireless Solutions">
+        <siteMapNode url="GoPayment.aspx" title="Intuit GoPayment" description="Intuit GoPayment"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="POSSolutions.aspx" title="POS Solutions" description="POS Solutions"></siteMapNode>
+      <siteMapNode url="AccountingIntegration.aspx" title="Accounting Integration" description="Accounting Integration"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="consult.aspx" title="Free E-Consultation" description="Free E-Consultation"></siteMapNode>
+    <siteMapNode url="https://www.firstaffiliates.com/OnlineApplication/Start.aspx" title="Online Application" description="Online Application"></siteMapNode>
+    <siteMapNode url="partnermain.aspx" title="Partner Programs" description="Partner Programs">
+      <siteMapNode url="partners.aspx" title="Premier Partners" description="Premier Partners"></siteMapNode>
+      <siteMapNode url="affiliate.aspx" title="Affiliates" description="Affiliates"></siteMapNode>
+      <siteMapNode url="reseller.aspx" title="Resellers" description="Resellers"></siteMapNode>
+      <siteMapNode url="agent.aspx" title="Agents" description="Agents"></siteMapNode>
+      <siteMapNode url="join.aspx" title="Join Partner Program" description="Join Partner Program"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="faqs.aspx" title="Frequently Asked Questions" description="Frequently Asked Questions"></siteMapNode>
+    <siteMapNode url="aboutus.aspx" title="About Us" description="About Us"></siteMapNode>
+    <siteMapNode url="contactus.aspx" title="Contact Us" description="Contact Us"></siteMapNode>
+    <siteMapNode url="PrivacyPolicy.aspx" title="Privacy Policy" description="Privacy Policy"></siteMapNode>
+  </siteMapNode>      
+</siteMap>

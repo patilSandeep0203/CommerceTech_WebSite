@@ -1,0 +1,26 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:TextBox runat="server" Height="12px" CssClass="LabelsBodySmall" />
+<asp:DropDownList runat="server"  Height="18px" CssClass="LabelsBodySmall"/>
+<asp:RequiredFieldValidator runat="server" Height="12px" Font-Size="X-Small" Font-Name="Arial"/>
+<asp:Label runat="server" CssClass="LabelsBodySmall"/>
+<asp:CheckBox runat="server" Height="16px" CssClass="LabelsBodySmall"/>
+<asp:RegularExpressionValidator runat="server" Height="12px" CssClass="LabelsBodySmall"/>
+<asp:ValidationSummary  runat="server" BackColor="Ivory" BorderColor="red" BorderWidth="1px" CssClass="LabelsBody" />
+<asp:CompareValidator  runat="server" Height="12px" CssClass="LabelsBodySmall"/>
+<asp:RadioButton runat="server" Height="16px" CssClass="LabelsBodySmall"/>
+<asp:Button runat="server" CssClass="Button" width="90px" />

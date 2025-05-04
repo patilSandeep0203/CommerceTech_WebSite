@@ -1,0 +1,169 @@
+OnlineApplication (Ver. 2.0.0) - Bug fixes/New Features
+1) Added PDF Creation for all PDFs.
+2) Modified Color Theme.
+3) Added CSS stylesheet.
+4) Modified equipment page to get equipment list from the database.
+5) Removed Images from Master page file for menu items.
+6) Added Unacceptable countries list question in start2.aspx.
+7) Added main.master as the master page for edit.aspx, updateaccount.aspx and equipment.aspx.
+8) Created Separate files for DataLayer and BusinessLayer classes.
+9) Added CreatePDF class which handles PDF creation. This class will be used by the Partner Portal also.
+10)Added XML file with meta information and this is loaded on page_load of main.master.
+11)Set MaxLength for Address to 30 and City to 20 on all pages.
+
+
+OnlineApplication (Ver. 1.1.6) - Bug fixes/New Features
+1) Added code to call stored procedure to get business info which decrypts data.
+2) Added code to call stored procedure to get principal info which decrypts data.
+3) Added code to call stored procedure to get banking info which decrypts data.
+4) Added code to call stored procedure to get reprogram info which decrypts data.
+5) Added additional services option on register.aspx. Also added columns related to additional services to processing table and NewApp table and modified insertupdateprocessing SP to pass these values.
+6) Added extra set of questions on start2.aspx.
+7) Added additional services section to view rates page.
+
+OnlineApplication (Ver. 1.1.5) - Bug fixes/New Features
+1) Enabling referral source list in companyinfo.aspx if referral is coming from Commerce Technologies website.
+2) Added check for access to online app based on master num. Added this code to Main.master.cs. Added new functions
+   to check the access based on who is logged in.
+
+OnlineApplication (Ver. 1.1.4) - Bug fixes/New Features
+1) Added check for QB signup and disable sign up type options if QB is Yes.
+2) Using the SQL GetDate() function for updating last modified date.
+3) If QB signup, then add 100 as PID and set default QB rates for app. Added this logic on the register page.
+4) Added code to insert Merchant Number sales opp for quickbooks signup.
+5) For Gateway only the non bankcard defaults should different than the merchant account options which will be Discover, yes or enter merchant number, AmEx no or enter merchant number and JCB no or enter number.
+
+OnlineApplication (Ver. 1.1.3) - Bug fixes/New Features
+1) Removed Numbers only validator from companyinfo.aspx for Time at business Location.
+2) Removed required field validator for Months at business location on businessinfo.aspx.
+
+OnlineApplication (Ver. 1.1.2) - Bug fixes/New Features
+1) Calling a stored procedure to authenticate the user on default.aspx. Modified BusinessLayer.cs and Datalayer.cs to call the stored procedure to get the salt and then authenticate the user.
+2) Changed the ConnectionString in web.config.
+3) Modified login.aspx to check category of user before authenticating them.
+
+OnlineApplication (Ver. 1.1.1) - Bug fixes/New Features
+1) Added code for server side validation on all pages.
+2) Changed errLabel font size to small.
+3) Added locked.aspx to display application status if application is locked. Added code to check if session(locked) is true and redirect to locked.aspx.
+4) FIX for null rates: Added code to set session(pid) and session(referralid) in default.aspx.
+5) FIX for null rates: Added code to set PID in OnlineAppNewApp on register.aspx. Also added the function UpdatePID() in BusinessLayer and UpdateNewAppPID() in DataLayer to add the PID.
+6) Modified the SendMail function on register.aspx.
+
+OnlineApplication (Ver. 1.1.0) - Bug fixes/New Features
+1) Modified notice.aspx in Merchant and Gateway to check if status of both accounts is complete.
+2) Added business.aspx to display static business information in Merchant and Gateway.
+3) Added principal.aspx to display static principal information in Merchant and Gateway.
+4) Added reprog.aspx to display static reprogram information in Gateway.
+5) Added company.aspx to display static company information in Merchant and Gateway.
+6) Added code to insert sales opportunity in the SetPageCount and SetGWPageCount functions in BusinessLayer. Also added three functions to insert merchant number, AppFee and GatewayAppFee as Sales Opps in the DataLayer in the CommonListTables class.
+7) Modified banking.aspx in Merchant to mask discover, amex and jcb numbers.
+8) Added UpdatePageCount in all static information pages in Merchant and Gateway.
+9) Fixed most of the HTML code warnings.
+10)Removed backgroung images for tables on aboutus.aspx and contactus.aspx and set table color to #f5f5f5.
+
+OnlineApplication (Ver. 1.0.9) - Bug fixes/New Features
+1) Removed the "Bank Information" header from bankinginfo.aspx and banking.aspx.
+2) Modified the width parameter on Merchant/companyinfo.aspx to be compatible with firefox.
+3) Added a Equipments.aspx page to display a list of equipments.
+4) Added css style for hyperlinks in site.master and main.master.
+5) Added Euipment option on register.aspx with account type 3.
+6) Modified default.aspx to check for account type 3 and then redirect to Equipment.aspx.
+7) Modified login.aspx to check for account type 3 and then redirect to Equipment.aspx.
+8) Added a "?" on default.aspx explaining which email to use when loggin in. (Due to firefox bug).
+9) Changed Font face from Times to Arial for all Images and text on all pages.
+10)Changed cookie expiry time from 10 to 30 minutes on start.aspx. Modified code to get RepNum for Affiliates.
+11)Modified the setpagecount logic in BusinessLayer.cs and DataLayer.cs and all pages in Merchant and Gateway.
+12)Added signin and signup images on default.aspx and start.aspx.
+13)Added "?" for Equipment description on register.aspx.
+14)Modified UpdateGatewayInfo function in DataLayer and BusinessLayer and added the Gateway name. Modified register.aspx and cardpct.aspx to pass the gateway name.
+15)Created new page to display equipment help.
+16)Changed TO email address to sales@commercetech.com.
+
+OnlineApplication (Ver. 1.0.8) - Bug fixes/New Features
+1) Added checks for script exploits on start.aspx and default.aspx while parsing URL parameters as int32.
+2) Added checks on site.master and main.master to check for unwanted tags in URL.
+3) Added server.htmlencode in updateacct.aspx before displaying data.
+4) Fixed bug with other referral in companyinfo.aspx.
+5) Changed tab order on Merchant/companyinfo.aspx.
+6) Added check for length of bank routing number.
+7) Created new banking.aspx page to display static banking information. Added edit button on page for user to edit banking information.
+8) Fixed bug where gateway/bankinginfo.aspx and merchant/bankinginfo.aspx were calling the same stored procedure.
+9) Modified code to set status and get status of application based on whether they are gateway or merchant accounts.
+10)Added new panel in main.master to display gateway application status.
+11)Hiding all statuses when on updateacc.aspx.
+12)Modified code to set banking information image for merchant account to green only if otherinfo table is complete.
+13)Fixed bug with other bank textbox not getting disabled on page load in bankinginfo.aspx.
+
+OnlineApplication (Ver. 1.0.7) - Bug fixes/New Features
+1) Corrected spelling mistakes in businessinfo.aspx
+2) Added business hours in contactus.aspx
+3) Corrected alignment problems in bankinginfo.aspx.
+4) Added a function to disable address controls in business.aspx.
+5) Removed pop.focus() from main.master and site.master.
+6) Fixed bug with other referral not being populated in companyinfo.aspx. Also removed OtherReferral flag.
+7) Fixed bug where exception was being thrown on response.redirect in register.aspx. Added false to response.redirect to supress the Response.end call.
+8) Fixed bug with Business Address Same check box in businessinfo.aspx.
+
+OnlineApplication (Ver. 1.0.6) - Bug fixes/New Features
+1) Changed logic for set page count. Checking for Complete and CompleteGW bits based on Account Type.
+2) Removed "NO" option from Discover in bankinginfo.aspx.
+3) Added checks for SSN/FEIN for length < 9.
+
+OnlineApplication (Ver. 1.0.5) - Bug fixes/New Features
+1) Assigning default CNP rates when PID=0 in register.aspx.
+2) Changing rates depending on swiped pct in cardpct.aspx.
+3) Changed errLabel and Validation Summary background color to #FFC0C0 and border color to red.
+
+OnlineApplication (Ver. 1.0.4) - Bug fixes/New Features
+1) Added new classes to insert and update password for new applications in register.aspx and update profile in editprofile.aspx.
+2) Modified logic to get Email Address in default.aspx.
+3) Modified logic to verify password in default.aspx.
+4) Removed Payment Gateway and Merchant Account from top banner.
+5) Modified error message for phone number in all pages.
+6) Changed contact phone to business phone and added home phone in register.aspx and editprofile.aspx.
+7) Changed logic to create new apps and update profile in register.aspx and editprofile.aspx.
+
+OnlineApplication (Ver. 1.0.3) - Bug fixes/New Features
+1) Set table width to 100% in start3.aspx and start2.aspx.
+2) Set background image property to repeat for start.aspx, start2.aspx start3.aspx.
+3) Added encryption logic to editprofile.aspx.
+
+OnlineApplication (Ver. 1.0.2) - Bug fixes/New Features
+1) Added encryption logic for encrypting password. Old users will still be able to login with their unencrypted passwords.
+2) Added check for whether the user is Admin and Employee or Rep.
+3) Modified error message on start2.aspx and first question on start2.aspx and start3.aspx.
+4) Changed years at address to time at address in principalinfo.aspx and changed the stored procedure in datalayer.
+
+OnlineApplication (Ver. 1.0.1) - Bug fixes/New Features
+1) Fixed spelling mistake in error message when application is locked. 
+2) Changed text color to #383838 on notice.aspx
+3) Added logic to check presence of ', #, ; and -- in the URL. The site.master and main.master check for ' in the URL. Helps prevent SQL Injection attacks.
+4) Added replace("'","") to all pages to remove ' from text boxes before inserting data into the database. Helps prevent SQL Injection attacks.
+5) Added checks for SQL injection. Checking for --, ', ;, # in all text boxes.
+6) Added SetErrorMessage function to all pages to display error messages.
+7) Added "Both" option in the registration page.
+8) Changed color and style of the error label and validation summary.
+9) Added unacceptable business question to start2.aspx and start3.aspx
+10)Added Start over links to start2.aspx and start3.aspx.
+11)Added logic to check if password length is < 5 characters in register.aspx and editprofile.aspx.
+12)Added logic to check for unwanted characters in password field.
+13)Added confirm message logic when user clicks on logout.
+14)Added images to table background with color code as #d0e0f1(light blue).
+15)Changed Label size and color in the theme file.
+16)Removed the merchant and gateway description from default.aspx and added two "?" images to register.aspx which show the merchant and gateway description pages.
+17)Added tab indexes to all forms.
+18)Added principal 1 and 2 email addresses in principalinfo.aspx.
+19)Added contact title in register.aspx
+20)Removed "Already Registered" link from register.aspx.
+21)Changed Signup link to start.aspx from register.aspx.
+22)Added panel to show/hide previous processing info in businessinfo.aspx.
+23)Changed link of home to start.aspx from default.aspx.
+24)Added Login image to site.master.
+25)Changed main banner mouseover images.
+26)Added UpdateAcct.aspx which will update the account type to 4.
+27)The register.aspx page is now displayed before redirecting to the quickbooks registration page.
+28)Added QB bit to onlineappnewapp. The bit is set in register.aspx.
+29)Added a new login.aspx page which enables agents to access and modify applications which are under their login.
+
+

@@ -1,0 +1,114 @@
+<%@ Page Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeFile="Equipment.aspx.cs"
+    Inherits="Equipment" Title="E-Commerce Exchange - Merchant Account And Payment Gateway"
+    Theme="textboxskin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContentHolder" runat="Server">
+    <asp:Label ID="lblError" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Small"
+        ForeColor="Red" Visible="False"></asp:Label><br />
+    <asp:ScriptManager ID="ScriptManagerEquip" runat="server">
+    </asp:ScriptManager>
+    <asp:Table ID="tblEquipment" runat="server" CellPadding="0" CellSpacing="0" Width="100%">
+    </asp:Table>
+    <br />
+    <table width="500px" style="background-color: #fbfbfb; border-right: silver 1px solid;
+        border-top: silver 1px solid; border-left: silver 1px solid; border-bottom: silver 1px solid"
+        border="0" cellpadding="2" cellspacing="2">
+        <tr>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td align="left" valign="top" >
+                    <p><span style="font-family: Arial; font-size: 8pt;">Accepts MasterCard/Visa, Discover, Diners Club,
+                    and American Express</span></p>
+            </td>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td valign="top"  align="left">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Automatic credit card batch summary printing and closing</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td  align="left" valign="top">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Accepts ATM/Debit cards</span></p>
+            </td>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td  align="left" valign="top">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Credit card fraud protection</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td align="left" valign="top">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Process check guarantee</span></p>
+            </td>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td  align="left" valign="top">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Credit card receipt header and trailer messages can be
+                    customized</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td valign="top" align="left">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Easy-on-the eyes flourescent characters for low light conditions</span></p>
+            </td>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td  align="left" valign="top">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Enhanced credit card detail lookup in the item review and
+                    void function</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td valign="top"  align="left">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Credit card receipts are numbered for easy review</span></p>
+            </td>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td  align="left" valign="top">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Refurbished equipment is also available for those looking
+                    for the most affordable solution.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td valign="top"  align="left">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Above are our most popular equipment, however we stock
+                    almost every model of every brand so please ask if there is a specific item you
+                    are looking for.</span></p>
+            </td>
+            <td align="left" valign="top">
+                <img alt="" height="8" src="Images/obullet.gif" style="border-right: 0px; border-top: 0px;
+                    border-left: 0px; border-bottom: 0px" width="8" /></td>
+            <td valign="top"  align="left">
+                    <p><span style="font-family: Arial; font-size: 8pt;">Emergency Equipment Replacement: Faulty equipment replaced
+                    within 24 hours.</span></p>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <a class="Link" href="javascript:window.history.back();" onmouseout='status=" ";'
+        onmouseover='status=" Back to previous page "; return true;'><span style="text-decoration: underline">
+        </span>
+        <img alt="" border="0" height="25" name="back" src="images/qc-back_off.gif" width="75" /></a><br />
+    <br />
+</asp:Content>

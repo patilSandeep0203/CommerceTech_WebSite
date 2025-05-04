@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<VSContent xmlns="http://schemas.microsoft.com/developer/vscontent/2005">
+  <Content>
+    <FileName>AjaxControlExtenderProjectVB.zip</FileName>
+    <DisplayName>ASP.NET AJAX Control Toolkit Extender Project (VB)</DisplayName>
+    <Description>ASP.NET AJAX Control Toolkit Extender Project (VB)</Description>
+    <FileContentType>VSTemplate</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="TemplateType" value="Project"></Attribute>
+      <Attribute name="ProjectType" value="Visual Basic"></Attribute>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>AjaxControlExtenderProjectCS.zip</FileName>
+    <DisplayName>ASP.NET AJAX Control Toolkit Extender Project (C#)</DisplayName>
+    <Description>ASP.NET AJAX Control Toolkit Extender Project (C#)</Description>
+    <FileContentType>VSTemplate</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="TemplateType" value="Project"></Attribute>
+      <Attribute name="ProjectType" value="Visual C#"></Attribute>
+    </Attributes>
+  </Content>
+
+  <Content>
+    <FileName>AjaxControlExtenderItemVB.zip</FileName>
+    <DisplayName>ASP.NET AJAX Control Toolkit Extender (VB)</DisplayName>
+    <Description>ASP.NET AJAX Control Toolkit Extender (VB)</Description>
+    <FileContentType>VSTemplate</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="TemplateType" value="Item"></Attribute>
+      <Attribute name="ProjectType" value="Visual Basic"></Attribute>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>AjaxControlExtenderItemCS.zip</FileName>
+    <DisplayName>ASP.NET AJAX Control Toolkit Extender (C#)</DisplayName>
+    <Description>ASP.NET AJAX Control Toolkit Extender (C#)</Description>
+    <FileContentType>VSTemplate</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="TemplateType" value="Item"></Attribute>
+      <Attribute name="ProjectType" value="Visual C#"></Attribute>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>AjaxControlToolkitWebsiteCS.zip</FileName>
+    <DisplayName>ASP.NET AJAX Control Toolkit Website (C#)</DisplayName>
+    <Description>ASP.NET AJAX Control Toolkit Website (C#)</Description>
+    <FileContentType>VSTemplate</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="TemplateType" value="Project"></Attribute>
+      <Attribute name="ProjectType" value="Visual Web Developer"></Attribute>
+      <Attribute name="ProjectSubType" value="CSharp"></Attribute>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>AjaxControlToolkitWebsiteVB.zip</FileName>
+    <DisplayName>ASP.NET AJAX Control Toolkit Website (VB)</DisplayName>
+    <Description>ASP.NET AJAX Control Toolkit Website (VB)</Description>
+    <FileContentType>VSTemplate</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="TemplateType" value="Project"></Attribute>
+      <Attribute name="ProjectType" value="Visual Web Developer"></Attribute>
+      <Attribute name="ProjectSubType" value="VisualBasic"></Attribute>
+    </Attributes>
+  </Content>
+</VSContent>

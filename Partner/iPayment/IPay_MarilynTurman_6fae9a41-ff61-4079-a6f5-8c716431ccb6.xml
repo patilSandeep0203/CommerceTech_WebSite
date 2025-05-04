@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Marilyn Turman</BusName>
+      <DBA>Treasures 4 Your Pleasures</DBA>
+      <BusAddr>
+        <st_name>1825 Kings Highway </st_name>
+        <city>Clearwater</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33755</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>1825 Kings Highway </st_name>
+        <city>Clearwater</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33755</zip>
+      </MailAddr>
+      <LOS>
+      </LOS>
+      <FedTaxId>284625139</FedTaxId>
+      <BusPhone>727-433-2089</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>
+      </CustPhone>
+      <ContactName>Marilyn Turman</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>3</LOB>
+      <BusHrs>24/7</BusHrs>
+      <email>silkmrt1@verizon.net</email>
+      <url>
+      </url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>25</RetailCardSwipe>
+      <RetailManuallyKeyed>25</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>50</Moto>
+      <OwnershipType>Sole Proprietorship</OwnershipType>
+      <CustRefundPol>Exchange Only</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>sells lingerie products</ProdType>
+      <DelTime>right away</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>1</EverProcessed>
+      <WhoProcessed>iPayment, Inc.</WhoProcessed>
+      <EverTerminated>0</EverTerminated>
+      <TerminationReason>
+      </TerminationReason>
+      <FormerMerchNum>4223693601053881</FormerMerchNum>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Marilyn</FirstName>
+      <LastName>Turman</LastName>
+      <SSN>284625139</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>1825 Kings Highway </st_name>
+        <city>Clearwater</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33755</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>36</LOS>
+      <Phone>727-433-2089</Phone>
+      <DOB>05/25/1965</DOB>
+      <LicNum>T655556656850</LicNum>
+      <LicState>FL</LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>40558</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.29</DiscFee>
+          <MidQualFee>3.09</MidQualFee>
+          <NonQualFee>4.19</NonQualFee>
+        </CardPresent>
+        <TransFee>0.26</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>15.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.26</BatchHeaders>
+      <ExternalGWFee>
+      </ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>4000</MonthlyProcLimit>
+      <AvgTicket>100</AvgTicket>
+      <NeedAmex>0</NeedAmex>
+      <NeedDiscover>0</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Achieva Credit Union</BankName>
+      <BankAddr>P.O. Box 2650</BankAddr>
+      <TransroutingNum>263182312</TransroutingNum>
+      <DDA>0000014828800</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

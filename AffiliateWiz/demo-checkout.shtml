@@ -1,0 +1,507 @@
+<!--#Include File="top.shtml"-->
+<!-- INSERT MAIN CONTENT BELOW -->
+
+
+<CENTER>
+<TABLE width="100%" cellspacing="0" cellpadding="10" border="0" bgcolor="#ffffff">
+	<TR>
+		<TD>
+		<TABLE align="center" border="0" cellpadding="0" cellspacing="0">
+			<TR>
+				<TD >
+					<IMG src="images/qc-logo-12.gif"></TD>				
+			</TR>
+		</TABLE>
+<TABLE height="100%" width="97%" cellspacing="0" cellpadding="0" border="0">
+<TR>
+      <TD valign="middle" align="left" colspan="2">
+	  <BR>
+      <FONT face="Arial" size="-1" color="#000000">This is a <i>demo</i>
+      Internet storefront, and is an example only. It is designed to simulate a
+      commerce-enabled website and demonstrate secure online credit card
+      transactions using our Payment Gateway. The shopping cart which is used in
+      this Internet demo storefront is one of many which are compatible with our
+      Payment Gateway. In order to process credit cards it is necessary to
+      establish a merchant account. Please contact Commerce Technologies at
+      800-477-5363 for information on secure credit card acceptance and online
+      credit card processing.
+	  <BR><BR>
+	  <b>TO USE THIS DEMO STORE:</b>
+	  </FONT>
+	  </TD>
+	</TR>
+    <TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+			<FONT face="Arial" size="-1" color="#000000">
+			Select items to be purchased by clicking on the &quot;Add to Cart&quot; buttons. (You can always remove items from your cart later.)
+			</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+			<FONT face="Arial" size="-1" color="#000000">
+			Review your order by clicking VIEW CART.
+			</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+		<FONT face="Arial" size="-1" color="#000000">Click on CHECK OUT.</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+		<FONT face="Arial" size="-1" color="#000000">
+		NOTE: This page is for demonstration purposes only! No products will be shipped, and you will not be billed.
+		<BR><BR>
+        </FONT>
+      	</TD>
+    </TR>
+<TR>
+ <TD align="center" valign="bottom" colspan="4" border="0">
+
+<TABLE width="500" cellspacing="0" cellpadding="5" bordercolor="#064787" border="1">
+<TR bgcolor="#ffffff"><TD align="center" valign="middle">
+<TABLE border="0" cellspacing="0" cellpadding="5">
+
+<TR>
+	<TD align="center" valign="middle">
+	    <FONT size="-1" color="#000000" face="Arial, Helvetica">
+	    <b><a href="demo-store.shtml" target="_self" onmouseover="status=&quot; Return to the demo homepage &quot;;return(true);">ORDER &nbsp;&nbsp;</a>|
+        <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">&nbsp;&nbsp; VIEW CART &nbsp;&nbsp;</a>|
+        <a href="demo-checkout.shtml" target="_self" onmouseover="status=&quot; Confirm your order and submit payment ! &quot;; return(true);">&nbsp;&nbsp; CHECK OUT</a></b>
+	    </FONT>
+	    </TD>
+</TR>
+
+<TR><TD align="center" valign="middle" colspan="4"><IMG src="images/qc-hr.gif" width="375" height="10" border="0"><BR><BR></TD></TR>
+
+<TR bgcolor="#ffffff">
+ <TD valign="bottom" align="center" colspan="4">
+<b><i>
+   <FONT face="Arial" color="#064787">
+Invoice Summary
+   </FONT>
+ </i></b>
+ </TD>
+</TR>
+<TR bgcolor="#ffffff">
+ <TD valign="middle" align="center" colspan="4">
+
+<FORM method="POST" action="https://trans.quickcommerce.com/cgi-bin/trans.cgi">
+ <INPUT type="hidden" name="action" value="sale">    
+<input type=hidden name=shippingtype value="UPS">
+<input type=hidden name=shippingregion value="US">                                       
+ <INPUT type="hidden" name="acctid" value="edemo">
+<!-- <INPUT type="hidden" name="x_Login" value="demostore"> old login now inactive? -->
+ <INPUT type="hidden" name="x_Version" value="3.0">
+ 
+<SCRIPT language="JavaScript">
+
+MaxCartItems = 15;
+
+function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+  if (endstr == -1)
+    endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie (name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+	   if (document.cookie.substring(i, j) == arg)
+     return getCookieVal (j);
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0) break; 
+  }
+  return null;
+}
+
+function SetCookie (name, value) {
+  var argv = SetCookie.arguments;
+  var argc = SetCookie.arguments.length;
+  var expires = (argc > 2) ? argv[2] : null;
+  var path = (argc > 3) ? argv[3] : null;
+  var domain = (argc > 4) ? argv[4] : null;
+  var secure = (argc > 5) ? argv[5] : false;
+  document.cookie = name + "=" + escape (value) +
+    ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+    ((path == null) ? "" : ("; path=" + path)) +
+    ((domain == null) ? "" : ("; domain=" + domain)) +
+    ((secure == true) ? "; secure" : "");
+}
+
+function DeleteCookie (name) {
+  var exp = new Date();
+  exp.setTime (exp.getTime() - 1);  // This cookie is history
+  var cval = GetCookie (name);
+  if (cval != null)
+    document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+
+function ShowInvoice() 
+{
+	totprice = 0;
+	itemlist = 0;
+	TotQty = 0;
+	TotWeight = 0;
+	FinalTotWeight = 0;
+
+	document.writeln('<TABLE border="0" cellspacing="4" cellpadding="0">');
+
+	document.writeln('<TR><TD align="center"><FONT face="Arial" size="-1"><b>ID</b></FONT></TD><TD align="center"><FONT face="Arial" size="-1"><b>Description</b></FONT></TD><TD align="center"><FONT face="Arial" size="-1"><b>Qty</b></FONT></TD><TD align="center"><FONT face="Arial" size="-1"><b>Weight</b></FONT></TD><TD align=center><FONT face="Arial" size="-1"><b>Price</b></FONT></TD><TD align="center"><FONT face="Arial" size="-1"><b>Total</b></FONT></TD></TR><TR><TD colspan="6"><HR NOSHADE></TD></TR>');
+
+	for(NumItems = 0; NumItems<MaxCartItems; NumItems++)
+	{
+		CookieName = "ItemList" +NumItems;
+		CookieValue = GetCookie(CookieName);
+		if(CookieValue != null)
+		{
+			for(var i = 0;i <= CookieValue.length; i++)
+			{
+				// using 0192,0193,0194,0195,0196
+				if (CookieValue.substring(i,i+1) == '[') 
+				{
+					itemstart = i+1;
+				} 
+				else if (CookieValue.substring(i,i+1) == 'À') 
+				{
+					ID = CookieValue.substring(itemstart, i);
+					document.write('<INPUT type="hidden" name="itemid" value="'+ID+'">');
+					itemstart = i+1;
+				} 
+				else if (CookieValue.substring(i,i+1) == 'Á') 
+				{
+					Sdesc = CookieValue.substring(itemstart, i);
+					document.write('<INPUT type="hidden" name="itemname" value="'+ID+'">');
+					document.write('<INPUT type="hidden" name="itemdesc" value="'+Sdesc+'">');
+					itemstart = i+1;
+				}
+				else if (CookieValue.substring(i,i+1) == 'Â') 
+				{
+					Price = CookieValue.substring(itemstart, i);
+					document.write('<INPUT type="hidden" name="itemprice" value="'+Price+'.00">');
+					itemstart = i+1;
+				}
+				else if (CookieValue.substring(i,i+1) == 'Ã') 
+				{
+					Qty = CookieValue.substring(itemstart, i);
+					document.write('<INPUT type="hidden" name="itemquant" value="'+Qty+'">');
+					itemstart=i+1;
+				} 
+				else if (CookieValue.substring(i,i+1) == 'Ä') 
+				{
+					Weight = CookieValue.substring(itemstart, i);
+					document.write('<INPUT type="hidden" name="itemweight" value="'+Weight+'">');
+					itemstart = i+1;
+				}
+				else if (CookieValue.substring(i,i+1) == ']') 
+				{
+					WeightUnit = CookieValue.substring(itemstart, i);
+
+					itemstart = i+1;
+					TotQty = TotQty + parseInt(Qty);
+					TotWeight = Weight * Qty;
+					ItemTotal = 0;
+					ItemTotal = (eval(Price*Qty));
+					temptotal = ItemTotal * 100;
+					totprice = totprice + ItemTotal;
+					FItemTotal = FloatFormat(ItemTotal,2);
+					FTotWeight = FloatFormat(TotWeight,2);
+					ConvertUnit(TotWeight,WeightUnit,'lbs');
+					ConvertedWeight = NewUnitSize;
+					FinalTotWeight = FinalTotWeight + NewUnitSize;
+					FConvertedWeight = FloatFormat(ConvertedWeight,2);
+
+			//document.writeln('<INPUT type="hidden" name="Item" value="------------------------------------------------------------------------">');
+
+			//document.writeln('<INPUT type="hidden" name="x_Trans_ID" value="'+ID+'">');
+			//document.writeln('<INPUT type="hidden" name="x_Cust_ID" value="785543">');
+			//document.writeln('<INPUT type="hidden" name="x_Company" value="Your Company Name Here">');
+			//document.writeln('<INPUT type="hidden" name="Description" value="'+Sdesc+'">');
+			//document.writeln('<INPUT type="hidden" name="Qty" value="'+Qty+'">');
+			//document.writeln('<INPUT type="hidden" name="Price Each" value="'+Price+'">');
+			//document.writeln('<INPUT type="hidden" name="Total Price '+Qty+' items(s)" value="'+FItemTotal+'">');
+
+			document.writeln('<TR><TD><FONT size="-1">'+ID+'</FONT></TD><TD><FONT size="-1">'+Sdesc+'</FONT></TD><TD align="right"><FONT size="-1">'+Qty+'</FONT></TD><TD align="right"><FONT size="-1">'+FConvertedWeight+' lbs</FONT></TD><TD align="right"><FONT size="-1">'+Price+'</FONT></TD><TD align="right"><FONT size="-1">'+FItemTotal+'</FONT></TD></TR>');
+
+			//document.writeln('<INPUT type="hidden" name="Weight" value="'+FTotWeight+' '+WeightUnit+'">');
+
+			//document.writeln('<INPUT type="hidden" name="Weight Converted to lbs" value="'+FConvertedWeight+'">');
+				}
+			}
+		}
+	}
+
+	Ftotprice = FloatFormat(totprice,2);
+	//document.writeln('<input type=hidden name="Totals" value="------------------------------------------------------------------------">');
+
+	document.writeln('<TR><TD colspan="5"><FONT face="Arial" size="-1"><b>Sub Total</b></FONT></TD><TD align="right"><b>'+Ftotprice+'</b></TD></TR><TR><TD colspan="6"><HR NOSHADE></TD></TR>');
+	document.writeln('<INPUT type="hidden" name="Sub Total" value="'+Ftotprice+'">');
+
+	Tax = totprice * .07750000;
+	CTax = 0;
+	FTax = FloatFormat(Tax,2);
+	FCTax = FloatFormat(CTax,2);
+	OCShipping = 25.00;
+	Shipping = 0;
+
+	if(FinalTotWeight >= 0.01 && FinalTotWeight >= 10)
+	{
+		Shipping = 3.50;
+		TmpFinalTotWeight = FinalTotWeight - 10;
+		TmpFinalTotWeight = TmpFinalTotWeight / 1;
+		TmpFinalTotWeight = TmpFinalTotWeight * 0.35;
+		Shipping = TmpFinalTotWeight + Shipping;
+	}
+
+	else if(FinalTotWeight >= 0.01 && FinalTotWeight <= 10)
+		Shipping = 3.50;
+
+	FShipping = FloatFormat(Shipping,2);
+	FOCShipping = FloatFormat(OCShipping,2);
+	FFinalTotWeight = FloatFormat(FinalTotWeight,2);
+
+	//document.writeln('<TR><TD colspan="3"><FONT face="Arial" size="-1"><b>Weight</b></FONT></TD><TD align=right><FONT face="Arial" size="-1">'+FFinalTotWeight+' lbs</FONT></TD></TR>');
+
+	//document.writeln('<INPUT type="hidden" name="lbs" value="'+FFinalTotWeight+' Total Weight">');
+
+	//document.writeln('<TR><TD colspan="5"><FONT face="Arial" size="-1"><b>Shipping</b></FONT></TD><TD align=right><FONT face="Arial" size="-1">'+FShipping+'</FONT></TD></TR>');
+
+	//document.writeln('<INPUT type="hidden" name="Shipping" value="'+FShipping+'">');
+
+	//document.writeln('<INPUT type="hidden" name="Shipping outside of USA add " value="'+FOCShipping+'">');
+
+	NatFGrandTotal = FloatFormat(totprice + CTax + Shipping,2);
+
+	ONatFGrandTotal = FloatFormat(totprice + Shipping + OCShipping,2);
+
+	FGrandTotal = FloatFormat(totprice + Tax + CTax + Shipping,2);
+
+	//document.writeln('<TR><TD colspan="5"><FONT face="Arial" size="-1"><b>Sales Tax</b></FONT></TD><TD align="right"><FONT face="Arial" size="-1">'+FTax+'</FONT></TD></TR>');
+
+	//document.writeln('<INPUT type="hidden" name="CA Sales Tax" value="'+FTax+'">');
+
+	//document.writeln('<TR><TD colspan="6"><HR NOSHADE></TD></TR><TR><TD colspan="5"><b><FONT face="Arial" size="-1"><UL>TOTAL</FONT></b></TD><TD align="right"><FONT face="Arial" size="-1"><b>$ '+FGrandTotal+'</b></FONT></TD></TR>');
+
+	//document.writeln('<INPUT type="hidden" name="Amount" value=" '+FGrandTotal+'">');
+
+	//document.writeln('<INPUT type="hidden" name="AMOUNT2" value=" '+NatFGrandTotal+'">');
+
+	//document.writeln('<INPUT type="hidden" name="AMOUNT3" value=" '+ONatFGrandTotal+'">');
+	document.writeln('</TABLE>');
+}
+
+function FloatFormat(expr,decplaces)
+{
+	var str = "" + Math.round(eval(expr) * Math.pow(10,decplaces));
+	while(str.length <= decplaces)
+	{
+		str = "0" + str;
+	}
+
+	var decpoint = str.length - decplaces;
+	return str.substring(0,decpoint) + "." + str.substring(decpoint,str.length);
+}
+
+rsize = 10;		// rounding size
+oz_factor = 1;		// ounces to ounces
+lbs_factor = 0.0625;		// ounces to pounds
+mg_factor = 28349.5;		// ounces to miligrams
+g_factor = 28.3495;		// ounces to grams
+kg_factor = .0283495;	// ounces to kilograms
+var UnitSize;	// weight number being converted
+var OldUnit;	// converting from
+var NewUnit;	// converting to
+var NewUnitSize;	// new weight in new unit
+
+function ConvertUnit(UnitSize,OldUnit,NewUnit)
+{
+// possible units
+// oz
+// lbs
+// mg
+// g
+// kg
+
+	NewUnitSize = 0;
+	TmpUnitSize = 0;
+
+	// if not oz, convert to oz first
+	if(OldUnit != 'oz')
+	{
+		if(OldUnit == 'lbs')
+		{
+			TmpUnitSize = UnitSize / lbs_factor;
+		}
+		else if(OldUnit == 'mg')
+		{
+			TmpUnitSize = UnitSize / mg_factor; 
+		}
+		else if(OldUnit == 'g')
+		{
+			TmpUnitSize = UnitSize / g_factor; 
+		}
+		else if(OldUnit == 'kg')
+		{
+			TmpUnitSize = UnitSize / kg_factor; 
+		}
+	}
+	else
+	{
+		// if oz, keep as is
+		TmpUnitSize = UnitSize;
+	}
+
+	// since TmpUnitSize is now oz, convert to NewUnit;
+	if(NewUnit == 'oz')
+	{
+		NewUnitSize = TmpUnitSize;
+	}
+	else if(NewUnit == 'lbs')
+	{
+		NewUnitSize = TmpUnitSize * lbs_factor;
+	}
+	else if(NewUnit == 'mg')
+	{
+		NewUnitSize = TmpUnitSize * mg_factor;
+	}	
+	else if(NewUnit == 'g')
+	{
+		NewUnitSize = TmpUnitSize * g_factor;
+	}	
+	else if(NewUnit == 'kg')
+	{
+		NewUnitSize = TmpUnitSize * kg_factor;
+	}	
+}
+
+</SCRIPT>
+   <FONT color="#ffffff">
+<SCRIPT language="JavaScript">ShowInvoice();</SCRIPT>
+   </FONT>
+ </TD>
+</TR>
+<TR bgcolor="#ffffff">
+ <TD valign="middle" align="center" colspan="4">
+
+<TABLE width="500" border="1" cellpadding="2" cellspacing="0" bordercolor="#064787">
+<TR>
+ <TD align="center" colspan="2" nowrap>
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="5">
+<TR bgcolor="#ffffff">
+ <TD><FONT face="Arial" size="-1">Name</FONT></TD>
+ <TD><INPUT type="text" size="10" maxlength="25" name="fname" value=""><INPUT type="text" size="10" maxlength="25" name="lname" value=""></TD>
+ <TD><FONT face="Arial" size="-1">E-mail</FONT></TD>
+ <TD><INPUT type="text" size="20" maxlength="25" name="email" value=""></TD>
+</TR>
+<TR bgcolor="#ffffff">
+ <TD><FONT face="Arial" size="-1">Phone</FONT></TD>
+ <TD><INPUT type="text" size="20" maxlength="25" name="phone" value=""></TD>
+ <TD><FONT face="Arial" size="-1">Address</FONT></TD>
+ <TD><INPUT type="text" size="20" maxlength="25" name="addr1" value=""></TD>
+</TR>
+<TR bgcolor="#ffffff">
+ <TD><FONT face="Arial" size="-1">Fax</FONT></TD>
+ <TD><INPUT type="text" size="20" maxlength="15" name="fax" value=""></TD>
+ <TD><FONT face="Arial" size="-1">City, ST, Zip</FONT></TD>
+ <TD><INPUT type="text" size="7" maxlength="25" name="city" value=""><INPUT type="text" size="2"  maxlength="2" name="state" value=""><INPUT type="text" size="7" maxlength="10" name="zip" value=""></TD>
+</TR>
+<TR bgcolor="#ffffff">
+ <TD><FONT face="Arial" size="-1">Card</FONT></TD>
+ <TD>
+<SELECT name="paymethod" size="1">
+ <OPTION value="visa" >Visa
+ <OPTION value="mc" SELECTED>MasterCard
+ <OPTION value="amex">AmEx
+ <OPTION value="disc">Discover
+ <OPTION value="CHECK">ACH
+</SELECT>
+</TD>
+ <TD><FONT face="Arial" size="-1">Country</FONT></TD>
+ <TD><INPUT type="text" size="20" maxlength="20" name="country" value=""></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+
+ </TD>
+</TR>
+
+<TR><TD align="center" valign="middle" colspan="4">
+<BR><FONT face="Arial, Helvetica" color="#BA1204"><b>IMPORTANT!<br>
+</b></FONT><FONT face="Arial" size="-2" color="#000000">BEFORE YOU PRESS THE
+FINISH BUTTON, WRITE DOWN OR COPY THIS TEST CREDIT CARD NUMBER AND EXPIRATION
+DATE TO USE ON THE NEXT
+PAGE TO COMPLETE YOUR ORDER:&nbsp;</FONT><br>
+<b><FONT color="#BA1204" face="Arial, Helvetica">5454545454545454
+   </FONT>
+</b> <FONT color="#BA1204" face="Arial, Helvetica"> - <b>Expiration: 1205<br>
+</b>
+   </FONT>
+<BR>
+<INPUT type="submit" value="FINISH">
+
+<input type="hidden" name="USEPOST" value=0 size=1>
+<input type="hidden" name="Accepturl" value="http://www.2show.com/cgi-bin/qcpro.pl">
+<input type="hidden" name="Declineurl" value="https://trans.quickcommerce.com/cgi-bin/showresult.cgi">
+<!--<input type="hidden" name="Accepturl" value="http://www.ecenow.com/qcpro_accept.shtml">
+<input type="hidden" name="Declineurl" value="http://www.ecenow.com/qcpro_declined.shtml">-->
+<input type="hidden" name="subid" value="ECENO">
+<input type="hidden" name="email_text" value="1">
+<input type="hidden" name="emailfrom" value="test@test.com">
+<input type="hidden" name="emailsubject" value="Receipt">
+<input type="hidden" name="testvar" value="testit">
+<INPUT type="hidden" name="body" value="">
+<INPUT type="hidden" name="title" value="TEST Order Form">
+<INPUT type="hidden" name="header" value="<h1><font color=red>TEST</font > Order Form </h1>">
+<INPUT type="hidden" name="footer" value="">
+<INPUT type="hidden" name="domainname" value="">
+<INPUT type="hidden" name="securedomainname" value="">
+<INPUT type="hidden" name="alias" value="">
+
+</FORM>
+</TD></TR>
+
+<TR><TD align="center" valign="bottom" colspan="4">
+<b><FONT size="-1" color="#064787" face="Arial, Helvetica">
+To continue shopping, </FONT><FONT size="-1" color="#007b79" face="Arial, Helvetica">
+ <a href="demo-store.shtml" target="_self" onMouseOver="status=&quot; Review the items that you have selected !&quot;;return(true);"><i>CLICK HERE</i></a> !</FONT></b></TD></TR>
+
+<TR><TD align="center" valign="middle" colspan="4"><BR><IMG src="images/qc-hr.gif" width="375" height="10" border="0"><BR></TD></TR>
+
+<TR>
+	<TD align="center" valign="middle"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b><a href="demo-store.shtml" target="_self" onmouseover="status=&quot; Return to the demo homepage &quot;;return(true);">ORDER
+	&nbsp;&nbsp;</a>| <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">&nbsp;&nbsp;
+	VIEW CART &nbsp;&nbsp;</a>| <a href="demo-checkout.shtml" target="_self" onmouseover="status=&quot; Confirm your order and submit payment ! &quot;; return(true);">&nbsp;&nbsp;
+	CHECK OUT</a></b></FONT>
+	</TD>
+</TR>
+
+</TABLE></TD></TR></TABLE>
+</TD>
+</TR>
+
+<TR bgcolor="#ffffff">
+	<TD valign="middle" align="center" colspan="4">
+	<BR>
+	<FONT size="-2" color="#000000" face="Arial, Helvetica">
+	(All copyrights property of their respective owners.)
+	</FONT>
+	</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+<!-- INSERT MAIN CONTENT BELOW -->
+<!--#Include File="bottom.shtml"-->

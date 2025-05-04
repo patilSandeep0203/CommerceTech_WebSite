@@ -1,0 +1,345 @@
+<!--#Include File="top.shtml"-->
+<!-- INSERT MAIN CONTENT BELOW -->
+
+
+<CENTER>
+<TABLE width="100%" cellspacing="0" cellpadding="10" border="0" bgcolor="#ffffff">
+	<TR>
+		<TD>
+		<TABLE align="center" border="0" cellpadding="0" cellspacing="0">
+			<TR>
+				<TD >
+					<IMG src="images/qc-logo-12.gif"></TD>				
+			</TR>			
+		</TABLE>
+<TABLE height="100%" width="97%" cellspacing="0" cellpadding="0" border="0">
+	<TR>
+      <TD valign="middle" align="left" colspan="2">
+	  <BR>
+      <FONT face="Arial" size="-1" color="#000000">This is a <i>demo</i>
+      Internet storefront, and is an example only. It is designed to simulate a
+      commerce-enabled website and demonstrate secure online credit card
+      transactions using our Payment Gateway. The shopping cart which is used in
+      this Internet demo storefront is one of many which are compatible with our
+      Payment Gateway. In order to process credit cards it is necessary to
+      establish a merchant account. Please contact Commerce Technologies at
+      800-477-5363 for information on secure credit card acceptance and online
+      credit card processing.
+	  <BR><BR>
+	  <b>TO USE THIS DEMO STORE:</b>
+	  </FONT>
+	  </TD>
+	</TR>
+    <TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+			<FONT face="Arial" size="-1" color="#000000">
+			Select items to be purchased by clicking on the &quot;Add to Cart&quot; buttons. (You can always remove items from your cart later.)
+			</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+			<FONT face="Arial" size="-1" color="#000000">
+			Review your order by clicking VIEW CART.
+			</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+		<FONT face="Arial" size="-1" color="#000000">Click on CHECK OUT.</FONT>
+		</TD>
+	</TR>
+	<TR bgcolor="#ffffff">
+		<TD align="right" valign="top">&nbsp;&nbsp;<IMG src="images/qc-bullet.gif" height="10" width="10" border="0"></TD>
+		<TD align="left" valign="middle"> 
+		<FONT face="Arial" size="-1" color="#000000">
+		NOTE: This page is for demonstration purposes only! No products will be shipped, and you will not be billed.
+		<BR><BR>
+        </FONT>
+      	</TD>
+    </TR>
+<TR>
+ <TD align="center" valign="bottom" colspan="4" border="0">
+
+<TABLE width="500" cellspacing="0" cellpadding="5" bordercolor="#064787" border="1">
+<TR bgcolor="#ffffff"><TD align="center" valign="middle">
+<TABLE border="0" cellspacing="0" cellpadding="5">
+	<TR>
+		<TD align="center" valign="middle">
+		    <FONT size="-1" color="#000000" face="Arial, Helvetica">
+		    <b><a href="demo-store.shtml" target="_self" onmouseover="status=&quot; Return to the demo homepage &quot;;return(true);">ORDER &nbsp;&nbsp;</a>|
+            <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">&nbsp;&nbsp; VIEW CART &nbsp;&nbsp;</a>|
+            <a href="demo-checkout.shtml" target="_self" onmouseover="status=&quot; Confirm your order and submit payment ! &quot;; return(true);">&nbsp;&nbsp; CHECK OUT</a></b>
+		    </FONT>
+		    </TD>
+	</TR>
+<TR><TD align="center" valign="middle" colspan="4"><IMG src="images/qc-hr.gif" width="375" height="10" border="0"><BR><BR></TD></TR>
+
+<TR><TD align="center" valign="middle" colspan="4"><BR><IMG src="images/exotic-cars.jpg" alt=" Only the finest cars in the world! " width="400" height="100" border="0"></TD></TR>
+
+<TR bgcolor="#ffffff">
+ <TD valign="top" align="center" colspan="4">
+
+
+<SCRIPT language="JavaScript">
+
+MaxCartItems = 15;
+
+function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+  if (endstr == -1)
+    endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie (name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+	   if (document.cookie.substring(i, j) == arg)
+     return getCookieVal (j);
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0) break; 
+  }
+  return null;
+}
+
+function SetCookie (name, value) {
+  var argv = SetCookie.arguments;
+  var argc = SetCookie.arguments.length;
+  var expires = (argc > 2) ? argv[2] : null;
+  var path = (argc > 3) ? argv[3] : null;
+  var domain = (argc > 4) ? argv[4] : null;
+  var secure = (argc > 5) ? argv[5] : false;
+  document.cookie = name + "=" + escape (value) +
+    ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+    ((path == null) ? "" : ("; path=" + path)) +
+    ((domain == null) ? "" : ("; domain=" + domain)) +
+    ((secure == true) ? "; secure" : "");
+}
+
+function DeleteCookie (name) {
+  var exp = new Date();
+  exp.setTime (exp.getTime() - 1);  // This cookie is history
+  var cval = GetCookie (name);
+  if (cval != null)
+    document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+
+function ShowCart() 
+{
+	totprice = 0;
+	itemlist = 0;
+
+	document.writeln('<TABLE border="0" cellspacing="0" cellpadding="0">');
+	document.writeln('<TR><TD align="center" valign="middle">');
+	document.writeln('<FORM>');
+	document.writeln('<TABLE border="0" cellspacing="2" cellpadding="5">');
+	document.writeln('<TR><TD align="center"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b>CAT</b></FONT></TD><TD align="center"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b>DESCRIPTION</b></FONT></TD><TD align="center"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b>QTY</b></FONT></TD><TD align="center"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b>PRICE</b></FONT></TD><TD align="center"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b>TOTAL</b></FONT></TD><TD align="center"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b>ACTION</b></FONT></TD></TR>');
+
+	document.writeln('<TR><TD align="center" colspan="6"><HR NOSHADE></TD></TR>');
+
+	for(NumItems = 0; NumItems<MaxCartItems; NumItems++)
+	{
+		CookieName = "ItemList" +NumItems;
+		CookieValue = GetCookie(CookieName);
+
+		if(CookieValue != null)
+		{
+			for(var i = 0;i <= CookieValue.length; i++)
+			{
+				// using 0192,0193,0194,0195,0196
+				if (CookieValue.substring(i,i+1) == '[') 
+				{
+					itemstart = i+1;
+				} 
+				else if (CookieValue.substring(i,i+1) == 'À') 
+				{
+					ID = CookieValue.substring(itemstart, i);
+					itemstart = i+1;
+				} 
+				else if (CookieValue.substring(i,i+1) == 'Á') 
+				{
+					Sdesc = CookieValue.substring(itemstart, i);
+					itemstart = i+1;
+				}
+				else if (CookieValue.substring(i,i+1) == 'Â') 
+				{
+					Price = CookieValue.substring(itemstart, i);
+					itemstart = i+1;
+				}
+				else if (CookieValue.substring(i,i+1) == 'Ã') 
+				{
+					itemend = i;
+					Qty = CookieValue.substring(itemstart, itemend);
+					ItemTotal = 0;
+					ItemTotal = (eval(Price*Qty));
+					temptotal = ItemTotal * 100;
+					totprice = totprice + ItemTotal;
+					itemlist=itemlist+1;
+
+					FItemTotal = FloatFormat(ItemTotal,2);
+document.writeln('<TR><TD><FONT size="-1" color="#064787" face="Arial, Helvetica">'+ID+'</FONT></TD><TD><FONT size="-1" color="#064787" face="Arial, Helvetica">'+Sdesc+'</FONT></TD><TD align="right"><FONT size="-1" color="#064787" face="Arial, Helvetica"><INPUT method="POST" name="Qty'+NumItems+'" type="TEXT" size="3" onChange="QtyChange('+NumItems+',Qty'+NumItems+'.value)" value="'+Qty+'"></FONT></TD><TD align="right"><FONT size="-1" color="#064787" face="Arial, Helvetica">'+Price+'</FONT></TD><TD align="right">'+FItemTotal+'</FONT></TD><TD><a href="javascript:RemoveItem('+NumItems+')"><FONT size="-1" color="#064787" face="Arial, Helvetica"><b> Remove</b></FONT></A></TD></TR>');
+				} 
+				else if (CookieValue.substring(i,i+1) == 'Ä') 
+				{
+					Weight = CookieValue.substring(itemstart, i);
+					itemstart = i+1;
+				}
+				else if (CookieValue.substring(i,i+1) == ']') 
+				{
+					WeightUnit = CookieValue.substring(itemstart, i);
+					itemstart = i+1;
+				}
+			}
+		}
+	}
+
+	Ftotprice = FloatFormat(totprice,2);
+	document.writeln('<TR><TD colspan="4"><FONT color="#064787" face="Arial, Helvetica"><b>Subtotal</b></FONT></TD><TD align="right"><FONT color="#064787" face="Arial, Helvetica"><b>'+Ftotprice+'</b></FONT></TD><TD></TD></TR>');
+	document.writeln('</TABLE>');
+	document.writeln('<BR><INPUT type="BUTTON" name="clear" value="CLEAR ALL" onClick="EmptyCart()"></FORM>');
+	document.writeln('</TD></TR></TABLE>');
+
+}
+
+function QtyChange(itemnum,Qty)
+{
+	CookieName = "ItemList" +itemnum;
+	CookieValue = GetCookie(CookieName);
+
+	for(var i = 0;i <= CookieValue.length; i++)
+	{
+		// using 0192,0193,0194,0195,0196
+		if (CookieValue.substring(i,i+1) == '[') 
+		{
+			itemstart = i+1;
+		} 
+		else if (CookieValue.substring(i,i+1) == 'À') 
+		{
+			ID = CookieValue.substring(itemstart, i);
+			itemstart = i+1;
+		} 
+		else if (CookieValue.substring(i,i+1) == 'Á') 
+		{
+			Sdesc = CookieValue.substring(itemstart, i);
+			itemstart = i+1;
+		}
+		else if (CookieValue.substring(i,i+1) == 'Â') 
+		{
+			Price = CookieValue.substring(itemstart, i);
+			itemstart = i+1;
+		}
+		else if (CookieValue.substring(i,i+1) == 'Ã') 
+		{
+			OldQty = CookieValue.substring(itemstart, itemend);
+			itemstart = i+1;
+		} 
+		else if (CookieValue.substring(i,i+1) == 'Ä') 
+		{
+			Weight = CookieValue.substring(itemstart, i);
+			itemstart = i+1;
+		}
+		else if (CookieValue.substring(i,i+1) == ']') 
+		{
+			WeightUnit = CookieValue.substring(itemstart, i);
+			itemstart = i+1;
+		}
+	}
+
+	NewCookieValue = "["+ID+"À"+Sdesc+"Á"+Price+"Â"+Qty+"Ã"+Weight+"Ä"+WeightUnit+"]";
+	if(Qty <= 0)
+		DeleteCookie(CookieName)
+	else
+		SetCookie(CookieName,NewCookieValue);
+
+	self.location = "demo-cart.shtml";
+}
+
+function RemoveItem(itemnum)
+{
+	CookieName = "ItemList" +itemnum;
+	DeleteCookie(CookieName);
+	self.location = "demo-cart.shtml";
+}
+
+function EmptyCart()
+{
+	if(confirm('Are you sure you want to empty the shopping cart?'))
+	{
+		for(NumItems = 0; NumItems<MaxCartItems; NumItems++)
+		{
+			CookieName = "ItemList" +NumItems;
+			DeleteCookie(CookieName);
+		}
+
+		self.location = "demo-cart.shtml";
+	}
+}
+
+function FloatFormat(expr,decplaces)
+{
+	var str = "" + Math.round(eval(expr) * Math.pow(10,decplaces));
+	while(str.length <= decplaces)
+	{
+		str = "0" + str;
+	}
+
+	var decpoint = str.length - decplaces;
+	return str.substring(0,decpoint) + "." + str.substring(decpoint,str.length);
+}
+
+function Dollarize(expr)
+{
+	return "$" + format(expr,2);
+}
+</SCRIPT>
+<FONT color="#ffffff">
+<SCRIPT language="JavaScript">ShowCart();</SCRIPT>
+</FONT>
+
+ </TD>
+</TR>
+
+<TR><TD align="left" valign="middle" colspan="4"><FONT size="-1" color="#000000" face="Arial, Helvetica">To change the quantity ordered, edit number above then click anywhere else on the page.  To remove a single product, select remove in the right-hand column above.</FONT></TD></TR>
+
+<TR><TD align="center" valign="middle" colspan="4"><FONT size="-1" color="#007b79" face="Arial, Helvetica">
+<BR></FONT><b><FONT size="-1" color="#064787" face="Arial, Helvetica">
+To complete your order,</FONT><FONT size="-1" color="#007b79" face="Arial, Helvetica">
+ <a href="demo-checkout.shtml" target="_self" onMouseOver="status=&quot; Process your order !&quot;;return(true);"><i>CLICK HERE</i></a> !</FONT></b></TD></TR>
+
+<TR><TD align="center" valign="middle" colspan="4"><BR><IMG src="images/qc-hr.gif" width="375" height="10" border="0"><BR></TD></TR>
+
+<TR>
+	<TD align="center" valign="middle"><FONT size="-1" color="#000000" face="Arial, Helvetica"><b><a href="demo-store.shtml" target="_self" onmouseover="status=&quot; Return to the demo homepage &quot;;return(true);">ORDER
+	&nbsp;&nbsp;</a>| <a href="demo-cart.shtml" target="_self" onmouseover="status=&quot; Review the items that you have selected !&quot;;return(true);">&nbsp;&nbsp;
+	VIEW CART &nbsp;&nbsp;</a>| <a href="demo-checkout.shtml" target="_self" onmouseover="status=&quot; Confirm your order and submit payment ! &quot;; return(true);">&nbsp;&nbsp;
+	CHECK OUT</a></b></FONT>
+	</TD>
+</TR>
+
+</TABLE></TD></TR></TABLE>
+ </TD>
+</TR>
+<TR bgcolor="#ffffff">
+	<TD valign="middle" align="center" colspan="4">
+	<BR>
+	<FONT size="-2" color="#000000" face="Arial, Helvetica">
+	(All copyrights property of their respective owners.)
+	</FONT>
+	</TD>
+</TR>
+
+</TABLE>
+</CENTER>
+
+
+
+<!-- INSERT MAIN CONTENT BELOW -->
+<!--#Include File="bottom.shtml"-->

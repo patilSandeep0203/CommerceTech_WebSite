@@ -1,0 +1,1526 @@
+
+4/15/2011 11:39:21 AM ==> AppId: 1 - View Rates - EXECUTE permission denied on object 'SP_GetOnlineAppSalesOpps', database 'AgentPortal', schema 'dbo'.
+4/26/2011 9:51:05 AM ==> AppId: 1 - View Rates - Invalid column name 'categoryID'.
+2/6/2012 4:51:04 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 4:51:17 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 5:05:08 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 5:09:48 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 5:10:50 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 5:13:56 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 5:13:59 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/6/2012 5:14:01 PM ==> AppId: 3363 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - EXECUTE permission denied on object 'SP_GetBFSPDF', database 'AgentPortal', schema 'dbo'.
+2/7/2012 11:52:36 AM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column '[ProcessPctKeyedwoImprint' does not belong to table Table.
+2/7/2012 11:52:44 AM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column '[ProcessPctKeyedwoImprint' does not belong to table Table.
+2/7/2012 11:55:52 AM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'FereralTaxID' does not belong to table Table.
+2/7/2012 11:58:05 AM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'P2SSN' does not belong to table Table.
+2/7/2012 12:00:46 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'BankName' does not belong to table Table.
+2/7/2012 12:02:10 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column '[BankAddress' does not belong to table Table.
+2/7/2012 12:02:16 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column '[BankAddress' does not belong to table Table.
+2/17/2012 10:22:48 AM ==> Registration Error - There is no row at position 0.
+2/22/2012 4:47:13 PM ==> Registration Error - EXECUTE permission denied on object 'sp_InsertEBTSalesOpp', database 'AgentPortal', schema 'dbo'.
+2/22/2012 4:52:15 PM ==> Registration Error - EXECUTE permission denied on object 'sp_InsertEBTSalesOpp', database 'AgentPortal', schema 'dbo'.
+2/29/2012 11:32:03 AM ==> AppId: 3456 - Gateway principal.aspx Page Load Error - Column 'lblP1MobilePhone' does not belong to table Table.
+5/4/2012 12:09:44 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:15:54 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:18:51 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:24:35 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:26:23 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:28:35 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:31:54 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:33:06 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:33:44 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 12:57:58 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 1:05:41 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+5/4/2012 1:08:55 PM ==> Registration Email Error - Value was either too large or too small for an Int16.
+6/14/2012 9:12:45 AM ==> Registration Email Error - Object cannot be cast from DBNull to other types.
+6/18/2012 10:23:22 AM ==> AppId: 3763 - main.master.cs Create PDF Error - Object cannot be cast from DBNull to other types.
+6/19/2012 9:54:05 AM ==> AppId: 3768 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+6/19/2012 11:09:08 AM ==> AppId: 3771 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+6/19/2012 11:16:57 AM ==> AppId: 3772 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+6/19/2012 11:22:08 AM ==> AppId: 3773 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+6/19/2012 11:29:29 AM ==> AppId: 3774 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+6/19/2012 11:47:19 AM ==> AppId: 3775 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+6/19/2012 12:03:10 PM ==> AppId: 3776 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+9/21/2012 9:44:44 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:09:59 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:12:35 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:13:22 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:13:55 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:19:43 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:21:29 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:25:00 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:43:18 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:49:07 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:52:45 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:53:52 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 10:54:36 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:04:53 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:12:21 AM ==> AppId: 1 - main.master.cs Create PDF Error - Redirect URI cannot contain newline characters.
+9/21/2012 11:24:46 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:38:34 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:42:41 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:42:48 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:43:49 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 11:47:58 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 12:22:00 PM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/21/2012 12:24:10 PM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 8:54:07 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 8:57:50 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 9:33:34 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 9:35:11 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 9:36:24 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 9:38:52 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 9:40:45 AM ==> AppId: 1 - main.master.cs Create PDF Error - Thread was being aborted.
+9/24/2012 4:25:34 PM ==> AppId: 1 - main.master.cs Create PDF Error - Invalid path for child request 'https://demo.docusign.net/MEMBER/PowerFormSigning.aspx'. A virtual path is expected.
+9/24/2012 4:25:38 PM ==> AppId: 1 - main.master.cs Create PDF Error - Invalid path for child request 'https://demo.docusign.net/MEMBER/PowerFormSigning.aspx'. A virtual path is expected.
+9/26/2012 2:47:19 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'P2Email' does not belong to table Table.
+9/26/2012 2:47:25 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'P2Email' does not belong to table Table.
+10/2/2012 4:57:50 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'Bankruptcy' does not belong to table Table.
+10/2/2012 5:02:02 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'Bankruptcy' does not belong to table Table.
+10/17/2012 9:05:25 AM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'ProdServSold' does not belong to table Table.
+10/17/2012 9:06:50 AM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'ProdServSold' does not belong to table Table.
+10/22/2012 10:07:42 AM ==> AppId: 1 - Merchant companyinfo.aspx Error - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+10/22/2012 10:07:48 AM ==> AppId: 1 - Merchant companyinfo.aspx Error - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+10/22/2012 10:07:53 AM ==> AppId: 1 - Merchant companyinfo.aspx Error - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+10/26/2012 10:00:00 AM ==> AppId: 1 - main.master.cs Create PDF Error - 'C:/Documents and Settings/Harshpatwardhan/My Documents/Visual Studio 2005/WebSites/Partner/PDF/Sage Application 2 signers.pdf' is not a valid virtual path.
+10/26/2012 10:10:33 AM ==> AppId: 1 - main.master.cs Create PDF Error - 'C://Documents and Settings/Harshpatwardhan/My Documents/Visual Studio 2005/WebSites/Partner/PDF/Sage Application 2 signers.pdf' is not a valid virtual path.
+10/26/2012 10:10:35 AM ==> AppId: 1 - main.master.cs Create PDF Error - 'C://Documents and Settings/Harshpatwardhan/My Documents/Visual Studio 2005/WebSites/Partner/PDF/Sage Application 2 signers.pdf' is not a valid virtual path.
+10/26/2012 10:10:42 AM ==> AppId: 1 - main.master.cs Create PDF Error - 'C://Documents and Settings/Harshpatwardhan/My Documents/Visual Studio 2005/WebSites/Partner/PDF/Sage Application 2 signers.pdf' is not a valid virtual path.
+10/26/2012 10:42:04 AM ==> AppId: 1 - main.master.cs Create PDF Error - Failed to map the path '/Partner/PDFSage Application 2 signers.pdf'.
+11/13/2012 1:18:36 PM ==> default.aspx - EXECUTE permission denied on object 'sp_UpdateOnlineAppDocusignAcc', database 'AgentPortal', schema 'dbo'.
+11/13/2012 1:25:50 PM ==> default.aspx - EXECUTE permission denied on object 'sp_UpdateOnlineAppDocusignAcc', database 'AgentPortal', schema 'dbo'.
+11/13/2012 1:27:39 PM ==> default.aspx - EXECUTE permission denied on object 'sp_UpdateOnlineAppDocusignAcc', database 'AgentPortal', schema 'dbo'.
+11/13/2012 1:27:51 PM ==> default.aspx - EXECUTE permission denied on object 'sp_UpdateOnlineAppDocusignAcc', database 'AgentPortal', schema 'dbo'.
+11/13/2012 1:29:55 PM ==> default.aspx - EXECUTE permission denied on object 'sp_UpdateOnlineAppDocusignAcc', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:35:27 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:35:53 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:38:09 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:38:19 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:38:30 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:39:42 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:40:48 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:47:04 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:50:46 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+11/14/2012 8:56:15 AM ==> AppId: 1 - Notice.aspx Page Load Error - SELECT permission denied on object 'OnlineAppOtherInfo', database 'AgentPortal', schema 'dbo'.
+12/6/2012 6:02:16 PM ==> default.aspx - A transport-level error has occurred when sending the request to the server. (provider: Named Pipes Provider, error: 0 - An unexpected network error occurred.)
+2/15/2013 9:48:56 AM ==> Registration Email Error - Failure sending mail.
+2/20/2013 8:58:32 AM ==> Registration Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OnlineAppEquipment_OnlineAppNewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+3/15/2013 4:22:47 PM ==> AppId: 4340 - Gateway reprogram.aspx Page Load Error - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+4/7/2013 11:53:35 PM ==> AppId: 1 - Addl Services Error - Unable to cast object of type 'System.Web.UI.WebControls.TextBox' to type 'System.IConvertible'.
+4/7/2013 11:59:30 PM ==> AppId: 1 - Addl Services Error - Unable to cast object of type 'System.Web.UI.WebControls.TextBox' to type 'System.IConvertible'.
+4/7/2013 11:59:41 PM ==> AppId: 1 - Addl Services Error - Unable to cast object of type 'System.Web.UI.WebControls.TextBox' to type 'System.IConvertible'.
+4/8/2013 12:08:07 AM ==> AppId: 1 - Addl Services Error - Unable to cast object of type 'System.Web.UI.WebControls.TextBox' to type 'System.IConvertible'.
+4/19/2013 10:24:45 AM ==> AppId: 1 - main.master.cs Create PDF Error - Invalid URI: The format of the URI could not be determined.
+4/19/2013 11:03:07 AM ==> AppId: 1 - main.master.cs Create PDF Error - Invalid URI: The format of the URI could not be determined.
+5/28/2013 10:14:15 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:14:28 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:17:33 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:18:39 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:19:39 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:36:23 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:38:19 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:43:35 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+5/28/2013 10:46:04 AM ==> AppId: 1 - main.master.cs Create PDF Error - Input string was not in a correct format.
+6/19/2013 5:31:40 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:10:24 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:39:42 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:40:46 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:41:40 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:49:17 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:52:09 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 9:53:19 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:22:07 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:23:53 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:24:06 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:24:39 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:25:32 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:25:41 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:28:52 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:29:00 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:29:02 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:29:13 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:30:27 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:30:39 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:30:54 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:31:43 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:32:20 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:32:27 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:32:30 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:36:04 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 10:36:09 AM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:19:06 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:31:01 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:41:52 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:42:09 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:43:03 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:44:25 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/20/2013 2:44:29 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'BusinessPctInternetr' does not belong to table Table.
+6/25/2013 11:42:32 PM ==> AppId: 1 - main.master.cs Create PDF Error - A transport-level error has occurred when sending the request to the server. (provider: Named Pipes Provider, error: 0 - An unexpected network error occurred.)
+6/27/2013 1:16:19 PM ==> AppId: 1 - main.master.cs Create PDF Error - Invalid URI: The format of the URI could not be determined.
+6/27/2013 1:16:52 PM ==> AppId: 1 - main.master.cs Create PDF Error - Invalid URI: The format of the URI could not be determined.
+7/18/2013 10:18:32 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "USER_AUTHENTICATION_FAILED",
+  "message": "One or both of Username and Password are invalid."
+}
+7/18/2013 10:25:13 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "USER_AUTHENTICATION_FAILED",
+  "message": "One or both of Username and Password are invalid."
+}
+7/18/2013 10:25:13 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+7/18/2013 10:25:17 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "USER_AUTHENTICATION_FAILED",
+  "message": "One or both of Username and Password are invalid."
+}
+7/18/2013 10:25:17 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+7/18/2013 10:25:45 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "USER_AUTHENTICATION_FAILED",
+  "message": "One or both of Username and Password are invalid."
+}
+7/18/2013 10:25:45 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+7/18/2013 10:32:12 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+7/18/2013 10:32:12 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+7/18/2013 11:03:45 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "USER_AUTHENTICATION_FAILED",
+  "message": "One or both of Username and Password are invalid."
+}
+7/26/2013 4:13:36 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ENVELOPE_DOES_NOT_EXIST",
+  "message": "The envelope specified either does not exist or you have no rights to it."
+}
+8/13/2013 3:13:12 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:20:51 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:22:15 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:22:23 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:22:58 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:29:04 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:30:22 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:30:48 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:31:02 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:31:08 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:33:57 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:35:17 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:36:19 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:36:35 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:38:32 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:39:41 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/13/2013 3:40:39 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Specified cast is not valid.
+8/14/2013 10:01:41 AM ==> AppId: 1 - Merchant cardpct.aspx Error - EXECUTE permission denied on object 'SP_UpdateCardPresent', database 'AgentPortal', schema 'dbo'.
+9/11/2013 2:05:58 PM ==> Registration Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OnlineAppNewApp_OnlineAppNewApp". The conflict occurred in database "AgentPortal", table "dbo.RepInfo", column 'MasterNum'.
+Violation of PRIMARY KEY constraint 'PK_esUsersOnlineAppIDs'. Cannot insert duplicate key in object 'dbo.esUsersOnlineAppIDs'.
+The statement has been terminated.
+The statement has been terminated.
+9/11/2013 2:09:44 PM ==> Registration Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OnlineAppNewApp_OnlineAppNewApp". The conflict occurred in database "AgentPortal", table "dbo.RepInfo", column 'MasterNum'.
+Violation of PRIMARY KEY constraint 'PK_esUsersOnlineAppIDs'. Cannot insert duplicate key in object 'dbo.esUsersOnlineAppIDs'.
+The statement has been terminated.
+The statement has been terminated.
+9/11/2013 2:11:02 PM ==> Registration Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OnlineAppNewApp_OnlineAppNewApp". The conflict occurred in database "AgentPortal", table "dbo.RepInfo", column 'MasterNum'.
+Violation of PRIMARY KEY constraint 'PK_esUsersOnlineAppIDs'. Cannot insert duplicate key in object 'dbo.esUsersOnlineAppIDs'.
+The statement has been terminated.
+The statement has been terminated.
+9/11/2013 2:11:44 PM ==> Registration Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OnlineAppNewApp_OnlineAppNewApp". The conflict occurred in database "AgentPortal", table "dbo.RepInfo", column 'MasterNum'.
+Violation of PRIMARY KEY constraint 'PK_esUsersOnlineAppIDs'. Cannot insert duplicate key in object 'dbo.esUsersOnlineAppIDs'.
+The statement has been terminated.
+The statement has been terminated.
+9/11/2013 2:11:55 PM ==> Registration Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OnlineAppNewApp_OnlineAppNewApp". The conflict occurred in database "AgentPortal", table "dbo.RepInfo", column 'MasterNum'.
+Violation of PRIMARY KEY constraint 'PK_esUsersOnlineAppIDs'. Cannot insert duplicate key in object 'dbo.esUsersOnlineAppIDs'.
+The statement has been terminated.
+The statement has been terminated.
+9/11/2013 2:14:36 PM ==> Registration Email Error - Input string was not in a correct format.
+9/11/2013 2:14:36 PM ==> Registration Email Error - Input string was not in a correct format.
+9/26/2013 11:01:29 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+9/26/2013 11:01:29 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:36:47 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:36:47 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:45:13 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:45:13 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:45:41 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:45:41 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:46:44 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:47:24 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:48:25 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:50:28 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:50:49 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:51:28 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:51:37 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:51:37 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 1:59:26 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 1:59:26 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 2:32:29 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 2:32:29 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 2:36:45 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 2:36:45 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 2:38:21 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 9218."
+}
+9/26/2013 2:38:21 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+9/26/2013 2:39:14 PM ==> AppId: 4721 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope. Envelope recipient could not be determined. 'clientUserId', 'email', or 'userName' in request and envelope may not match."
+}
+10/1/2013 10:33:11 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+10/1/2013 10:33:11 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 10:47:08 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+10/1/2013 10:47:08 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:09:23 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+10/1/2013 11:09:23 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:09:56 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:09:56 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:14:42 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:14:43 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:21:05 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:21:06 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:21:09 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:21:09 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:21:28 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:21:28 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:29:30 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:29:30 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 11:39:18 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 11:39:18 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 1:21:12 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 1:21:12 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 1:23:59 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 1:23:59 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 2:38:55 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 2:38:56 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 4:47:26 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 4:47:27 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/1/2013 4:47:55 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/1/2013 4:47:55 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/2/2013 9:36:50 AM ==> AppId: 1 - DocuSign Error - <errorDetails xmlns="http://www.docusign.com/restapi" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><errorCode>INVALID_REQUEST_PARAMETER</errorCode><message>The request contained at least one invalid parameter. Query parameter 'from_date' must be set to a valid DateTime, or 'envelope_ids' or 'transaction_ids' must be specified.</message></errorDetails>
+10/2/2013 10:00:07 AM ==> AppId: 1 - DocuSign Error - <errorDetails xmlns="http://www.docusign.com/restapi" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><errorCode>INVALID_REQUEST_PARAMETER</errorCode><message>The request contained at least one invalid parameter. Query parameter 'from_date' must be set to a valid DateTime, or 'envelope_ids' or 'transaction_ids' must be specified.</message></errorDetails>
+10/2/2013 3:30:36 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+10/2/2013 3:30:36 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/2/2013 3:40:06 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 10065."
+}
+10/2/2013 3:40:06 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/2/2013 3:40:12 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 10065."
+}
+10/2/2013 3:40:13 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/2/2013 3:40:17 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 10065."
+}
+10/2/2013 3:40:18 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/2/2013 3:40:30 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 10065."
+}
+10/2/2013 3:40:30 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/2/2013 3:40:33 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: {. Path 'templateRoles[0]', line 1, position 10065."
+}
+10/2/2013 3:40:33 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/3/2013 1:50:59 PM ==> AppId: 1 - DocuSign Error - <errorDetails xmlns="http://www.docusign.com/restapi" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><errorCode>USER_AUTHENTICATION_FAILED</errorCode><message>One or both of Username and Password are invalid.</message></errorDetails>
+10/3/2013 1:51:06 PM ==> AppId: 1 - DocuSign Error - <errorDetails xmlns="http://www.docusign.com/restapi" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><errorCode>USER_AUTHENTICATION_FAILED</errorCode><message>One or both of Username and Password are invalid.</message></errorDetails>
+10/3/2013 2:09:42 PM ==> AppId: 1 - DocuSign Error - <errorDetails xmlns="http://www.docusign.com/restapi" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><errorCode>USER_AUTHENTICATION_FAILED</errorCode><message>One or both of Username and Password are invalid.</message></errorDetails>
+10/4/2013 4:48:23 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "USER_AUTHENTICATION_FAILED",
+  "message": "One or both of Username and Password are invalid."
+}
+10/4/2013 4:48:23 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+10/28/2013 5:16:55 PM ==> AppId: 4770 - Merchant cardpct.aspx Error - Specified cast is not valid.
+10/28/2013 5:18:53 PM ==> AppId: 4771 - Merchant cardpct.aspx Error - Specified cast is not valid.
+10/28/2013 5:19:42 PM ==> AppId: 4771 - Merchant cardpct.aspx Error - Specified cast is not valid.
+10/28/2013 5:39:13 PM ==> AppId: 4771 - Merchant bankinginfo.aspx Page Load Error - There is no row at position 0.
+11/15/2013 3:08:48 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'AmexNum' does not belong to table Table.
+11/19/2013 3:03:28 PM ==> Registration Error - There is no row at position 0.
+11/22/2013 3:30:25 PM ==> AppId: 1 - main.master.cs Create PDF Error - There is no row at position 0.
+11/22/2013 3:31:51 PM ==> AppId: 1 - main.master.cs Create PDF Error - There is no row at position 0.
+11/22/2013 3:32:29 PM ==> AppId: 1 - main.master.cs Create PDF Error - There is no row at position 0.
+11/22/2013 3:34:47 PM ==> AppId: 1 - Merchant PDF - Create Chase MPA PDF Error - C:\Documents and Settings\Harshpatwardhan\My Documents\Visual Studio 2005\WebSites\OnlineApplication\CardConnect Application.pdf not found as file or resource.
+11/22/2013 3:34:50 PM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - C:\Documents and Settings\Harshpatwardhan\My Documents\Visual Studio 2005\WebSites\OnlineApplication\CardConnect Application.pdf not found as file or resource.
+11/22/2013 3:35:04 PM ==> AppId: 1 - Merchant PDF - Create Chase MPA PDF Error - C:\Documents and Settings\Harshpatwardhan\My Documents\Visual Studio 2005\WebSites\OnlineApplication\CardConnect Application.pdf not found as file or resource.
+11/22/2013 3:35:11 PM ==> AppId: 1 - Merchant PDF - Create Chase MPA PDF Error - C:\Documents and Settings\Harshpatwardhan\My Documents\Visual Studio 2005\WebSites\OnlineApplication\CardConnect Application.pdf not found as file or resource.
+11/22/2013 3:36:50 PM ==> AppId: 1 - Merchant PDF - Create Chase MPA PDF Error - C:\Documents and Settings\Harshpatwardhan\My Documents\Visual Studio 2005\WebSites\OnlineApplication\CardConnect Application.pdf not found as file or resource.
+11/22/2013 3:36:51 PM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - C:\Documents and Settings\Harshpatwardhan\My Documents\Visual Studio 2005\WebSites\OnlineApplication\CardConnect Application.pdf not found as file or resource.
+11/22/2013 3:39:18 PM ==> AppId: 1 - Merchant PDF - Create Chase MPA PDF Error - Server cannot clear headers after HTTP headers have been sent.
+12/12/2013 9:21:09 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+12/12/2013 9:21:09 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/12/2013 10:13:09 AM ==> SetRates Page Load - Column 'P2FirstName' does not belong to table Table.
+12/12/2013 10:13:09 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+12/12/2013 10:13:09 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/16/2013 2:27:59 PM ==> SetRates Page Load - Column 'P2Email' does not belong to table Table.
+12/16/2013 2:27:59 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+12/16/2013 2:28:00 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/16/2013 2:28:44 PM ==> SetRates Page Load - Column 'P2Email' does not belong to table Table.
+12/16/2013 2:28:44 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+12/16/2013 2:28:44 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/16/2013 6:17:20 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ACCOUNT_NOT_AUTHORIZED_FOR_ENVELOPE",
+  "message": "This account is not authorized to access the requested envelope."
+}
+12/19/2013 3:22:29 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+12/19/2013 3:22:29 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/19/2013 5:14:39 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Could not cast or convert from System.String to API_REST.Models.v2.text."
+}
+12/19/2013 5:14:39 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/19/2013 5:17:05 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Could not cast or convert from System.String to API_REST.Models.v2.text."
+}
+12/19/2013 5:17:05 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/19/2013 5:19:53 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: :. Path 'templateRoles[0].radioGroupTabs.textTabs[12]', line 1, position 1396."
+}
+12/19/2013 5:19:53 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/19/2013 5:38:31 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ENVELOPE_DOES_NOT_EXIST",
+  "message": "The envelope specified either does not exist or you have no rights to it."
+}
+12/19/2013 5:52:32 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. JsonToken EndObject is not valid for closing JsonType Array. Path 'templateRoles', line 1, position 11356."
+}
+12/19/2013 5:52:32 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/19/2013 5:55:43 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. After parsing a value an unexpected character was encountered: \". Path 'templateRoles[0].tabs', line 1, position 490."
+}
+12/19/2013 5:55:43 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/19/2013 5:58:28 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Object reference not set to an instance of an object."
+}
+12/19/2013 5:58:28 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 12:32:15 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Object reference not set to an instance of an object."
+}
+12/20/2013 12:32:16 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 12:36:39 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Object reference not set to an instance of an object."
+}
+12/20/2013 12:36:39 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 8:25:10 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+12/20/2013 8:25:10 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 8:35:15 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Object reference not set to an instance of an object."
+}
+12/20/2013 8:35:15 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 8:45:01 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Invalid property identifier character: {. Path 'templateRoles[0].tabs.radioGroupTabs[0].radioGroupTabs[0]', line 1, position 381."
+}
+12/20/2013 8:45:02 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 8:45:04 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Invalid property identifier character: {. Path 'templateRoles[0].tabs.radioGroupTabs[0].radioGroupTabs[0]', line 1, position 381."
+}
+12/20/2013 8:45:05 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 8:46:35 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Invalid property identifier character: {. Path 'templateRoles[0].tabs.radioGroupTabs[0].radios[0]', line 1, position 373."
+}
+12/20/2013 8:46:35 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 8:47:54 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected character encountered while parsing value: }. Path 'templateRoles[0].tabs.radioGroupTabs[0].radios[1]', line 1, position 506."
+}
+12/20/2013 8:47:54 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+12/20/2013 3:51:57 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ACCOUNT_NOT_AUTHORIZED_FOR_ENVELOPE",
+  "message": "This account is not authorized to access the requested envelope."
+}
+1/7/2014 11:29:47 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+1/7/2014 11:29:47 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+1/7/2014 2:50:57 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Invalid property identifier character: ]. Path 'templateRoles[0].tabs.textTabs[129]', line 1, position 9776."
+}
+1/7/2014 2:50:57 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+1/7/2014 3:13:57 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Invalid property identifier character: ]. Path 'templateRoles[0].tabs.textTabs[129]', line 1, position 9776."
+}
+1/7/2014 3:13:57 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+1/7/2014 3:15:08 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Invalid property identifier character: ]. Path 'templateRoles[0].tabs.textTabs[129]', line 1, position 9776."
+}
+1/7/2014 3:15:08 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+1/15/2014 2:29:45 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/15/2014 2:30:06 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/15/2014 3:22:33 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/15/2014 3:38:51 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/15/2014 3:39:11 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 8:47:36 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 9:41:02 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 9:43:50 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 10:07:56 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 11:04:24 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 1:29:19 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 1:30:10 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 1:37:25 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 2:00:25 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+1/16/2014 2:04:40 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/16/2014 2:07:20 PM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/17/2014 8:49:17 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/17/2014 8:50:23 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 8:47:09 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 8:52:31 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 10:35:57 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 10:36:31 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 10:46:09 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 10:48:00 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 11:10:08 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 11:12:59 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 11:16:32 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 11:17:27 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 11:19:48 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 11:26:23 AM ==> default.aspx - Login failed for user 'onlineappuser'.
+1/20/2014 4:29:10 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/20/2014 5:45:44 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/20/2014 5:48:56 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/20/2014 5:50:33 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+3/25/2014 3:38:50 PM ==> AppId: 1 - Addl Services Error - Input string was not in a correct format.
+3/25/2014 3:42:56 PM ==> AppId: 1 - Addl Services Error - Input string was not in a correct format.
+7/8/2014 6:24:17 PM ==> Registration Email Error - Failure sending mail.
+7/8/2014 6:24:19 PM ==> Registration Email Error - Failure sending mail.
+7/29/2014 8:45:01 AM ==> Registration Email Error - Failure sending mail.
+7/29/2014 8:45:03 AM ==> Registration Email Error - Failure sending mail.
+8/7/2014 2:47:17 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/7/2014 2:48:05 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/7/2014 2:49:18 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/7/2014 2:53:40 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/7/2014 2:57:42 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/8/2014 5:27:06 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/8/2014 5:30:38 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/8/2014 5:31:27 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/11/2014 3:58:49 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/11/2014 4:10:54 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/11/2014 4:12:36 PM ==> Registration Page Load Error - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+8/11/2014 4:17:56 PM ==> Registration Email Error - Failure sending mail.
+8/11/2014 4:17:58 PM ==> Registration Email Error - Failure sending mail.
+8/11/2014 4:31:19 PM ==> Registration Email Error - Failure sending mail.
+8/11/2014 4:31:21 PM ==> Registration Email Error - Failure sending mail.
+8/11/2014 4:43:16 PM ==> Registration Email Error - Failure sending mail.
+8/11/2014 4:43:18 PM ==> Registration Email Error - Failure sending mail.
+10/17/2014 3:28:25 PM ==> Registration Email Error - Failure sending mail.
+10/17/2014 3:28:27 PM ==> Registration Email Error - Failure sending mail.
+10/17/2014 3:28:50 PM ==> AppId: 5240 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/17/2014 3:32:17 PM ==> Registration Email Error - Failure sending mail.
+10/17/2014 3:32:20 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 9:01:12 AM ==> Registration Email Error - Failure sending mail.
+10/20/2014 9:01:14 AM ==> Registration Email Error - Failure sending mail.
+10/20/2014 2:26:17 PM ==> AppId: 5243 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/20/2014 2:34:45 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 2:34:47 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 2:36:58 PM ==> AppId: 5246 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/20/2014 2:41:19 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 2:41:21 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 2:42:17 PM ==> AppId: 5247 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/20/2014 3:48:44 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 3:48:46 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:02:00 PM ==> AppId: 5248 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/20/2014 4:14:21 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:14:24 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:14:45 PM ==> AppId: 5249 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/20/2014 4:16:50 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:16:53 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:17:23 PM ==> AppId: 5250 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/20/2014 4:31:13 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:31:16 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:41:42 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:41:44 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:42:00 PM ==> AppId: 5252 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/20/2014 4:59:34 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 4:59:36 PM ==> Registration Email Error - Failure sending mail.
+10/20/2014 5:00:11 PM ==> AppId: 5253 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/21/2014 8:22:37 AM ==> Registration Email Error - Failure sending mail.
+10/21/2014 8:22:39 AM ==> Registration Email Error - Failure sending mail.
+10/21/2014 9:07:25 AM ==> AppId: 5254 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/21/2014 9:11:45 AM ==> Registration Email Error - Failure sending mail.
+10/21/2014 9:11:47 AM ==> Registration Email Error - Failure sending mail.
+10/21/2014 10:27:37 AM ==> Registration Email Error - Failure sending mail.
+10/21/2014 10:27:39 AM ==> Registration Email Error - Failure sending mail.
+10/21/2014 4:26:29 PM ==> Registration Email Error - Failure sending mail.
+10/21/2014 4:26:31 PM ==> Registration Email Error - Failure sending mail.
+10/21/2014 4:55:25 PM ==> Registration Email Error - Failure sending mail.
+10/21/2014 4:55:27 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 9:13:00 AM ==> Registration Email Error - Failure sending mail.
+10/22/2014 9:13:02 AM ==> Registration Email Error - Failure sending mail.
+10/22/2014 9:23:23 AM ==> Registration Email Error - Failure sending mail.
+10/22/2014 9:23:25 AM ==> Registration Email Error - Failure sending mail.
+10/22/2014 9:32:45 AM ==> Registration Email Error - Failure sending mail.
+10/22/2014 9:32:47 AM ==> Registration Email Error - Failure sending mail.
+10/22/2014 1:42:21 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 1:42:23 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 1:56:06 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 1:56:09 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 1:56:32 PM ==> AppId: 5264 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/22/2014 2:07:04 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:07:06 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:08:56 PM ==> AppId: 5265 - Merchant cardpct.aspx Error - The type initializer for 'DLPartner.SalesOppDL' threw an exception.
+10/22/2014 2:12:17 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:12:19 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:12:43 PM ==> AppId: 5266 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:14:49 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:14:51 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:15:13 PM ==> AppId: 5267 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:36:09 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:36:11 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:39:17 PM ==> AppId: 5268 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:41:49 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:41:51 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:43:19 PM ==> AppId: 5269 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:48:19 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:48:22 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:48:38 PM ==> AppId: 5270 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:51:23 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:51:25 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:52:01 PM ==> AppId: 5271 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:53:55 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:53:57 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:55:39 PM ==> AppId: 5272 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 2:58:24 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:58:27 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 2:58:53 PM ==> AppId: 5273 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 3:07:02 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 3:07:04 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 3:07:26 PM ==> AppId: 5274 - Merchant cardpct.aspx Error - Method not found: 'Boolean DLPartner.SalesOppDL.DeleteSalesOpp(System.String, System.String)'.
+10/22/2014 3:15:41 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 3:15:43 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 3:27:10 PM ==> Registration Email Error - Failure sending mail.
+10/22/2014 3:27:13 PM ==> Registration Email Error - Failure sending mail.
+11/11/2014 3:57:34 PM ==> Registration Email Error - Failure sending mail.
+11/11/2014 3:57:36 PM ==> Registration Email Error - Failure sending mail.
+3/6/2015 3:28:32 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+3/6/2015 3:28:32 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+3/6/2015 3:29:04 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+3/6/2015 3:29:05 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+3/11/2015 3:23:09 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:37:23 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:37:54 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:38:32 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:40:29 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:41:00 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:45:29 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:51:17 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:52:12 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:53:17 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:57:07 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 3:58:30 PM ==> default.aspx - Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+3/12/2015 4:53:25 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "TEMPLATE_ID_INVALID",
+  "message": "Invalid template ID."
+}
+3/12/2015 4:53:25 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+3/18/2015 11:49:33 AM ==> Registration Email Error - The SMTP server requires a secure connection or the client was not authenticated. The server response was: authentication required
+3/18/2015 11:49:33 AM ==> Registration Email Error - The SMTP server requires a secure connection or the client was not authenticated. The server response was: authentication required
+3/24/2015 5:05:06 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Could not cast or convert from System.String to API_REST.Models.v2.text."
+}
+3/24/2015 5:05:07 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+3/24/2015 5:08:21 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Could not cast or convert from System.String to API_REST.Models.v2.text."
+}
+3/24/2015 5:08:21 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+3/24/2015 5:14:31 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Could not cast or convert from System.String to API_REST.Models.v2.text."
+}
+3/24/2015 5:14:31 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+4/9/2015 4:17:47 PM ==> Registration Email Error - Failure sending mail.
+4/21/2015 4:26:02 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+4/21/2015 4:26:02 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+6/5/2015 11:29:11 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+6/5/2015 11:29:11 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "RESOURCE_NOT_FOUND",
+  "message": "The URL provided does not resolve to a resource."
+}
+8/5/2015 4:00:01 PM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - Input string was not in a correct format.
+8/5/2015 4:03:28 PM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - Input string was not in a correct format.
+8/5/2015 4:32:25 PM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - Input string was not in a correct format.
+8/5/2015 4:49:46 PM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - Input string was not in a correct format.
+8/12/2015 4:11:44 PM ==> Registration Error - Error converting data type varchar to numeric.
+8/16/2015 6:41:33 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_PARAMETER",
+  "message": "The request contained at least one invalid parameter. RoleName must be specified for templateRoles."
+}
+8/16/2015 6:41:33 PM ==> AppId: 1 - DocuSign Error - 
+8/16/2015 6:42:45 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_PARAMETER",
+  "message": "The request contained at least one invalid parameter. RoleName must be specified for templateRoles."
+}
+8/16/2015 6:42:45 PM ==> AppId: 1 - DocuSign Error - 
+11/18/2015 3:02:28 PM ==> Registration Email Error - Failure sending mail.
+12/2/2015 4:55:56 PM ==> AppId: 5760 - main.master.cs Create PDF Error - Object cannot be cast from DBNull to other types.
+12/2/2015 4:57:14 PM ==> AppId: 5760 - main.master.cs Create PDF Error - Object cannot be cast from DBNull to other types.
+12/2/2015 4:57:27 PM ==> AppId: 5760 - main.master.cs Create PDF Error - Object cannot be cast from DBNull to other types.
+12/2/2015 4:57:41 PM ==> AppId: 5760 - main.master.cs Create PDF Error - Object cannot be cast from DBNull to other types.
+2/11/2016 11:58:25 AM ==> AppId: 1 - Merchant PDF - Create Chase Fee schedule 3 tier PDF Error - Column 'Gatway' does not belong to table Table.
+8/30/2016 12:11:14 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'MerchantFundingAmount' does not belong to table Table.
+11/23/2016 10:45:01 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+11/23/2016 11:13:48 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+11/23/2016 11:22:21 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+11/23/2016 11:23:20 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+11/23/2016 11:26:10 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/30/2017 4:18:53 PM ==> Registration Email Error - Failure sending mail.
+8/24/2017 9:58:32 AM ==> Registration Email Error - Failure sending mail.
+8/24/2017 9:58:32 AM ==> Registration Email Error - Failure sending mail.
+9/8/2017 3:26:01 PM ==> Registration Email Error - Failure sending mail.
+9/8/2017 3:26:01 PM ==> Registration Email Error - Failure sending mail.
+9/8/2017 3:29:58 PM ==> Registration Email Error - Failure sending mail.
+9/8/2017 3:29:58 PM ==> Registration Email Error - Failure sending mail.
+9/8/2017 3:33:17 PM ==> Registration Error - There is no row at position 0.
+9/8/2017 3:35:16 PM ==> Registration Error - There is no row at position 0.
+9/8/2017 3:37:23 PM ==> Registration Error - There is no row at position 0.
+9/8/2017 3:58:10 PM ==> Registration Email Error - Failure sending mail.
+9/8/2017 3:58:10 PM ==> Registration Email Error - Failure sending mail.
+9/11/2017 4:13:17 PM ==> Registration Email Error - Failure sending mail.
+9/11/2017 4:13:17 PM ==> Registration Email Error - Failure sending mail.
+12/13/2017 8:31:33 AM ==> AppId: 1 - Merchant principalinfo.aspx Page Load Error - Column 'P2FirstName' does not belong to table Table.
+12/13/2017 8:31:39 AM ==> AppId: 1 - Merchant principalinfo.aspx Page Load Error - Column 'P2FirstName' does not belong to table Table.
+1/31/2018 10:24:50 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:25:40 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:26:36 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:26:45 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:27:25 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:31:11 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:33:38 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:34:22 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:39:54 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:50:40 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:50:43 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:51:03 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:52:26 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:53:13 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:54:18 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:55:04 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 10:57:30 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 11:04:30 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+1/31/2018 11:16:46 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNKNOWN_ENVELOPE_RECIPIENT",
+  "message": "The recipient you have identified is not a valid recipient of the specified envelope."
+}
+3/14/2018 8:47:30 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 8:47:36 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 8:47:38 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 8:47:39 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 8:47:48 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 9:14:27 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 9:14:29 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/14/2018 9:14:30 AM ==> Create PDF 1Column 'SalesRep' does not belong to table Table.
+3/26/2018 4:01:14 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ENVELOPE_HAS_BEEN_VOIDED",
+  "message": "The envelope you are attempting to access has been voided by the sender.  For more information, please contact the sender: Commerce Technologies, sales@commercetech.com, Commerce Technologies, 2321 Rosecrans Ave, Suite 4270, El Segundo, CA, 90245, 8004775363"
+}
+7/2/2018 4:09:04 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/2/2018 4:39:29 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/10/2018 12:36:22 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:10:53 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:14:08 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:14:09 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:16:12 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:16:15 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:16:16 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7/13/2018 11:17:01 AM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+10/29/2018 11:25:14 AM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 11:33:08 AM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 11:33:16 AM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 1:08:52 PM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 1:12:25 PM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 1:13:09 PM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 1:13:10 PM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 2:31:17 PM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+10/29/2018 3:16:08 PM ==> AppId: 1 - Merchant bankinginfo.aspx Page - Procedure or function SP_UpdateODBEBT has too many arguments specified.
+2/14/2019 2:59:31 PM ==> AppId: 1 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - Column 'Processor' does not belong to table Table.
+6/25/2019 12:27:53 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:28:36 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:28:58 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:29:00 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:29:04 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:29:12 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:29:14 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+6/25/2019 12:29:16 PM ==> AppId: 1 - main.master.cs Create PDF Error - Column 'DiscNQS' does not belong to table Table.
+8/1/2019 4:36:56 PM ==> SetRates Page Load - Column 'PinDebtDiscRate' does not belong to table Table.
+8/1/2019 4:36:56 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+8/1/2019 4:36:57 PM ==> AppId: 1 - DocuSign Error - 
+8/1/2019 4:37:34 PM ==> SetRates Page Load - Column 'PinDebtDiscountRate' does not belong to table Table.
+8/1/2019 4:37:34 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+8/1/2019 4:37:34 PM ==> AppId: 1 - DocuSign Error - 
+8/1/2019 4:38:33 PM ==> SetRates Page Load - Column 'PinDebtDiscountRate' does not belong to table Table.
+8/1/2019 4:38:33 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "UNSPECIFIED_ERROR",
+  "message": "Non-static method requires a target."
+}
+8/1/2019 4:38:33 PM ==> AppId: 1 - DocuSign Error - 
+10/18/2019 4:19:58 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Login failed for user 'SA'.
+10/18/2019 4:20:09 PM ==> AppId: 1 - Merchant cardpct.aspx Error - Login failed for user 'SA'.
+2/20/2020 3:38:48 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ENVELOPE_HAS_BEEN_VOIDED",
+  "message": "The envelope you are attempting to access has been voided by the sender.  For more information, please contact the sender: Commerce Technologies, sales@commercetech.com, Commerce Technologies, 3738 Bayer Ave, Suite 203, Long Beach, CA, 90808, 8004775363"
+}
+2/20/2020 3:38:55 PM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "ENVELOPE_HAS_BEEN_VOIDED",
+  "message": "The envelope you are attempting to access has been voided by the sender.  For more information, please contact the sender: Commerce Technologies, sales@commercetech.com, Commerce Technologies, 3738 Bayer Ave, Suite 203, Long Beach, CA, 90808, 8004775363"
+}
+4/24/2020 4:37:33 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 4:37:33 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 4:44:39 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 4:44:39 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 5:47:22 PM ==> Registration Email Error - Failure sending mail.
+4/24/2020 5:47:23 PM ==> Registration Email Error - Failure sending mail.
+4/24/2020 6:11:37 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:11:37 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:16:34 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:16:34 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:20:43 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:20:43 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:28:50 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:28:50 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:32:14 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:32:14 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:36:18 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:36:18 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:52:52 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:52:52 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:54:31 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 6:54:31 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 7:02:32 PM ==> Registration Email Error - Input string was not in a correct format.
+4/24/2020 7:02:32 PM ==> Registration Email Error - Input string was not in a correct format.
+4/27/2020 8:52:20 AM ==> Registration Email Error - Input string was not in a correct format.
+4/27/2020 8:52:20 AM ==> Registration Email Error - Input string was not in a correct format.
+1/5/2022 8:18:19 AM ==> SetRates Page Load - Column 'BusinessPctRetailOrder' does not belong to table Table.
+1/5/2022 8:18:20 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted."
+}
+1/5/2022 8:18:20 AM ==> AppId: 1 - DocuSign Error - 
+1/5/2022 8:19:00 AM ==> SetRates Page Load - Column 'BusinessPctRetailOrder' does not belong to table Table.
+1/5/2022 8:19:00 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted."
+}
+1/5/2022 8:19:00 AM ==> AppId: 1 - DocuSign Error - 
+1/5/2022 8:19:46 AM ==> SetRates Page Load - Column 'BusinessPctRetailOrder' does not belong to table Table.
+1/5/2022 8:19:46 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted."
+}
+1/5/2022 8:19:46 AM ==> AppId: 1 - DocuSign Error - 
+1/5/2022 8:25:42 AM ==> SetRates Page Load - Column 'BusinessPctRetailOrder' does not belong to table Table.
+1/5/2022 8:25:42 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted."
+}
+1/5/2022 8:25:42 AM ==> AppId: 1 - DocuSign Error - 
+1/5/2022 8:25:55 AM ==> SetRates Page Load - Column 'BusinessPctRetailOrder' does not belong to table Table.
+1/5/2022 8:25:55 AM ==> AppId: 1 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted."
+}
+1/5/2022 8:25:55 AM ==> AppId: 1 - DocuSign Error - 
+1/6/2022 12:46:37 AM ==> start.aspx Error - Could not find stored procedure 'sp_UpdateImpressions'.
+1/11/2022 10:01:31 PM ==> Registration Email Error - Failure sending mail.
+1/11/2022 10:01:31 PM ==> Registration Email Error - Failure sending mail.
+1/14/2022 8:52:31 PM ==> Registration Email Error - Failure sending mail.
+1/14/2022 8:52:31 PM ==> Registration Email Error - Failure sending mail.
+1/15/2022 4:41:18 AM ==> Registration Email Error - Failure sending mail.
+1/15/2022 4:41:18 AM ==> Registration Email Error - Failure sending mail.
+1/16/2022 1:31:45 PM ==> Registration Email Error - Failure sending mail.
+1/16/2022 1:31:45 PM ==> Registration Email Error - Failure sending mail.
+1/16/2022 4:09:57 PM ==> Registration Email Error - Failure sending mail.
+1/16/2022 4:09:57 PM ==> Registration Email Error - Failure sending mail.
+1/18/2022 2:22:17 AM ==> Registration Email Error - Failure sending mail.
+1/18/2022 2:22:17 AM ==> Registration Email Error - Failure sending mail.
+1/18/2022 4:41:22 AM ==> Registration Email Error - Failure sending mail.
+1/18/2022 4:41:22 AM ==> Registration Email Error - Failure sending mail.
+1/18/2022 2:41:52 PM ==> Registration Email Error - Failure sending mail.
+1/18/2022 2:41:53 PM ==> Registration Email Error - Failure sending mail.
+1/18/2022 2:51:08 PM ==> Registration Email Error - Failure sending mail.
+1/18/2022 2:51:08 PM ==> Registration Email Error - Failure sending mail.
+1/22/2022 8:20:26 PM ==> start.aspx Error - Could not find stored procedure 'sp_UpdateImpressions'.
+1/25/2022 3:17:36 AM ==> start.aspx Error - Could not find stored procedure 'sp_UpdateImpressions'.
+1/25/2022 12:57:07 PM ==> Registration Email Error - Failure sending mail.
+1/25/2022 12:57:08 PM ==> Registration Email Error - Failure sending mail.
+1/26/2022 12:39:14 PM ==> Registration Email Error - Failure sending mail.
+1/26/2022 12:39:14 PM ==> Registration Email Error - Failure sending mail.
+1/27/2022 3:48:54 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 3:48:57 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 3:49:04 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 3:49:24 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 3:49:40 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 3:56:09 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 3:56:48 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+1/27/2022 4:26:27 PM ==> Registration Page Load Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+2/4/2022 6:34:59 PM ==> AppId: 7061 - AddlServicesPDF.aspx.cs Create GiftCard PDF Error - The remote host closed the connection. The error code is 0x800703E3.
+2/7/2022 5:20:29 PM ==> Registration Email Error - Failure sending mail.
+2/7/2022 5:20:29 PM ==> Registration Email Error - Failure sending mail.
+2/7/2022 5:30:24 PM ==> Registration Email Error - Failure sending mail.
+2/7/2022 5:30:24 PM ==> Registration Email Error - Failure sending mail.
+2/7/2022 7:16:52 PM ==> Registration Email Error - Failure sending mail.
+2/7/2022 7:16:52 PM ==> Registration Email Error - Failure sending mail.
+2/9/2022 9:03:31 AM ==> Registration Email Error - Failure sending mail.
+2/9/2022 9:03:31 AM ==> Registration Email Error - Failure sending mail.
+2/10/2022 5:52:50 AM ==> Registration Email Error - Failure sending mail.
+2/10/2022 5:52:51 AM ==> Registration Email Error - Failure sending mail.
+2/11/2022 3:20:55 AM ==> Registration Email Error - Failure sending mail.
+2/11/2022 3:20:55 AM ==> Registration Email Error - Failure sending mail.
+2/11/2022 3:41:35 AM ==> AppId: 7076 - Merchant businessinfo.aspx Error - Violation of PRIMARY KEY constraint 'PK_PrevProcessorList'. Cannot insert duplicate key in object 'dbo.PrevProcessorList'. The duplicate key value is ().
+The statement has been terminated.
+2/11/2022 3:42:05 AM ==> AppId: 7076 - Merchant businessinfo.aspx Error - Violation of PRIMARY KEY constraint 'PK_PrevProcessorList'. Cannot insert duplicate key in object 'dbo.PrevProcessorList'. The duplicate key value is (wix).
+The statement has been terminated.
+2/11/2022 3:42:21 AM ==> AppId: 7076 - Merchant businessinfo.aspx Error - Violation of PRIMARY KEY constraint 'PK_PrevProcessorList'. Cannot insert duplicate key in object 'dbo.PrevProcessorList'. The duplicate key value is (wix).
+The statement has been terminated.
+2/11/2022 3:42:21 AM ==> AppId: 7076 - Merchant businessinfo.aspx Error - Violation of PRIMARY KEY constraint 'PK_PrevProcessorList'. Cannot insert duplicate key in object 'dbo.PrevProcessorList'. The duplicate key value is (wix).
+The statement has been terminated.
+2/11/2022 3:42:22 AM ==> AppId: 7076 - Merchant businessinfo.aspx Error - Violation of PRIMARY KEY constraint 'PK_PrevProcessorList'. Cannot insert duplicate key in object 'dbo.PrevProcessorList'. The duplicate key value is (wix).
+The statement has been terminated.
+2/11/2022 3:42:22 AM ==> AppId: 7076 - Merchant businessinfo.aspx Error - Violation of PRIMARY KEY constraint 'PK_PrevProcessorList'. Cannot insert duplicate key in object 'dbo.PrevProcessorList'. The duplicate key value is (wix).
+The statement has been terminated.
+2/11/2022 11:04:34 AM ==> Registration Email Error - Failure sending mail.
+2/11/2022 11:04:35 AM ==> Registration Email Error - Failure sending mail.
+2/12/2022 7:37:21 AM ==> Registration Email Error - Failure sending mail.
+2/12/2022 7:37:21 AM ==> Registration Email Error - Failure sending mail.
+2/12/2022 7:50:56 AM ==> Registration Email Error - Failure sending mail.
+2/12/2022 7:50:56 AM ==> Registration Email Error - Failure sending mail.
+2/13/2022 2:41:58 AM ==> Registration Email Error - Failure sending mail.
+2/13/2022 2:41:58 AM ==> Registration Email Error - Failure sending mail.
+2/13/2022 7:22:47 PM ==> Registration Email Error - Failure sending mail.
+2/13/2022 7:22:47 PM ==> Registration Email Error - Failure sending mail.
+2/15/2022 10:35:26 AM ==> Registration Email Error - Failure sending mail.
+2/15/2022 10:35:27 AM ==> Registration Email Error - Failure sending mail.
+2/15/2022 6:14:44 PM ==> Registration Email Error - Failure sending mail.
+2/15/2022 6:14:44 PM ==> Registration Email Error - Failure sending mail.
+2/15/2022 6:58:33 PM ==> Registration Email Error - Failure sending mail.
+2/15/2022 6:58:33 PM ==> Registration Email Error - Failure sending mail.
+2/16/2022 11:08:03 AM ==> Registration Email Error - Failure sending mail.
+2/16/2022 11:08:04 AM ==> Registration Email Error - Failure sending mail.
+2/17/2022 2:53:16 PM ==> Registration Email Error - Failure sending mail.
+2/17/2022 2:53:16 PM ==> Registration Email Error - Failure sending mail.
+2/17/2022 3:52:10 PM ==> AppId: 7086 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing object. Path 'templateRoles', line 1, position 10085."
+}
+2/17/2022 3:52:11 PM ==> AppId: 7086 - DocuSign Error - 
+2/17/2022 3:52:19 PM ==> AppId: 7086 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing object. Path 'templateRoles', line 1, position 10085."
+}
+2/17/2022 3:52:19 PM ==> AppId: 7086 - DocuSign Error - 
+2/18/2022 10:13:52 AM ==> Registration Email Error - Failure sending mail.
+2/18/2022 10:13:52 AM ==> Registration Email Error - Failure sending mail.
+2/22/2022 3:46:03 PM ==> Registration Email Error - Failure sending mail.
+2/22/2022 3:46:03 PM ==> Registration Email Error - Failure sending mail.
+2/25/2022 9:28:12 AM ==> Registration Email Error - Failure sending mail.
+2/25/2022 9:28:12 AM ==> Registration Email Error - Failure sending mail.
+2/27/2022 3:59:57 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 3:59:58 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:00 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:00 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:01 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:02 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:02 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:03 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:03 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:04 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:04 PM ==> start.aspx Error - Thread was being aborted.
+2/27/2022 4:00:05 PM ==> start.aspx Error - Thread was being aborted.
+9/8/2022 6:34:35 PM ==> Registration Email Error - Failure sending mail.
+9/8/2022 6:34:35 PM ==> Registration Email Error - Failure sending mail.
+9/13/2022 4:08:18 PM ==> Registration Email Error - Failure sending mail.
+9/13/2022 4:08:18 PM ==> Registration Email Error - Failure sending mail.
+9/13/2022 4:38:06 PM ==> AppId: 7153 - Merchant bankinginfo.aspx Page - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:38:09 PM ==> AppId: 7153 - Merchant bankinginfo.aspx Page - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:38:23 PM ==> AppId: 7153 - Merchant bankinginfo.aspx Page - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:38:23 PM ==> AppId: 7153 - Gateway bankinginfo.aspx Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:40:24 PM ==> AppId: 7153 - Merchant bankinginfo.aspx Page - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:40:24 PM ==> AppId: 7153 - Gateway bankinginfo.aspx Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:48:43 PM ==> AppId: 7153 - Merchant bankinginfo.aspx Page - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/13/2022 4:48:43 PM ==> AppId: 7153 - Gateway bankinginfo.aspx Error - The INSERT statement conflicted with the FOREIGN KEY constraint "FK_BankingInformation_NewApp". The conflict occurred in database "AgentPortal", table "dbo.OnlineAppNewApp", column 'AppId'.
+The statement has been terminated.
+9/14/2022 2:32:16 AM ==> Registration Email Error - Failure sending mail.
+9/14/2022 2:32:16 AM ==> Registration Email Error - Failure sending mail.
+9/21/2022 1:00:12 AM ==> Registration Email Error - Failure sending mail.
+9/21/2022 1:00:13 AM ==> Registration Email Error - Failure sending mail.
+9/26/2022 12:17:18 PM ==> Registration Email Error - Failure sending mail.
+9/26/2022 12:17:19 PM ==> Registration Email Error - Failure sending mail.
+10/5/2022 11:03:08 AM ==> Registration Email Error - Failure sending mail.
+10/5/2022 11:03:08 AM ==> Registration Email Error - Failure sending mail.
+10/6/2022 11:41:41 AM ==> Registration Email Error - Failure sending mail.
+10/6/2022 11:41:42 AM ==> Registration Email Error - Failure sending mail.
+10/7/2022 1:11:37 PM ==> Registration Email Error - Failure sending mail.
+10/7/2022 1:11:38 PM ==> Registration Email Error - Failure sending mail.
+10/7/2022 11:51:37 PM ==> Registration Email Error - Failure sending mail.
+10/7/2022 11:51:37 PM ==> Registration Email Error - Failure sending mail.
+10/12/2022 4:17:31 PM ==> Registration Email Error - Failure sending mail.
+10/12/2022 4:17:32 PM ==> Registration Email Error - Failure sending mail.
+10/14/2022 10:34:03 AM ==> default.aspx - Object reference not set to an instance of an object.
+11/8/2022 3:03:43 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:03:44 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:05:08 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:05:09 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:05:58 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:05:58 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:06:35 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:06:35 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:08:43 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:08:44 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:09:28 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:09:28 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:09:57 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:09:58 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:12:15 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:12:15 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:13:51 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:13:51 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:18:12 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:18:13 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:18:39 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:18:40 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:19:17 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:19:30 PM ==> AppId: 7165 - DocuSign Error - 
+11/8/2022 3:21:18 PM ==> AppId: 7165 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Bad JSON escape sequence: \\I. Path 'templateRoles[0].tabs.textTabs[35].value', line 3, position 12."
+}
+11/8/2022 3:21:58 PM ==> AppId: 7165 - DocuSign Error - 
+1/4/2023 2:50:11 PM ==> AppId: 7185 - main.master.cs Create PDF Error - Failed to map the path '/Application/Paya Application.pdf'.
+1/18/2023 2:27:21 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:27:21 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:27:22 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:27:22 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:27:22 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:27:23 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:27:23 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:49:31 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:50:45 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:51:00 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+1/18/2023 2:51:01 PM ==> default.aspx - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+6/22/2023 2:05:33 PM ==> AppId: 7188 - main.master.cs Create PDF Error - Failed to map the path '/Application/ipayment application.pdf'.
+6/22/2023 3:13:14 PM ==> AppId: 7188 - main.master.cs Create PDF Error - Failed to map the path '/Application/ipayment application.pdf'.
+6/30/2023 10:34:10 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:34:21 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:34:49 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:36:06 AM ==> AppId: 7298 - Merchant companyinfo.aspx Error - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:36:52 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:37:30 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:37:39 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:37:53 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:38:01 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:39:55 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:42:13 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+6/30/2023 10:42:24 AM ==> default.aspx - A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The client and server cannot communicate, because they do not possess a common algorithm.)
+7/6/2023 8:48:40 AM ==> Registration Email Error - Input string was not in a correct format.
+7/6/2023 8:48:41 AM ==> Registration Email Error - Input string was not in a correct format.
+7/6/2023 2:55:15 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 2:55:15 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 2:55:34 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 2:55:35 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 2:55:53 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 2:55:53 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 2:56:42 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 2:56:42 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 2:57:02 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 2:57:03 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 2:58:42 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 2:58:42 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 3:00:02 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 3:00:02 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 3:00:23 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 3:00:23 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 3:01:26 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 3:01:26 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 3:05:05 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 3:05:05 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 3:10:46 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 3:10:46 PM ==> AppId: 7301 - DocuSign Error - 
+7/6/2023 3:11:06 PM ==> AppId: 7301 - DocuSign Error - {
+  "errorCode": "INVALID_REQUEST_BODY",
+  "message": "The request body is missing or improperly formatted. Unexpected end when deserializing array. Path 'templateRoles[0]', line 1, position 10386."
+}
+7/6/2023 3:11:06 PM ==> AppId: 7301 - DocuSign Error - 
+7/10/2023 10:12:01 AM ==> Registration Email Error - Input string was not in a correct format.
+7/10/2023 10:12:01 AM ==> Registration Email Error - Input string was not in a correct format.
+8/29/2023 12:42:34 PM ==> AppId: 7188 - main.master.cs Create PDF Error - Failed to map the path '/Application/ipayment application.pdf'.

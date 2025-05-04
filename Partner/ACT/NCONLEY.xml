@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<iPaymentApplication xmlns="http://www.ipaymentinc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <ExtendedInfo salesNumber="02733-003" salesName="Jim Soltis">
+  </ExtendedInfo>
+  <BusinessInfo legalBusinessName="Capital Momentum Solutions Inc" doingBusinessAs="Capital Momentum Solutions Inc" address="3420 45TH STREET ste 2 " address2="" city="West Palm Beach" state="FL" zip="33407" county="United States" monthsAtAddress="0" yearsAtAddress="" mainPhone="561-246-3398" customerServicePhone="561-246-3398" mainFaxPhone="480-287-9451" contactFirstName="NATINA" contactLastName="CONLEY" numberOfLocations="1" yearsInBusiness="0" monthsInBusiness="6" businessHours="9am -5 pm" mainEmailAddress="info@capitalmomentumsolutions.com" mainWebSite="capitalmomentumsolutions.com" mailingAddress="3420 45TH STREET ste 2 " mailingAddress2="" mailingAddressCity="West Palm Beach" mailingAddressState="FL " mailingAddressZip="33407" federalTaxID="454201797" merchantType="" ownershipType="Corporation">
+  </BusinessInfo>
+  <SalesBreakDown>
+  </SalesBreakDown>
+  <PrincipalCollection>
+    <Principal>
+    </Principal>
+  </PrincipalCollection>
+  <ReferenceCollection>
+    <Reference>
+    </Reference>
+  </ReferenceCollection>
+  <Fees>
+  </Fees>
+  <Equipment>
+  </Equipment>
+  <LeaseInfo>
+  </LeaseInfo>
+  <Terminals>
+    <Terminal>
+    </Terminal>
+  </Terminals>
+  <Gateways>
+    <Gateway>
+    </Gateway>
+  </Gateways>
+  <Softwares>
+    <Software>
+    </Software>
+  </Softwares>
+  <BankInformation>
+  </BankInformation>
+</iPaymentApplication>

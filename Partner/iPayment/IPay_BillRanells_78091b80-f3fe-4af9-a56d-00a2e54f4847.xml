@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Dance Academy Inc</BusName>
+      <DBA>Dance Academy Inc.</DBA>
+      <BusAddr>
+        <st_name>1258 S Bascon </st_name>
+        <city>San Jose</city>
+        <state>CA</state>
+        <country>United States</country>
+        <zip>95128</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>1258 S Bascon </st_name>
+        <city>San Jose</city>
+        <state>CA </state>
+        <country>United States</country>
+        <zip>95128</zip>
+      </MailAddr>
+      <LOS>240</LOS>
+      <FedTaxId>770194651</FedTaxId>
+      <BusPhone>408-247-9464</BusPhone>
+      <BusFax>408-247-9487</BusFax>
+      <CustPhone>
+      </CustPhone>
+      <ContactName>Bill Ranells</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>20</LOB>
+      <BusHrs>9am-7pm</BusHrs>
+      <email>fredastairesj@yahoo.com</email>
+      <url>
+      </url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>95</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>5</Moto>
+      <OwnershipType>Corporation</OwnershipType>
+      <CustRefundPol>Exchange Only</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>Dance studio, Lessons</ProdType>
+      <DelTime>4</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>0</EverProcessed>
+      <EverTerminated>0</EverTerminated>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Bill</FirstName>
+      <LastName>Ranells</LastName>
+      <SSN>294308933</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>3605 Pleasant Knoll Dr. </st_name>
+        <city>San Jose</city>
+        <state>CA  </state>
+        <country>United States</country>
+        <zip>95148</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>12</LOS>
+      <Phone>408-270-4543</Phone>
+      <DOB>09/14/2037</DOB>
+      <LicNum>J0570981</LicNum>
+      <LicState>CA  </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>40558</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>1.69</DiscFee>
+          <MidQualFee>2.69</MidQualFee>
+          <NonQualFee>2.99</NonQualFee>
+        </CardPresent>
+        <TransFee>0.19</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>25.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.19</BatchHeaders>
+      <ExternalGWFee>
+      </ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>30000</MonthlyProcLimit>
+      <AvgTicket>394</AvgTicket>
+      <NeedAmex>0</NeedAmex>
+      <NeedDiscover>0</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Wells Fargo Bank</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>121042882</TransroutingNum>
+      <DDA>2374600175</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

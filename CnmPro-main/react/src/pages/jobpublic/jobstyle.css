@@ -1,0 +1,212 @@
+.jobs-container {
+    background: url(../../assets/images/cnmPro/image2.jpg);
+    height: auto;
+}
+/* jobs component stying begins */
+.job-component-searchBar {
+    padding-top: 2%;
+    margin-left: 1.9%;
+    margin-right: 20%;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.row-cnmpro-jobs {
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+.container-cnmpro-jobs {
+    padding-bottom: 5%;
+}
+.job-window-cnmpro {
+    overflow-y: scroll;
+    height: 600px;
+    margin-left: 2.5%;
+    padding-right: 0% !important;
+}
+.detailed-view-col {
+    height: 600px;
+    margin-left: 2.5%;
+    margin-right: 4%;
+}
+/* jobs component styling ends */
+
+/* jobMapper styling begins */
+
+.job-buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+.job-card-container-cnmpro {
+    background-color: whitesmoke;
+    border-style: dotted;
+    border-width: 2.5px;
+    border-color: rgba(10, 31, 100, 0.79);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+.job-card-container-cnmpro:hover {
+    background-color: lightgrey;
+}
+.job-card-image-col {
+    padding-top: 5px;
+}
+.company-logo-jobs-cnmpro {
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.logo-img-jobs-cnmpro {
+    max-width: 75px;
+}
+.jobmapper-location-cnmpro {
+    font-size: small;
+    padding-right: 15%;
+    color: black;
+    text-align: right;
+}
+.job-title {
+    margin-top: 20px;
+
+    color: black;
+}
+.jobmapper-description-cnmpro {
+    font-size: small;
+    font-weight: lighter;
+    padding-right: 5%;
+    color: black;
+}
+.jobmapper-requirements-cnmpro {
+    font-size: small;
+    font-weight: lighter;
+    padding-right: 5%;
+    color: black;
+}
+
+.job-button {
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    align-self: right;
+    background-color: #727cf5;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+
+    margin-left: 5%;
+}
+
+.proposal-card-button {
+    margin-top: 3%;
+    margin-left: 0%;
+    background-color: rgba(10, 31, 100, 0.79);
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+
+    margin-bottom: 1.5%;
+}
+
+/* jobsMapper styling ends */
+
+/* jobDetailedViewCard styling begins */
+.card-job-details-container {
+    height: 600px;
+}
+.card-job-details-image {
+    padding-top: 15px;
+}
+.company-logo-job-details {
+    padding-left: 15px;
+}
+.card-job-details {
+    background-color: whitesmoke;
+    height: 600px;
+    overflow-y: scroll;
+    margin-left: -1.36% !important;
+}
+.card-job-details-title {
+    padding-left: 1px;
+}
+.card-job-details-description-cnmpro {
+    padding-left: 1px;
+    padding-right: 15px;
+    color: black;
+}
+.card-job-details-tag-cnmpro {
+    text-decoration: underline;
+    color: black;
+}
+.card-job-details-requirements-cnmpro {
+    padding-left: 1px;
+    padding-right: 15px;
+    color: black;
+}
+.card-job-details-location-cnmpro {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* jobDetailedViewCard styling ends */
+
+/* scrollbar styling begins */
+.scrollbar-jobs-cnmpro {
+    padding-left: -2%;
+    overflow-y: scroll;
+    mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 17px, black 17px);
+    mask-size: 100% 20000px;
+    mask-position-jobs: left bottom;
+
+    -webkit-mask-size: 100% 20000px;
+    -webkit-mask-position: left bottom;
+    transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+
+.scrollbar-jobs-cnmpro::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+
+.scrollbar-jobs-cnmpro::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+
+.scrollbar-jobs-cnmpro::-webkit-scrollbar-thumb {
+    background-color: #727cf5;
+    border: 2px solid #727cf5;
+    border-radius: 15px;
+}
+
+.scrollbar-jobs-cnmpro:hover {
+    -webkit-mask-position: left top;
+}
+.scrollbar-jobs-infiniteScroll-cnmpro {
+    padding-left: -2%;
+    overflow-y: scroll;
+    mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 17px, black 17px);
+    mask-size: 100% 20000px;
+    mask-position-jobs: left bottom;
+
+    -webkit-mask-size: 100% 20000px;
+    -webkit-mask-position: left bottom;
+    transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+.scrollbar-jobs-infiniteScroll-cnmpro::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+.scrollbar-jobs-infiniteScroll-cnmpro::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+
+.scrollbar-jobs-infiniteScroll-cnmpro::-webkit-scrollbar-thumb {
+    background-color: #727cf5;
+    border: 2px solid #727cf5;
+    border-radius: 15px;
+}
+
+.scrollbar-jobs-infiniteScroll-cnmpro:hover {
+    -webkit-mask-position: left top;
+}
+/* scrollbar styling ends */

@@ -1,0 +1,60 @@
+﻿<Project DefaultTargets="BuildTemplates" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="BuildVsi" AssemblyFile="$(MSBuildProjectDirectory)\..\Binaries\BuildVsi.dll" />
+  <ItemGroup>
+    <Content Include="TemplateVSI.vscontent" />
+    <Content Include="TemplateVSI.xml" />
+    <Content Include="CommonFiles\Behavior.js" />
+    <Content Include="CommonFiles\__TemplateIcon.ico" />
+    <Content Include="CommonFilesCS\Designer.cs" />
+    <Content Include="CommonFilesCS\Extender.cs" />
+    <Content Include="CommonFilesVB\Designer.vb" />
+    <Content Include="CommonFilesVB\Extender.vb" />
+    <Content Include="ItemTemplateCS\MyTemplate.vstemplate" />
+    <Content Include="ItemTemplateVB\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplateCS\AjaxControlExtender.csproj" />
+    <Content Include="ProjectTemplateCS\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplateVB\AjaxControlExtender.vbproj" />
+    <Content Include="ProjectTemplateVB\MyTemplate.vstemplate" />
+    <Content Include="ToolkitWebsiteTemplate\Readme.txt" />
+    <Content Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\AjaxControlToolkitWebsiteCS.vstemplate" />
+    <Content Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\Default.aspx" />
+    <Content Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\AjaxControlToolkitWebsiteVB.vstemplate" />
+    <Content Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\Default.aspx" />
+    <Content Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\Default.aspx.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\AjaxControlToolkitWebsiteCS.webproj" />
+    <None Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\AjaxControlToolkitWebsiteVB.webproj" />
+    <None Include="ToolkitWebsiteTemplate\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\Default.aspx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputPath>$(MSBuildProjectDirectory)\bin</OutputPath>
+    <ProjectGuid>{26CF4C3F-A35C-4122-91FA-D536DD56BDA8}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VsiFile>$(OutputPath)\AjaxControlExtender.vsi</VsiFile>
+  </PropertyGroup>
+  <Target Name="BuildTemplates" Inputs="@(Content)" Outputs="$(VsiFile)">
+    <BuildVsi ContentProject="$(MSBuildProjectDirectory)\TemplateVSI.xml" ContentRootDirectory="$(MSBuildProjectDirectory)\.." DestinationDirectory="$(OutputPath)" />
+  </Target>
+  <Target Name="Clean">
+    <RemoveDir Directories="$(OutputPath)" />
+  </Target>
+  <Target Name="Rebuild">
+    <CallTarget Targets="Clean;BuildTemplates" />
+  </Target>
+</Project>

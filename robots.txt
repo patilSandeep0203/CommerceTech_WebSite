@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /Bin/
+Disallow: /App_Browsers/
+Disallow: /App_Data/
+Disallow: /App_Themes/
+Disallow: /lib/
+Disallow: /PSD/

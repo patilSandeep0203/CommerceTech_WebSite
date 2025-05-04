@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /Bin/
+Disallow: /App_Browsers/
+Disallow: /App_Data/
+Disallow: /App_Themes/
+Disallow: /lib/
+Disallow: /PSD/
+Disallow: /Libwww-perl/
+Disallow: /applypage.aspx/
+Disallow: /reportpage.aspx/
+Disallow: /consultpage.aspx/
+Disallow: /Affiliatewiz/applypage.aspx/
+Disallow: /Affiliatewiz/reportpage.aspx/
+Disallow: /Affiliatewiz/consultpage.aspx/
+
+User-agent: Libwww-perl
+Disallow: /

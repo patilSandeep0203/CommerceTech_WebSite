@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<contentProject noCompress="true" output="AjaxControlExtender.vsi">
+
+  <contentItem itemSourceRoot="root" source="TemplateVSI\TemplateVSI.vscontent" />
+
+  <contentProject output="AjaxControlExtenderProjectVB.zip">
+
+    <!-- VB project template files -->
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\__TemplateIcon.ico" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\Behavior.js" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesVB\Extender.vb" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesVB\Designer.vb" />    
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ProjectTemplateVB\MyTemplate.vstemplate" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ProjectTemplateVB\AjaxControlExtender.vbproj" />
+
+    <!-- Built files -->
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\AjaxControlToolkit.dll" />
+
+  </contentProject>
+
+  <contentProject output="AjaxControlExtenderProjectCS.zip">
+
+    <!-- CS project template files -->
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\__TemplateIcon.ico" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\Behavior.js" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesCS\Extender.CS" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesCS\Designer.cs" />    
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ProjectTemplateCS\MyTemplate.vstemplate" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ProjectTemplateCS\AjaxControlExtender.CSproj" />
+
+    <!-- Built files -->
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\AjaxControlToolkit.dll" />
+
+  </contentProject>
+
+  <contentProject output="AjaxControlExtenderItemCS.zip">
+
+    <!-- CS Item template files -->
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\__TemplateIcon.ico" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\Behavior.js" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesCS\Extender.CS" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesCS\Designer.cs" />    
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ItemTemplateCS\MyTemplate.vstemplate" />
+  </contentProject>
+
+  <contentProject output="AjaxControlExtenderItemVB.zip">
+
+    <!-- VB Item template files -->
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\__TemplateIcon.ico" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFiles\Behavior.js" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesVB\Extender.vb" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\CommonFilesVB\Designer.vb" />    
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ItemTemplateVB\MyTemplate.vstemplate" />
+  </contentProject>
+
+  <contentProject output="AjaxControlToolkitWebsiteCS.zip">
+
+    <!-- CS website template files -->
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\web.config" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\readme.txt" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\AjaxControlToolkitWebsiteCS.vstemplate" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\AjaxControlToolkitWebsiteCS.webproj" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\Default.aspx" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateCS\Default.aspx.cs" />
+
+    <!-- Built files -->
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\AjaxControlToolkit.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ar\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ar.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\de\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.de.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\es\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.es.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\fr\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.fr.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\he\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.he.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\hi\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.hi.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\it\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.it.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ja\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ja.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ko\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ko.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\pt\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.pt.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ru\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ru.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\zh-CHS\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.zh-CHS.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\zh-CHT\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.zh-CHT.dll" />
+
+  </contentProject>
+
+  <contentProject output="AjaxControlToolkitWebsiteVB.zip">
+
+    <!-- VB website template files -->
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\web.config" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\readme.txt" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\AjaxControlToolkitWebsiteVB.vstemplate" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\AjaxControlToolkitWebsiteVB.webproj" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\Default.aspx" />
+    <contentItem itemSourceRoot="root" source="TemplateVSI\ToolkitWebsiteTemplate\ToolkitWebsiteTemplateVB\Default.aspx.vb" />
+
+    <!-- Built files -->
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\AjaxControlToolkit.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ar\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ar.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\de\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.de.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\es\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.es.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\fr\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.fr.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\he\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.he.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\hi\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.hi.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\it\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.it.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ja\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ja.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ko\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ko.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\pt\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.pt.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\ru\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.ru.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\zh-CHS\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.zh-CHS.dll" />
+    <contentItem itemSourceRoot="root" source="SampleWebsite\bin\zh-CHT\AjaxControlToolkit.resources.dll" destination="AjaxControlToolkit.resources.zh-CHT.dll" />
+
+  </contentProject>
+
+
+</contentProject>

@@ -1,0 +1,10 @@
+.cards-adm-cnmpro {
+    margin: 1rem !important;
+    box-shadow: 0 0 5px 0 rgba(100, 100, 100, 0.26) !important;
+    transition: all 0.2s ease !important;
+    cursor: auto !important;
+}
+
+.cards-adm-cnmpro:hover {
+    transform: scale(1.05) !important;
+}

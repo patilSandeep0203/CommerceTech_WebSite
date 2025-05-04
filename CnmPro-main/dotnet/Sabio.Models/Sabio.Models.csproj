@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+     <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AppSettings\ReactDomain.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stripe.net" Version="39.121.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\ContactUs\" />
+  </ItemGroup>
+
+</Project>

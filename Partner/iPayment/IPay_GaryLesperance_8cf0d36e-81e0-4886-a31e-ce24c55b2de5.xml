@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Gary Lesperance</BusName>
+      <DBA>MCS automation engineers</DBA>
+      <BusAddr>
+        <st_name>1000 W. main St. </st_name>
+        <city>Little Chote</city>
+        <state>WI</state>
+        <country>United States</country>
+        <zip>54140</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>1000 W. main St. </st_name>
+        <city>Little Chote</city>
+        <state>WI</state>
+        <country>United States</country>
+        <zip>54140</zip>
+      </MailAddr>
+      <LOS>84</LOS>
+      <FedTaxId>391600063</FedTaxId>
+      <BusPhone>920-739-1911</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>920-739-1911</CustPhone>
+      <ContactName>Gary Lesperance</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>29</LOB>
+      <BusHrs>9AM to 5PM</BusHrs>
+      <email>gary@lesperance.org</email>
+      <url>mcsauto.com</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>75</Internet>
+      <Moto>25</Moto>
+      <OwnershipType>Sole Proprietorship</OwnershipType>
+      <CustRefundPol>Refund within 30 days</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>software and web programing services, software development</ProdType>
+      <DelTime>15</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>1</EverProcessed>
+      <WhoProcessed>iPayment, Inc.</WhoProcessed>
+      <EverTerminated>0</EverTerminated>
+      <TerminationReason>
+      </TerminationReason>
+      <FormerMerchNum>4223696789000517</FormerMerchNum>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Gary</FirstName>
+      <LastName>Lesperance</LastName>
+      <SSN>398607354</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>1037 E. Pacific St </st_name>
+        <city>Appleton</city>
+        <state>WI</state>
+        <country>United States</country>
+        <zip>54911</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>300</LOS>
+      <Phone>920-428-2988</Phone>
+      <DOB>05/05/1955</DOB>
+      <LicNum>L216-2925-5165-02</LicNum>
+      <LicState>WI</LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>john thorpe</RepName>
+      <RepNum>52986</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.19</DiscFee>
+          <MidQualFee>2.99</MidQualFee>
+          <NonQualFee>4.09</NonQualFee>
+        </CardPresent>
+        <TransFee>0.29</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>15.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.29</BatchHeaders>
+      <ExternalGWFee>10.00</ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>10000</MonthlyProcLimit>
+      <AvgTicket>75</AvgTicket>
+      <NeedAmex>1</NeedAmex>
+      <NeedDiscover>1</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>BLC Community Bank</BankName>
+      <BankAddr>206 E. Main Street</BankAddr>
+      <TransroutingNum>075905868</TransroutingNum>
+      <DDA>152368</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

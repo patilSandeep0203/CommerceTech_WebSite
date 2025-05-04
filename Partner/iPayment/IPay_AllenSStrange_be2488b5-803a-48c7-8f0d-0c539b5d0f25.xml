@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>WS Business Center Corp</BusName>
+      <DBA>Accounting &amp; Taxes Services</DBA>
+      <BusAddr>
+        <st_name>1325 SW 87 Ave </st_name>
+        <city>Miami</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33174</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>1325 SW 87 Ave </st_name>
+        <city>Miami</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33174</zip>
+      </MailAddr>
+      <LOS>108</LOS>
+      <FedTaxId>061638014</FedTaxId>
+      <BusPhone>305-267-2767</BusPhone>
+      <BusFax>305-267-2775</BusFax>
+      <CustPhone>305-267-2767</CustPhone>
+      <ContactName>Allen S Strange</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>15</LOB>
+      <BusHrs>9am to 7pm</BusHrs>
+      <email>allen@wsbcenter.com</email>
+      <url>
+      </url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>80</RetailCardSwipe>
+      <RetailManuallyKeyed>20</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>0</Moto>
+      <OwnershipType>Corporation</OwnershipType>
+      <CustRefundPol>Customer Sasticfatory</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>Accounting &amp; Taxes Services</ProdType>
+      <DelTime>0</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>1</EverProcessed>
+      <WhoProcessed>EMG Associates</WhoProcessed>
+      <EverTerminated>0</EverTerminated>
+      <TerminationReason>
+      </TerminationReason>
+      <FormerMerchNum>3899000000140952</FormerMerchNum>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Allen</FirstName>
+      <LastName>Strange</LastName>
+      <SSN>589285297</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>President</Title>
+      <Address>
+        <st_name>631 SW  99 PL </st_name>
+        <city>Miami</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33174</zip>
+      </Address>
+      <AddrType>
+      </AddrType>
+      <LOS>
+      </LOS>
+      <Phone>305-904-7562</Phone>
+      <DOB>06/06/1966</DOB>
+      <LicNum>S365-017-66-209-0</LicNum>
+      <LicState>
+      </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Francis Strange</RepName>
+      <RepNum>52865</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>1.69</DiscFee>
+          <MidQualFee>2.49</MidQualFee>
+          <NonQualFee>3.59</NonQualFee>
+        </CardPresent>
+        <TransFee>0.25</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>15.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>25.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.30</BatchHeaders>
+      <ExternalGWFee>
+      </ExternalGWFee>
+      <WirelessFee>20.00</WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>5000</MonthlyProcLimit>
+      <AvgTicket>100</AvgTicket>
+      <NeedAmex>1</NeedAmex>
+      <NeedDiscover>1</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Colonial Bank</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>063113222</TransroutingNum>
+      <DDA>8043130361</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

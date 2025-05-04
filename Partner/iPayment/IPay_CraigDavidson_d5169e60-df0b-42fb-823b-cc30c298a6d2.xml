@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Craig Davidson</BusName>
+      <DBA>Massage ClubCard</DBA>
+      <BusAddr>
+        <st_name>1776 I Street NW Suite 900</st_name>
+        <city>Washington</city>
+        <state>DC</state>
+        <country>United States</country>
+        <zip>20006</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>1776 I Street NW Suite 900</st_name>
+        <city>Washington</city>
+        <state>DC</state>
+        <country>United States</country>
+        <zip>20006</zip>
+      </MailAddr>
+      <LOS>252</LOS>
+      <FedTaxId>273180498</FedTaxId>
+      <BusPhone>202-280-6589</BusPhone>
+      <BusFax>877-347-2580</BusFax>
+      <CustPhone>877-347-2582</CustPhone>
+      <ContactName>Craig Davidson</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>2</LOB>
+      <BusHrs>10AM to 6PM</BusHrs>
+      <email>cdavidson75@netzero.com</email>
+      <url>massageclubcard.com</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>50</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>50</Moto>
+      <OwnershipType>Sole Proprietorship</OwnershipType>
+      <CustRefundPol>Depends on circumstances</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>Therapeutic massage, B to B sales and discount club.</ProdType>
+      <DelTime>0</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>1</EverProcessed>
+      <WhoProcessed>iPayment, Inc.</WhoProcessed>
+      <EverTerminated>0</EverTerminated>
+      <TerminationReason>
+      </TerminationReason>
+      <FormerMerchNum>
+      </FormerMerchNum>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Craig</FirstName>
+      <LastName>Davidson</LastName>
+      <SSN>226172636</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>301 Saint Augustine St </st_name>
+        <city>Lynchburg</city>
+        <state>VA</state>
+        <country>United States</country>
+        <zip>24501</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>
+      </LOS>
+      <Phone>
+      </Phone>
+      <DOB>08/27/1967</DOB>
+      <LicNum>T60403085</LicNum>
+      <LicState>VA</LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>40558</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.09</DiscFee>
+          <MidQualFee>2.89</MidQualFee>
+          <NonQualFee>3.99</NonQualFee>
+        </CardPresent>
+        <TransFee>0.25</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>20.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.25</BatchHeaders>
+      <ExternalGWFee>10.00</ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>5000</MonthlyProcLimit>
+      <AvgTicket>150</AvgTicket>
+      <NeedAmex>0</NeedAmex>
+      <NeedDiscover>0</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Wachovia Bank N.A.</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>051400549</TransroutingNum>
+      <DDA>2000053491169</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

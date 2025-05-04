@@ -1,0 +1,142 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using OnlineAppClassLibrary;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.Text;
+using System.IO;
+
+public partial class Gateway_notice : System.Web.UI.Page
+{
+    private static int AppId = 0;
+   
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        AppId = Convert.ToInt32(Session["AppId"]);
+        if (Session.IsNewSession)
+            Response.Redirect("/OnlineApplication/default.aspx?SessionExpired=True");
+
+        Response.CacheControl = "no-cache";
+        Response.AddHeader("Pragma", "no-cache");
+        Response.Expires = -1;
+
+        imgCreatePDF.Attributes.Add("onmouseover", "this.src = '/OnlineApplication/Images/CreatePDF_Mouseover.gif'");
+        imgCreatePDF.Attributes.Add("onmouseout", "this.src = '/OnlineApplication/Images/CreatePDF.gif'");
+
+        Style errLabel = new Style();
+        errLabel.BackColor = System.Drawing.Color.FromArgb(255, 192, 192);
+        errLabel.ForeColor = System.Drawing.Color.Black;
+        errLabel.BorderColor = System.Drawing.Color.Red;
+        errLabel.BorderStyle = BorderStyle.Solid;
+        errLabel.BorderWidth = Unit.Pixel(1);
+        errLabel.Font.Size = FontUnit.Small;
+        lblError.ApplyStyle(errLabel);
+        lblIncomplete.ApplyStyle(errLabel);
+
+        if (!IsPostBack)
+        {
+            if (!User.Identity.IsAuthenticated)
+                Response.Redirect("/OnlineApplication/default.aspx?Authentication=False");
+            else
+            {
+                try
+                {
+                   CheckAppStatus();                   
+                }//end try
+                catch (Exception err)
+                {
+                    CreateOnlineAppLog Log = new CreateOnlineAppLog();
+                    Log.ErrorLog(Server.MapPath("~/ErrorLog"), "AppId: " + Session["AppId"].ToString() + " - " + "Gateway notice.aspx Page Load Error - " + err.Message);
+                     SetErrorMessage("Error Processing Request. Please contact Technical Support: <a href='mailto:support@commercetech.com?Subject=Online Application Error'> support@commercetech.com. </a>.");
+                }
+                lblAppId.Text = Convert.ToString(Session["AppId"]);
+                lblAppId.Font.Size = FontUnit.Point(10);
+                lblAppId.ForeColor = System.Drawing.Color.Salmon;
+            }
+        }//end if postback
+    }//end page load
+
+    //This function checks app status
+    protected void CheckAppStatus()
+    {
+         //Check status of app and display appropriate label
+        int AppId = Convert.ToInt32(Session["AppId"]);
+        NewAppInfo AppInfo = new NewAppInfo(AppId);
+        string Status = AppInfo.ReturnStatusGW();
+        if ((Status == "") || (Status == "INCOMPLETE") || (Status == "Incomplete"))
+        {
+            lblIncomplete.Visible = true;
+            //lblComplete.Visible = false;
+            lnkMerchantSignup.Visible = false;
+            CheckPrevMerchant(false);            
+            pnlCreatePDF.Visible = false;
+        }
+        else
+        {
+            lblIncomplete.Visible = false;
+            //lblComplete.Visible = true;
+            CheckPrevMerchant(true);
+            if (Convert.ToInt32(Session["AcctType"]) == 4)
+                pnlCreatePDF.Visible = true;
+            else
+            {
+                pnlCreatePDF.Visible = false;
+                lblGatewayOnly.Visible = true;
+            }
+        }
+
+        if (Convert.ToInt32(Session["AcctType"]) == 4)
+        {
+            Status = AppInfo.ReturnStatus();
+            if ((Status == "") || (Status == "INCOMPLETE") || (Status == "Incomplete"))
+                pnlMerchantIncomplete.Visible = true;
+            else
+                pnlMerchantIncomplete.Visible = false;
+        }
+        
+    }//end function check app status
+
+    //This function checks whether the customer has a previous merchant account
+    protected void CheckPrevMerchant(bool flag)
+    {
+        ReprogramInfo Reprogram = new ReprogramInfo(AppId);
+        DataSet dsReprogramInfo = Reprogram.GetReprogramInfo();
+        string strReprogram = "No";
+        if (dsReprogramInfo.Tables[0].Rows.Count > 0)
+        {            
+            DataRow drReprogramInfo = dsReprogramInfo.Tables[0].Rows[0];
+            if (Convert.ToBoolean(drReprogramInfo["Reprogram"]) == true)
+                strReprogram = "Yes";
+        }
+        
+        if (strReprogram == "Yes")
+            lnkMerchantSignup.Visible = false;
+        else
+        {
+            if ( Convert.ToInt32(Session["AcctType"]) != 4 )
+                lnkMerchantSignup.Visible = true;            
+        }
+    }
+
+    //This function displays error messages
+    protected void SetErrorMessage(string errText)
+    {
+        lblError.Visible = true;
+        lblError.Text = errText;
+    }//end function set error message
+
+    protected void imgCreatePDF_Click(object sender, ImageClickEventArgs e)
+    {
+        //Call the same Create PDF function as the Master Page
+        Main MainPg = (Main)this.Master;
+        MainPg.lnkbtnCreatePDF_Click(sender, e);
+    }
+}

@@ -1,0 +1,434 @@
+﻿.IE
+{
+    z-index: 1;
+}
+
+.MenuCss:LINK, .MenuCss:VISITED, .MenuCss:ACTIVE
+{
+	text-decoration: none;
+	font-size: 10pt;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+}
+.MenuCss:hover
+{
+	color: white;
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.HMenu:LINK, .HMenu:VISITED, .HMenu:ACTIVE
+{
+	text-decoration: none;
+	color: #007b79;
+	font-family:Arial;
+	font-size:10px;
+}
+.HMenu:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-size:10px;
+	font-family:Arial;
+}
+
+.MenuHeader
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.MenuFooter:LINK, .MenuFooter:VISITED, .MenuFooter:ACTIVE
+{
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.MenuFooter:hover
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.BannerText
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.CloseButton
+{
+	font-family: Arial;
+	border: 1px thin silver;
+	padding: 2px;
+	text-decoration: none;
+	background-color: Gray;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+}
+
+.LabelsBody
+{
+	color: #000000;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.LabelsBodySmall
+{
+	color: #000000;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.LabelsBodyLarge
+{
+	color: #000000;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+.LabelsHeader
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+ .LabelsHeaderLarge
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+.LabelsHeaderSmall
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 8pt;
+	text-decoration:none;
+}
+
+.Link:LINK, .Link:VISITED, .Link:ACTIVE
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.Link:Hover
+{
+	color: red;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration:underline;
+}
+
+.divblock {
+     text-align: center;
+     vertical-align: middle;
+     padding-top: 4px;
+ }
+
+.OnlineAppBtn 
+{  
+	color: #FFFFFF;   
+	background-color: #007b79;
+	border:2px solid;  
+	border-style:outset;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color: #007b79;	
+	background-color: #007b79;
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration:none;
+	behaviour:url(border-radius.htc);
+	vertical-align: middle;
+	text-align: center;
+	border:none;
+	/*background:url(Images/bgbtnonlineapp.png)*/
+}   
+
+.OnlineAppBtn:hover 
+{   
+	color: #000000;   
+	/*background-color: #a1b6b6;
+	border:2px solid;   
+	border-style:inset;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color: #007b79;*/   
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration:none;
+	behaviour:url(/PIE.js);
+	background-color: #a1b6b6;
+	border:none;
+	/*background:url(Images/bgbtnonlineapphover.png)*/
+	
+}
+
+a.OnlineAppBtn 
+{   
+	color: #FFFFFF;   
+	/*background-color: #007b79;
+	border:2px solid;  
+	border-style:outset;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color: #007b79;*/	
+	background-color: #007b79;
+	font-family: Arial;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration:none;
+	behaviour:url(border-radius.htc);
+	vertical-align: middle;
+	/*background:url(Images/bgbtnonlineapp.png)*/
+}   
+
+a.OnlineAppBtn:hover 
+{   
+	color: #000000;   
+	/*background-color: #a1b6b6;
+	border:2px solid;   
+	border-style:inset;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color: #007b79;*/   
+	font-family: Arial;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration:none;
+	behaviour:url(/PIE.js);
+	background-color: #a1b6b6;
+	/*background:url(Images/bgbtnonlineapphover.png)*/
+	
+}
+
+.TextStyle
+{
+	text-decoration: none;
+	color: #007b79;
+	font-size:8pt;
+	font-family:Arial;
+}
+
+.LinkSmall:LINK, .LinkSmall:VISITED, .LinkSmall:ACTIVE
+{
+	text-decoration: none;
+	color: #007b79;
+	font-size:8pt;
+	font-family:Arial;
+}
+.LinkSmall:hover
+{
+	color: red;
+	text-decoration: underline;
+	font-size:8pt;
+	font-family:Arial;
+}
+
+.LabelsDarkBlue
+{
+	color: #064787;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.LabelsDarkBlueSmall
+{
+	color: #064787;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.LabelsRed
+{
+	color: red;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.LabelsRedLarge
+{
+	color: red;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+.LabelsRedSmall
+{
+	color: red;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.LabelsWhite
+{
+	color: #007b79;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.DivHeader
+{
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	border-bottom: #a1b6b6 1px solid;
+	/*background-color: #a1b6b6;*/
+	background-color:#ffffff;
+	/*color: #007b79;*/
+}
+
+.DivHeader1
+{
+	border-right: #a1b6b6 1px solid;
+	border-top: #a1b6b6 1px solid;
+	border-left: #a1b6b6 1px solid;
+	border-bottom: #a1b6b6 1px solid;
+	background-color: #a1b6b6;
+}
+
+.DivHeader2
+{
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	border-bottom: #a1b6b6  1px solid;
+	/*background-color: #007b79;*/
+	background-color:#ffffff;
+}
+
+
+.Border
+{
+	border-right: #a1b6b6 1px solid;
+	border-top: #a1b6b6 1px solid;
+	border-left: #a1b6b6 1px solid;
+	border-bottom: #a1b6b6 1px solid;
+}
+
+.DivWhiteSmoke
+{	
+	background-color: #fbfbfb;
+}
+
+.DivGreen
+{
+	border-right: #d6ebf2 1px solid;
+	border-top: #d6ebf2 1px solid;
+	border-left: #d6ebf2 1px solid;
+	border-bottom: #d6ebf2 1px solid;
+	background-color: #f1fafa;
+}
+.BorderBlack
+{
+	border-right: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+	border-top: black 1px solid;
+}
+
+.PasswordCSS
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;  
+     padding: 2px 3px 2px 3px;   
+}
+
+.TDBackground
+{	
+	background-color: #77aadd;
+}
+
+.TDBGDarkBlue
+{	
+	background-color: #336699;
+}
+
+.SilverBorder
+{
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+}
+
+.DivBlack
+{
+	background-color: Black;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+
+.DivLightGray
+{
+	background-color: #fbfbfb;
+	border-right: #a1b6b6 1px solid;
+	border-top: #a1b6b6 1px solid;
+	border-left: #a1b6b6 1px solid;
+	border-bottom: #a1b6b6 1px solid;
+}
+
+.DivHelp
+{
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+	background-color:#ffffce;
+	color: #383838;
+	font-family: Arial;
+	font-size: 8pt;
+	margin-top:2;
+	margin-bottom:2;
+	margin-left:2;
+	margin-right:2;
+}
+
+.Bullet
+{
+	list-style-image: url(images/bullet.gif);
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.ajax__tab_CSS .ajax__tab_header {font-family:Arial;font-size:8pt;background:url(/PartnerPortal/Images/tab-line.gif) repeat-x bottom;}
+.ajax__tab_CSS .ajax__tab_outer {background:url(/PartnerPortal/Images/tab-right.gif) no-repeat right;height:21px;}
+.ajax__tab_CSS .ajax__tab_inner {padding-left:3px;background:url(/PartnerPortal/Images/tab-left.gif) no-repeat;}
+.ajax__tab_CSS .ajax__tab_tab {height:13px;padding:4px;margin:0;background:url(/PartnerPortal/Images/tab.gif) repeat-x;}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_outer {background:url(/PartnerPortal/Images/tab-hover-right.gif) no-repeat right;}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_inner {background:url(/PartnerPortal/Images/tab-hover-left.gif) no-repeat;}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_tab {background:url(/PartnerPortal/Images/tab-hover.gif) repeat-x; color:#678fc2}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_outer {background:url(/PartnerPortal/Images/tab-active-right.gif) no-repeat right;}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_inner {background:url(/PartnerPortal/Images/tab-active-left.gif) no-repeat;}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_tab {background:url(/PartnerPortal/Images/tab-active.gif) repeat-x;}
+.ajax__tab_CSS .ajax__tab_body {border:0px solid #999999;border-top:0;padding:8px;background-color:#ffffff;}

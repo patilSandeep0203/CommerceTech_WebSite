@@ -1,0 +1,314 @@
+﻿.table1
+{
+    
+border:"0";
+ cellpadding:0;
+  cellspacing:0;
+   width: 100%;    
+}
+
+.coltd1
+{
+    colspan:"3";
+     align="center";
+}
+
+
+
+.IE
+{
+    z-index: 1;
+}
+
+.MenuCss:LINK, .MenuCss:VISITED, .MenuCss:ACTIVE
+{
+	text-decoration: none;
+	font-size:8pt;
+	font-family:Arial;
+	display: block;
+}
+.MenuCss:hover
+{
+	color: white;
+	text-decoration: underline;
+	font-size:8pt;
+	font-family:Arial;
+}
+
+.HMenu:LINK, .HMenu:VISITED, .HMenu:ACTIVE
+{
+	text-decoration: none;
+	color: #194390;
+	font-family:Arial;
+	font-size:10px;
+}
+.HMenu:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-size:10px;
+	font-family:Arial;
+}
+
+.MenuHeader
+{
+	color: White;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+.BannerText
+{
+	color: White;
+	font-family: Arial;
+	font-size: 7pt;
+}
+
+.CloseButton
+{
+	font-family: Arial;
+	border: 1px thin silver;
+	padding: 2px;
+	text-decoration: none;
+	background-color: Gray;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+}
+
+.LabelsBody
+{
+	color: #383838;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.LabelsBodySmall
+{
+	color: #383838;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.LabelsBodyLarge
+{
+	color: #383838;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+.LabelsHeader
+{
+	color: #194390;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+ .LabelsHeaderLarge
+{
+	color: #194390;
+	font-family: Arial;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+.LabelsHeaderSmall
+{
+	color: #194390;
+	font-family: Arial;
+	font-size: 8pt;
+	text-decoration:none;
+}
+
+.Link:LINK, .Link:VISITED, .Link:ACTIVE
+{
+	color: #194390;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+.Link:Hover
+{
+	color: red;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration:underline;
+}
+
+.LinkSmall:LINK, .LinkSmall:VISITED, .LinkSmall:ACTIVE
+{
+	text-decoration: none;
+	color: #194390;
+	font-size:8pt;
+	font-family:Arial;
+}
+.LinkSmall:hover
+{
+	color: red;
+	text-decoration: underline;
+	font-size:8pt;
+	font-family:Arial;
+}
+
+.LabelsDarkBlue
+{
+	color: #064787;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.LabelsDarkBlueSmall
+{
+	color: #064787;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.LabelsRed
+{
+	color: red;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.LabelsRedLarge
+{
+	color: red;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+.LabelsRedSmall
+{
+	color: red;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.LabelsWhite
+{
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.DivHeader
+{
+	border-right: #589cdb 1px solid;
+	border-top: #589cdb 1px solid;
+	border-left: #589cdb 1px solid;
+	border-bottom: #589cdb 1px solid;
+	background-color: #589cdb;
+}
+
+.BlueBorder
+{
+	border-right: #589cdb 1px solid;
+	border-top: #589cdb 1px solid;
+	border-left: #589cdb 1px solid;
+	border-bottom: #589cdb 1px solid;
+}
+
+.DivWhiteSmoke
+{	
+	background-color: #fbfbfb;
+}
+
+.DivLightBlue
+{
+	border-right: #c5e8fc 1px solid;
+	border-top: #c5e8fc 1px solid;
+	border-left: #c5e8fc 1px solid;
+	border-bottom: #c5e8fc 1px solid;
+	background-color: #edf7ff;
+}
+
+.BorderBlack
+{
+	border-right: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+	border-top: black 1px solid;
+}
+
+.PasswordCSS
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;  
+     padding: 2px 3px 2px 3px;   
+}
+
+.TDBackground
+{	
+	background-color: #77aadd;
+}
+
+.TDBGDarkBlue
+{	
+	background-color: #336699;
+}
+
+.SilverBorder
+{
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+}
+
+.DivBlack
+{
+	background-color: Black;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+
+.DivLightGray
+{
+	background-color: #fbfbfb;
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+}
+
+.DivHelp
+{
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+	background-color:#ffffce;
+	color: #383838;
+	font-family: Arial;
+	font-size: 8pt;
+	margin-top:2;
+	margin-bottom:2;
+	margin-left:2;
+	margin-right:2;
+}
+
+.BulletYellow
+{
+	list-style-image: url(images/obulletSmall.gif);
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.ajax__tab_CSS .ajax__tab_header {font-family:Arial;font-size:8pt;background:url(/PartnerPortal/Images/tab-line.gif) repeat-x bottom;}
+.ajax__tab_CSS .ajax__tab_outer {background:url(/PartnerPortal/Images/tab-right.gif) no-repeat right;height:21px;}
+.ajax__tab_CSS .ajax__tab_inner {padding-left:3px;background:url(/PartnerPortal/Images/tab-left.gif) no-repeat;}
+.ajax__tab_CSS .ajax__tab_tab {height:13px;padding:4px;margin:0;background:url(/PartnerPortal/Images/tab.gif) repeat-x;}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_outer {background:url(/PartnerPortal/Images/tab-hover-right.gif) no-repeat right;}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_inner {background:url(/PartnerPortal/Images/tab-hover-left.gif) no-repeat;}
+.ajax__tab_CSS .ajax__tab_hover .ajax__tab_tab {background:url(/PartnerPortal/Images/tab-hover.gif) repeat-x; color:#678fc2}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_outer {background:url(/PartnerPortal/Images/tab-active-right.gif) no-repeat right;}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_inner {background:url(/PartnerPortal/Images/tab-active-left.gif) no-repeat;}
+.ajax__tab_CSS .ajax__tab_active .ajax__tab_tab {background:url(/PartnerPortal/Images/tab-active.gif) repeat-x;}
+.ajax__tab_CSS .ajax__tab_body {border:0px solid #999999;border-top:0;padding:8px;background-color:#ffffff;}

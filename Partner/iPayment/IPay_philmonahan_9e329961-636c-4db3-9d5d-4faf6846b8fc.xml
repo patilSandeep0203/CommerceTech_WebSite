@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Tahoe Media Group Inc</BusName>
+      <DBA>Tahoe Media Group</DBA>
+      <BusAddr>
+        <st_name>786 Bigler Ct. Unit A </st_name>
+        <city>Stateline</city>
+        <state>NV</state>
+        <country>United States</country>
+        <zip>89449</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>P.O. Box 3491 </st_name>
+        <city>Stateline</city>
+        <state>NV </state>
+        <country>United States</country>
+        <zip>89449</zip>
+      </MailAddr>
+      <LOS>48</LOS>
+      <FedTaxId>201329591</FedTaxId>
+      <BusPhone>530-318-7546</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>530-318-7546</CustPhone>
+      <ContactName>phil monahan</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>6</LOB>
+      <BusHrs>9am to 5pm</BusHrs>
+      <email>phil@tahoemedia.com</email>
+      <url>tahoemedia.com</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>100</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>0</Moto>
+      <OwnershipType>Corporation</OwnershipType>
+      <CustRefundPol>full refund if contract is terminated minus work owed</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>Web Design, Graphic Design, Internet Marketing Services</ProdType>
+      <DelTime>10</DelTime>
+      <Comments>really depends on projects sometimes 30 days</Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>0</EverProcessed>
+      <EverTerminated>0</EverTerminated>
+    </ProcHistory>
+    <Principal>
+      <FirstName>phil</FirstName>
+      <LastName>monahan</LastName>
+      <SSN>477944721</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>owner</Title>
+      <Address>
+        <st_name>786 Bigler Ct. Unit A </st_name>
+        <city>Stateline</city>
+        <state>NV  </state>
+        <country>United States</country>
+        <zip>89449</zip>
+      </Address>
+      <AddrType>Rent</AddrType>
+      <LOS>48</LOS>
+      <Phone>530-318-7546</Phone>
+      <DOB>09/10/1977</DOB>
+      <LicNum>d3153032</LicNum>
+      <LicState>CA  </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Phil Monahan</RepName>
+      <RepNum>52991</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.25</DiscFee>
+          <MidQualFee>3.05</MidQualFee>
+          <NonQualFee>4.15</NonQualFee>
+        </CardPresent>
+        <TransFee>0.29</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>20.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.29</BatchHeaders>
+      <ExternalGWFee>10.00</ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>5000</MonthlyProcLimit>
+      <AvgTicket>100</AvgTicket>
+      <NeedAmex>0</NeedAmex>
+      <NeedDiscover>0</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Wells Fargo Bank</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>121042882</TransroutingNum>
+      <DDA>3112598127</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

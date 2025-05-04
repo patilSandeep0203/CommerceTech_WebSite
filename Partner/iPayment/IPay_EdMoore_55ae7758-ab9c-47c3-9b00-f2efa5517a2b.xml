@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>DIGITAL REVENUE INC</BusName>
+      <DBA>DIGITAL REVENUE INC</DBA>
+      <BusAddr>
+        <st_name>13650 Fiddlesticks Blvd. Ste 202-145</st_name>
+        <city>Ft. Meyers</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33912</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>13650 Fiddlesticks Blvd. Ste 202-145</st_name>
+        <city>Ft. Meyers</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33912</zip>
+      </MailAddr>
+      <LOS>
+      </LOS>
+      <FedTaxId>651140274</FedTaxId>
+      <BusPhone>888-713-3090</BusPhone>
+      <BusFax>888-536-5601</BusFax>
+      <CustPhone>888-713-3090</CustPhone>
+      <ContactName>Ed Moore</ContactName>
+      <NumLocs>
+      </NumLocs>
+      <LOB>10</LOB>
+      <BusHrs>24/7</BusHrs>
+      <email>ed@digitalrevenue.us</email>
+      <url>digitalrevenue.us</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>95</Internet>
+      <Moto>5</Moto>
+      <OwnershipType>Corporation</OwnershipType>
+      <CustRefundPol>No Refund</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>web design, hosting services</ProdType>
+      <DelTime>30</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>1</EverProcessed>
+      <WhoProcessed>Suntrust Bank</WhoProcessed>
+      <EverTerminated>0</EverTerminated>
+      <TerminationReason>rate and service</TerminationReason>
+      <FormerMerchNum>
+      </FormerMerchNum>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Ed</FirstName>
+      <LastName>Moore</LastName>
+      <SSN>312649577</SSN>
+      <PercentOwnership>51</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>12461 Eagle Point Circle </st_name>
+        <city>Fort Meyers</city>
+        <state>FL</state>
+        <country>United States</country>
+        <zip>33913</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>180</LOS>
+      <Phone>239-561-</Phone>
+      <DOB>03/16/1956</DOB>
+      <LicNum>M600185560960</LicNum>
+      <LicState>
+      </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>40558</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.09</DiscFee>
+          <MidQualFee>2.89</MidQualFee>
+          <NonQualFee>3.99</NonQualFee>
+        </CardPresent>
+        <TransFee>0.25</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>15.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.25</BatchHeaders>
+      <ExternalGWFee>
+      </ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>5000</MonthlyProcLimit>
+      <AvgTicket>150</AvgTicket>
+      <NeedAmex>1</NeedAmex>
+      <NeedDiscover>1</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>SunTrust Bank</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>063102152</TransroutingNum>
+      <DDA>1000087709779</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

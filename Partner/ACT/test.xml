@@ -1,0 +1,45 @@
+<iPaymentApplication xmlns="https://www.ipaymentinc.com" Stamp="IPI0608">
+  <ExtendedInfo salesNumber="02733-058" salesName="Toni Salazar" salesPhone="800-477-5363" salesID="" FormID="1306" Version="0915.LA" id="-1">
+  </ExtendedInfo>
+  <BusinessInfo id="-1" legalBusinessName="Testes - Commerce Technologies" doingBusinessAs="Test - Commerce Technologies" address="3737 Bayer Ave " address2="Ste 203" city="Long Beach" state="CA" zip="90808" county="United States" monthsAtAddress="1" yearsAtAddress="1" mainPhone="310-321-5402" customerServicePhone="441-234-5654" mainFaxPhone="441-234-5656" contactFirstName="Ting" contactLastName="Wu" numberOfLocations="1" yearsInBusiness="1" monthsInBusiness="4" businessHours="8 am to 5 pm" mainEmailAddress="twu@commercetech.com" mainWebSite="commercetech.com" HasWebsite="false" mailingAddress="3738 Bayer Ave " mailingAddress2="Ste 203" mailingAddressCity="Long Beach" mailingAddressState="CA" mailingAddressZip="90808" federalTaxID="123459789" merchantType="0" ownershipType="Corporation" businessLocationType="3" businessLocationTypeComment="" productsType="Ellena Flower Boutique  shop is  a perfect place for loves ones. Where to get valuable gift for lovers,we believe that  flowers has the bmnghkjnjjhndf" methodsOfMarketingType="" refundPolicy="1" productDeliveryInDays="2" productDeliveryComments="Ellena Flower Boutique  shop is  a perfect place for loves ones. Where to get valuable gift for lovers,we believe that  flowers has the bmnghkjnjjhndf1233 Ellena Flower Boutique  shop is  a perfect place for loves ones. Where to get valuable valuable" appliedBefore="true" appliedBeforePriorProcessor="Test1" previousMerchantNumbers="1234567812345678" creditCardProcessorPriorClosureWhom="Test1" creditCardProcessorPriorClosure="false" creditCardProcessorPriorClosureExplaination="Rate" openDateYear="2020" openDateMonth="8" lengthOfOwnership="1" locationNumber="1" b2BPercent="0" IsB2B="False" IsVendorFulfillmentHouse="False" VFHName="" VFHAddress1="" VFHAddress2="" VFHCity="" VFHState="" VFHZip="" VFHPhone="" UsesThirdPartyData="false" TPDName="" TPDAddress1="" TPDAddress2="" TPDCity="" TPDState="" TPDZip="" TPDPhone="" TPDSoftware="" ActiveMonthsString="111111111111" ReturnPolicy="1" ReturnPolicyComment="Ellena Flower Boutique  shop is  a perfect place for loves ones. Where to get valuable gift for lovers,we believe that  flowers has the bmnghkjnjjhndf1233 Ellena Flower Boutique  shop is  a perfect place for loves ones. Where to get valuable valuable" Days2Deliver="2" DeliveryStartDate="" DeliveryComments="" RunCreditReport="" creditReportComments="" Portfolio="IPI" AppVersion="0212.2" PaymentGatewayMonthlyFee="10.00" paymentGatewayName="Authorize.net">
+  </BusinessInfo>
+  <SalesBreakDown id="-1" retailSwipePercentage="100" retailKeyedPercentage="0" internetPercentage="0" mailOrderPercentage="0">
+  </SalesBreakDown>
+  <PrincipalCollection GatewayID="2" ShoppingCart="" DeviceType="" DeviceTypeVersion="" Notes="" FrontEndID="1" FrontEndName="Omaha">
+    <Principal number="1" firstName="Ting" lastName="Wu" socialSecurityNumber="123456789" ownershipPercentage="50" title="President" residentialAddress="3738 Bayer Ave " residentialAddress2="Ste 203" isRented="" city="Long Beach" state="CA  " zip="90808" email="twu@commercetech.com" howLongAtAddress="1476" homePhone="301-438-3139" dateOfBirth="03/01/1966" driversLicenseNumber="" driversLicenseState="CA" checkCreditScore="" OwnershipType="" id="2">
+    </Principal>
+    <Principal number="2" firstName="Test" lastName="App" socialSecurityNumber="123456789" ownershipPercentage="50" title="owner" residentialAddress="3738 Bayer Ave " residentialAddress2="" isRented="" city="Long Beach" state="CA" zip="90808" email="" howLongAtAddress="" homePhone="310-321-5400" dateOfBirth="05/01/1954" driversLicenseNumber="123456789" driversLicenseState="CA" checkCreditScore="" OwnershipType="" xmlns="http://www.ipaymentinc.com" />
+  </PrincipalCollection>
+  <ReferenceCollection />
+  <Fees id="-1" monthlyProcessingLimit="25000" monthlyAverageTicket="60" monthlyMinimumDiscountFee="10.00" monthlyHighTicket="1000" aVSFee="0.02" aCHReturnItemFee="25.00" aCHChangeFee="25.00" retrievalRequestFee="25.00" chargebackFee="25.00" pfcRecoveryFee="0.00" mtcFRPFee="0.00" overLimitFee="0.00" useDiscountInterchange="False" creditCardDiscountQualifiedFee="1.49" creditCardDiscountMidQualifiedFee="2.99" creditCardDiscountNonQualifiedFee="3.49" debitDiscountQualifiedFee="1.49" debitDiscountMidQualifiedFee="2.99" debitDiscountNonQualifiedFee="3.49" batchHeaderFee="0.21" voiceAuthFee="0.95" annualFee="0.00" reserveAccountFee="2.50" debitCardAccessFee="5.00" debitTransactionFee="5.00" WirelessMonthlyFee="0.00" WirelessMonthlyFeeQuantity="0" WirelessPerAuthFee="0.00" WirelessPerAuthFeeQuantity="0" PaymentGatewaySetupFee="25.00" PaymentGatewayMonthlyFee="10.00" PaymentGatewayPerAuthFee="0.10" customerService="10.00" tAndEAuth="0.00" monthlyOnlineView="0.00" batchClosure="0.00" debitCardMonthlyNetworkGateway="0.00" eBTTransaction="0.00" e-Commerce="0.00" onlineAccessSingle="0.00" onlineAccessChain="0.00" MCC_SIC="" iAccess="true" iAccessFee="0.00" MerchantOrPremierClub="false" MerchantOrPremierClubFee="0.00" InterchangePlus="" VisaMCTransactionFee="0.21" TnETransactionFee="0.21" EarlyTerminationFee="0.00" SetupFee="0.00" MonthlyAccessFee="0.00" PerAuthFee="0.21" HighRiskFee="0.25" RetailMerchantAnualFee="0.00" NonRetailMerchantAnualFee="" PlusDuesAndAssessments="" WexVoyagerTranFee="0.00" ErrRate="0.00" ERRTransactionFee="0.00">
+  </Fees>
+  <Equipment id="-1" EquipmentID="012a9a96-12c4-4b61-a923-0622c25cd8bb" ProcessorID="8f574ac9-c212-4059-bd0b-c4408e7f44da" EquipmentTypeID="TM" terminalType="1" terminalModel="2" wirelessType="4" softwareRequirementNotes="0" softwareRequirementNetworkVersion="" softwareRequirementConnectionType="" softwareRequirementConcurrentUsers="" softwareRequirementAdditionalIDNumbers="" software="" reprogram="false" rentQuote="" hasPrinter="false" printerModel="" phoneSystemSplitterNeeded="false" phoneSystemDialOut="4" PhoneCodeForDialOutComment="" phoneSystemCallWaiting="false" paymentGatewayName="2" hasPinPad="false" pINPadModel="" frontEndType="1" frontEndComment="" debitAddendumAttached="false" automaticTimeZone="" automaticTime="" automaticClose="false" isEquipmentARU="false" NeedsStarterKit="false" ImprinterType="-99" Plate="false" PlateQuality="0" ToDoInstall="false" ToDoInstallComment="" SuppliesEquipment="false" SuppliesEquipmentComment="" ShoppingCart="" AccountType="" OrderType="" CheckService="0" CheckServiceAccountType="" CheckServiceProductType="" CheckServiceDiscountRate="0" CheckServiceMonthlyMin="0" CheckServiceStatementFee="0" CheckServiceTranFee="0">
+  </Equipment>
+  <LeaseInfo>
+  </LeaseInfo>
+  <Terminal>
+  </Terminal>
+  <Gateway>
+    <DownloadInformation AdditionalFeatures="" SpecialPrompts="" SpecialFeaturesProvider="" DateFileBuilt="" PaywareMobileDevice="" PaywayreMobileDeviceVersion="" xmlns="http://www.ipaymentinc.com" />
+    <DownloadInformation xmlns="" />
+  </Gateway>
+  <Software xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" GatewayType="TSYS" SoftwareID="" FrontEndID="4" SoftwareVersion="" TCPIP="" Notes="" FrontEndName="" />
+  <ExistingMerchant id="-1" americanExpress="1234567890" diners="" discover="" jCB="">
+  </ExistingMerchant>
+  <Amex discountRate="" monthlyFlatFee="" grossPayType="" estimateAnnualVolume="" estimateAverageTicket="" payFrequency="" merchantInitials="">
+  </Amex>
+  <Discover discountRate="" transactionFee="" membershipFee="">
+  </Discover>
+  <BankInformation id="-1" name="Stockman Bank" address="" address2="" city="billings" state="MT" zip="59105" branch="" branchPhone="310-321-5402" contactName="" transRoutingNumber="123456789" dDA="1234567890">
+  </BankInformation>
+  <SiteSurvey id="-1" date="" typeOfBuilding="" squareFootage="-1" inspectorComments="">
+  </SiteSurvey>
+  <ServiceEnrollment ID="-1" ApplicationID="-1" DebitCardServices="false" ETB_FNS="false" ETB_FNS_Number="" CheckServices="false" LeaseServices="false" GiftCardServices="false" WexVoyagerServices="false" WirelessServices="false" GatewayServices="false">
+  </ServiceEnrollment>
+  <CardAcceptance ID="-1" ApplicationID="-1" MCCredit="false" MCNonPinDebit="false" VisaCredit="false" VisaNonPinDebit="false" DiscoverCredit="false" DiscoverNonPinDebit="false">
+  </CardAcceptance>
+  <SalesRepInfo ID="-1" ApplicationID="-1" Auth="" InerchangeTable="" Assoc="" Grid="">
+  </SalesRepInfo>
+  <ApplicationMetadata>
+  </ApplicationMetadata>
+</iPaymentApplication>

@@ -1,0 +1,222 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using OnlineAppClassLibrary;
+
+public partial class Equipment : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session.IsNewSession)
+            Response.Redirect("/OnlineApplication/default.aspx?SessionExpired=True");
+
+        Response.CacheControl = "no-cache";
+        Response.AddHeader("Pragma", "no-cache");
+        Response.Expires = -1;
+
+        if (!Page.IsPostBack)
+        {
+            try
+            {
+                Populate();
+            }
+            catch (Exception err)
+            {
+                lblError.Visible = true;
+                lblError.Text = "Error Processing Request. Please contact Technical Support: <a href=mailto:support@commercetech.com?Subject=Online App Error, App ID: " + Session["AppId"].ToString() + "> support@commercetech.com. </a>";
+                CreateOnlineAppLog Log = new CreateOnlineAppLog();
+                Log.ErrorLog(Server.MapPath("~/ErrorLog"), "AppId: " + Session["AppId"].ToString() + " - " + "Edit Profile Page Load Error - " + err.Message);                
+            }
+        }//end if postback
+    }
+
+    public void Populate()
+    {
+        Style ValueLabel = new Style();
+        ValueLabel.ForeColor = System.Drawing.Color.Black;
+        ValueLabel.Font.Size = FontUnit.Point(8);
+        ValueLabel.Font.Name = "Arial";
+
+        Style ValueLabelHeader = new Style();
+        ValueLabelHeader.ForeColor = System.Drawing.Color.FromArgb(25, 67, 144);
+        ValueLabelHeader.Font.Size = FontUnit.Point(10);
+        ValueLabelHeader.Font.Bold = true;
+        ValueLabelHeader.Font.Name = "Arial";
+
+        Style sHyperLink = new Style();
+        sHyperLink.Font.Bold = true;
+        sHyperLink.Font.Size = FontUnit.Small;
+        sHyperLink.Font.Name = "Arial";
+        sHyperLink.CssClass = "Link";
+
+        tblEquipment.Attributes.Add("style", "width: 90%; border-right: silver 1px solid;border-top: silver 1px solid; border-left: silver 1px solid; border-bottom: silver 1px solid");
+
+        #region Applications
+        //Create Retail - 2
+        //Get Product list for Retail
+        string[] arr = { "", "Mobile Applications", "Retail Application", "Software Applications", "Accessories" };
+        Table tblInnerTable;
+        TableRow trInner;
+        TableCell tdInner;
+        Label lblValue;
+        Label lblMore;
+        Image imgEquip;
+        TableRow tr;
+        TableCell td;
+        for (int j = 1; j < 5; j++)
+        {
+            tr = new TableRow();
+            td = new TableCell();
+            td.Text = "<div align=\"left\">"
+                        + "&nbsp;<img src=\"images/obullet.gif\" height=\"8\" width=\"8\" border=\"0\">"
+                         + "&nbsp;<a class=\"One\" href=\"#" + j.ToString() + "\">" + arr[j] + "</a></div><br/>";
+            //Add this cell to main table row
+            tr.Cells.Add(td);
+
+            //Add this row to main table
+            tblEquipment.Rows.Add(tr);
+        }
+        DataSet ds = new DataSet();
+        for (int j = 1; j < 5; j++)
+        {
+            ds = GetProductList(j.ToString());
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                #region Header Row
+                //*********************CREATE HEADER ROW******************
+                tr = new TableRow();//Table Row declation
+                td = new TableCell();//Table Cell declaration
+
+                //tr.BackColor = System.Drawing.Color.FromArgb(92, 153, 93);//(167, 0, 0);//(223,227,173);//
+                tr.CssClass = "DivGreen";
+                td = new TableCell();//Create a new cell for each column
+                td.Text = "<a name=\"" + j + "\"></a><b>" + arr[j] + "</b>";
+                td.CssClass = "MenuHeader";
+                td.Style["Height"] = "30px";
+                tr.Cells.Add(td);//Add the cell created to the row
+
+                tblEquipment.Rows.Add(tr);//Add the Header row to the table
+                //*********************END HEADER ROW**********************
+                #endregion
+
+                #region Rows
+                for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+                {
+                    DataRow dr = ds.Tables[0].Rows[i];
+                    HyperLink lnkEquip;
+                    tr = new TableRow();
+                    td = new TableCell();
+
+                    #region Inner Table
+                    tblInnerTable = new Table();
+                    tblInnerTable.Width = Unit.Percentage(100);
+
+                    #region First Row
+                    trInner = new TableRow();
+
+                    //Image
+                    tdInner = new TableCell();
+                    imgEquip = new Image();
+                    imgEquip.ImageUrl = "Images/ProductImages/" + dr["ImageURL"].ToString().Trim();
+                    imgEquip.Height = Unit.Pixel(125);
+                    imgEquip.Width = Unit.Pixel(125);
+                    imgEquip.ToolTip = dr["ProductName"].ToString().Trim();
+                    tdInner.Controls.Add(imgEquip);
+                    tdInner.Attributes.Add("align", "center");
+                    //tdInner.Style["Width"] = "131px";
+                    tdInner.Attributes.Add("width", "131px");
+                    trInner.Cells.Add(tdInner);
+
+                    //Description
+                    tdInner = new TableCell();
+                    tdInner.CssClass = "DivGreen";
+                    lblValue = new Label();
+                    lblValue.ApplyStyle(ValueLabel);
+                    //Hyperlink for image
+                    lblMore = new Label();
+                    if (dr["TargetURL"].ToString().Trim() != "")
+                        lblMore.Text = "<span style=\"font-family:Arial; font-size:8pt;\"><a class=\"One\" href=\"" + dr["TargetURL"].ToString().Trim() + "\" target=\"_blank\">more...</a></span>";
+                    else
+                        lblMore.Text = "";
+                    lblValue.Text = dr["SellDescription"].ToString().Trim() + " " + lblMore.Text;
+                    tdInner.Controls.Add(lblValue);
+                    tdInner.Attributes.Add("align", "left");
+                    tdInner.Attributes.Add("valign", "top");
+                    trInner.Cells.Add(tdInner);
+
+                    tblInnerTable.Rows.Add(trInner);
+                    #endregion
+
+                    #region Second Row
+                    trInner = new TableRow();
+
+
+                    tdInner = new TableCell();
+
+                    //Product Name
+                    lblValue = new Label();
+                    lblValue.ApplyStyle(ValueLabelHeader);
+                    lblValue.Font.Bold = true;
+                    lblValue.Text = dr["ProductName"].ToString().Trim() + "<br/>";
+                    tdInner.Controls.Add(lblValue);
+                    trInner.Cells.Add(tdInner);
+
+                    //Buy Image
+                    if (dr["ProstoresCode"].ToString().Trim() != "")
+                    {
+                        lblValue = new Label();
+                        lblValue.Text = "<a href=\"http://www.ecenow.com/Cart.bok?smode=add&amp;product_no=" + dr["ProstoresCode"].ToString().Trim() + "&amp;qty=1\" onmouseover=\"document.Buy" + dr["ProductCode"].ToString().Trim() + ".src='Images/buy_mouseover.jpg'\" onmouseout=\"document.Buy" + dr["ProductCode"].ToString().Trim() + ".src='Images/buy.jpg'\" target=\"_blank\"><img name=\"Buy" + dr["ProductCode"].ToString().Trim() + "\" alt=\"\" src=\"Images/buy.jpg\" border=\"0\" /></a>";
+                        tdInner.Controls.Add(lblValue);
+                    }
+                    tdInner.Attributes.Add("align", "center");
+                    tdInner.Attributes.Add("width", "131px");
+                    trInner.Cells.Add(tdInner);
+
+                    tblInnerTable.Rows.Add(trInner);
+
+                    //Horizontal Line
+                    trInner = new TableRow();
+                    tdInner = new TableCell();
+                    tdInner.Attributes.Add("align", "center");
+                    tdInner.Attributes.Add("colspan", "2");
+                    lblValue = new Label();
+                    lblValue.Text = "<hr noshade=\"noshade\" size=\"1\" width=\"90%\" />";
+                    tdInner.Controls.Add(lblValue);
+                    trInner.Cells.Add(tdInner);
+
+                    tblInnerTable.Rows.Add(trInner);
+
+                    #endregion
+
+                    #endregion
+
+                    //Add inner table to main table cell
+                    td.Controls.Add(tblInnerTable);
+
+                    //Add this cell to main table row
+                    tr.Cells.Add(td);
+
+                    //Add this row to main table
+                    tblEquipment.Rows.Add(tr);
+
+                }//end for
+                #endregion
+            }//end if retail count not 0
+        }
+        #endregion
+    }
+
+    public DataSet GetProductList(string Cat)
+    {
+        EquipmentBL Prod = new EquipmentBL();
+        DataSet dsList = Prod.GetCOG("ProductName", Cat, false);
+        return dsList;
+    }
+}

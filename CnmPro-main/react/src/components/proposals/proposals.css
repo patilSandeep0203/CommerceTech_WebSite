@@ -1,0 +1,106 @@
+.form-proposal-background{
+        background-color: white;
+        padding-top: -20%;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.10), 0 17px 50px 0 rgba(0,0,0,0.10);
+        border-radius: 10px;
+}
+
+.form-proposal-pos {
+    width: auto;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: -20%;
+} 
+
+ .form-title-proposal-cnmpro {
+    margin-top: 4%;
+    font-size: 48px;
+    color: #2b2367;
+    margin-bottom: 4%;
+}
+
+.proposal-select-input-proposal-cnmpro{
+    width: 40%;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size:100%;
+}
+
+.input-proposal-cnmpro{
+    width: 70%;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size:100%;
+} 
+
+ .field-proposallabel-cnmpro {
+    font-size: 16px;
+    width: 100%;
+} 
+
+ .has-error-proposal-cnmpro {
+    margin-bottom: 1.25rem;
+    width: 100%;
+    color: #dc3545;
+    margin-top: -0.75rem;
+} 
+
+.button-proposalform-cnmpro {
+    display:inline-block;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.10), 0 17px 50px 0 rgba(0,0,0,0.10);
+}
+
+.proposals-homescreen-grid-header {
+    user-select: none;
+    margin: 0;
+    background: #fff;
+    color: #202124;
+    display: flex;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.proposals-homescreen-grid-header-title {
+    user-select: none;
+    font-size: 32px;
+    line-height: 24px;
+    margin-left: 0;
+    margin-right: 65px;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.proposal-form-select {
+    display: block;
+    width: 70%;
+    padding: 0.45rem 2.7rem 0.45rem 0.9rem;
+    -moz-padding-start: calc(0.9rem - 3px);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--ct-form-select-color);
+    background-color: var(--ct-form-select-bg);
+    background-repeat: no-repeat;
+    background-position: right 0.9rem center;
+    background-size: 14px 10px;
+    border: 1px solid var(--ct-input-border-color);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    appearance: none;
+}

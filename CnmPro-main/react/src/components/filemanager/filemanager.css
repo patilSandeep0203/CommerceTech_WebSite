@@ -1,0 +1,38 @@
+.title-filemanager-aquiferpe {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.actioncomponent-filemanager-aquiferpe {
+    padding-top: 10px;
+}
+
+.actioncomponent-filemanager-aquiferpe:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.url-image-filemanager-aquiferpe:hover {
+    color: blue;
+}
+
+.nofile-image-filemanager-aquifer {
+    padding-bottom: 20px;
+}
+
+.actioncomponent-icon-filemanager-aquiferpe {
+    margin-right: 12px;
+}
+
+.actioncomponent-img-filemanager-aquiferpe {
+    font-size: 16;
+    margin-bottom: 5px;
+}
+
+.delete-btn-filemanager-aquiferpe:hover {
+    cursor: pointer;
+}
+
+.undo-btn-filemanager-aquiferpe:hover {
+    cursor: pointer;
+}

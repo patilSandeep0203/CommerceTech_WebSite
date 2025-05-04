@@ -1,0 +1,430 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- bxSlider CSS file -->
+
+
+<head id="Head1" runat="server">
+<link rel="icon" href="https://cdn11.bigcommerce.com/s-1x33si/product_images/uploaded_images/favicon2.png?t=1644943835&amp;_gl=1*hvxnyw*_ga*MTIwMTU0MDM0OC4xNjI4MTAxMTYy*_ga_WS2VZYPC6G*MTY0NDk0MzgxOS4xNTYuMS4xNjQ0OTQzODM5LjQw">
+    <title id="metaTitle" runat="server"></title>
+    <meta name="description" content="description" id="metaDesc" runat="server" />
+    <meta name="keywords" content="keys" id="metaKeyword" runat="server" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link type="text/css" href="styleAffWiz1.css" rel="stylesheet" />
+    <link href="/lib/jquery.bxslider.min.css" rel="stylesheet" />
+    <link href="flexslider.css" media="all" type="text/css" rel="stylesheet" />
+<link href="slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<!--<link href="styles-slide-show.css" media="all" type="text/css" rel="stylesheet" />-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+
+<!-- bxSlider Javascript file -->
+<!--<script src="jquery.bxslider.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: 'false',
+        auto: 'true',
+        autoControls: 'false',
+        startAuto: 'true',
+        ticker: 'true',
+        captions: 'false',
+        pagerCustom: '#bx-pager',
+        //adaptiveHeight: true,
+        //adaptiveWidth: true,
+    });
+  });
+</script>-->
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22103620-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+<!--<script type="text/javascript">//<![CDATA[
+    var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+    document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script>-->
+
+
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+        var cot_loc0 = (window.location.protocol == "https:") ? "https://secure.comodo.net/trustlogo/javascript/cot.js" :
+"http://www.trustlogo.com/trustlogo/javascript/cot.js";
+        document.writeln('<scr' + 'ipt language="JavaScript" src="' + cot_loc0 + '" type="text\/javascript">' + '<\/scr' + 'ipt>');
+//]]>
+</script>
+
+
+
+
+<meta name="msvalidate.01" content="ADE38DCB8DDFA7496BB4ED342082165D" />
+
+<!--<script language="JavaScript" src="https://secure.comodo.net/trustlogo/javascript/trustlogo.js" type="text/javascript"> </script>-->
+<script language="javascript" src="JScript.js" type="text/javascript"></script>
+<!--<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5GVMFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5GVMFV');</script>-->
+
+    <!--<a href="http://www.instantssl.com" id="comodoTL">SSL</a>
+<script language="JavaScript" type="text/javascript">
+    COT("../images/secure_site.gif", "SC2", "none");
+</script>-->
+
+<!--<script language="JavaScript" type="text/javascript">
+    TrustLogo("https://www.firstaffiliates.com/affiliatewiz/images/comodo_secure_seal.png", "SC5", "none");
+</script>-->
+
+
+<!--<script language="JavaScript" type="text/javascript">
+    TrustLogo("https://ssl.comodo.com/images/seals/sectigo_trust_seal_lg_2x.png", "SECDV", "none");
+</script>-->
+
+<!--<a href="http://www.instantssl.com" id="comodoTL">SSL</a>-->
+<!--<a href="https://secure.trust-provider.com/" id="comodoTL">SSL</a>-->
+
+<!--<script language="JavaScript" type="text/javascript">
+    COT("https://ssl.comodo.com/images/seals/sectigo_trust_seal_sm_2x.png", "SC2", "none");
+</script>-->
+
+
+<script type="text/javascript"> //<![CDATA[
+    var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
+    document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+//]]></script>
+<script language="JavaScript" type="text/javascript">
+    TrustLogo("https://sectigo.com/images/seals/sectigo_trust_seal_md_2x.png", "SECOV", "none");
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+<body>
+
+
+
+        <form id="form1" runat="server">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tr><!-- style="background-image: url(Images/fillertop.gif); background-repeat: repeat-x">-->
+                    <td colspan="3" align="center">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 75%">
+                            <tr>
+                                <td align="center" style="width: 35%" >
+                                    <a href="default.aspx"><img name="ecenow" src="https://cdn3.bigcommerce.com/s-1x33si/product_images/uploaded_images/pnglogo-1401220607-31945.png?t=1492799993" alt="Home" style="border-right: 0px;
+                                        border-top: 0px; border-left: 0px; border-bottom: 0px" width="250px"/></a></td>
+                                        <!--<td align="left" style="width: 5%"> </td> -->                              
+                                <td align="center" style="width: 30%">
+                                <asp:Panel ID="pnlPageHeading" runat="server" Visible="false">
+                                    <b><span class="BannerText">This</span>
+                                    <asp:Label ID="lblPartnerType" runat="server" CssClass="BannerText"></asp:Label>
+                                    <span class="BannerText">Site Presented By: </span></b>
+                                    <br/>
+                                    <asp:Label ID="lblPartnerLogo" runat="server" ><asp:Image id="imgPartnerLogo" ImageUrl="" runat="server" height="48px" AlternateText="Partner Logo" /></asp:Label>
+                                    <asp:Label ID="lblPartnerName" runat="server" CssClass="BannerText"></asp:Label>
+                                </asp:Panel> 
+                                </td> 
+                                    
+                                <td align="right" style="width: 35%" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>
+                                        <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink1" NavigateUrl="aboutus.aspx">About Us</asp:HyperLink></b> &nbsp;|&nbsp; <b>
+                                        <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink3" NavigateUrl="contactus.aspx">Contact Us</asp:HyperLink>&nbsp;|&nbsp; </b> <b>
+                                        <asp:HyperLink runat="server" CssClass="TextStyle" ID="HyperLink4" >800-477-5363</asp:HyperLink>&nbsp;</b></span></td>  
+                                        <!--<td align="center" style="width: 1%" valign="middle"> <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;</b></span> </td>-->                          
+                                <!--<td align="right" style="width: 9%" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>
+                                        <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink2" NavigateUrl="contactus.aspx">Contact Us</asp:HyperLink>&nbsp;</b></span></td>
+                                <td align="center" style="width: 1%" valign="middle"> <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;</b></span> </td>
+                                <td align="right" style="width: 10%" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>
+                                        <asp:HyperLink runat="server" CssClass="TextStyle" ID="HyperLink5" >800-477-5363</asp:HyperLink>&nbsp;</b></span></td> -->                      
+                            </tr>
+                            <tr style="height: 40px">
+                                <td align="center" style="width: 35%"></td>   
+                                <!--<td align="left" style="width: 5%"> </td> -->                                                             
+                                <td align="center" style="width: 30%">
+                                
+                                <asp:LinkButton CssClass="OnlineAppBtn" width="145px" height="25px" vertical-align="middle" runat="server" ID="btnOnlineApp"  OnClientClick="aspnetForm.target ='_blank';" OnClick="onlineApplication_Click"><div class="divblock" align="center">GET STARTED</div></asp:LinkButton>
+
+                               </td>     
+                                <!--<td align="right" style="width: 8%" valign="middle"></td>-->  
+                                 <!--<td align="right" style="width: 1%" valign="middle"></td>-->      
+                                                 
+                                <td align="right" style="width: 35%" valign="middle" colspan="3"><div style="width: 100%">
+                                                    <a class="HMenu" href="merchantsplash.aspx" target="_self"><b>
+                                                        Merchant Login</b></a> &nbsp;<a class="HMenu" href="https://www.firstaffiliates.com/partner" target="_blank"><b>
+                                                        Partner Login</b></a>
+                                                </div></td>
+                                
+                                                           
+
+                            </tr>
+                            <tr style="height:5px"><td></td></tr>
+                        </table></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 70%">
+                    <tr>
+                    <td >
+                        <asp:Menu ID="mnuMaster" runat="server" BackColor="#ffffff" DynamicHorizontalOffset="0"
+                            StaticEnableDefaultPopOutImage="False" Font-Names="Arial" Font-Bold="true" Font-Size="10pt" ForeColor="000000"
+                            StaticSubMenuIndent="10px" Width="100%" DynamicPopOutImageTextFormatString=""
+                            Orientation="Horizontal" StaticPopOutImageTextFormatString="" BorderColor="000000"
+                            BorderStyle="none"  BorderWidth="1px" CssClass="MenuCss" z-index="1000">
+
+                           
+                            
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#a1b6b6" CssClass="IE"/>
+                            <DynamicHoverStyle BackColor="#a1b6b6" CssClass="MenuCss"/>
+                            
+                            <StaticSelectedStyle BackColor="#a1b6b6" />                            
+                            <DynamicSelectedStyle BackColor="#a1b6b6" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" BorderColor="Black" BorderStyle="none" BorderWidth="1px" Height="23px" />
+                            <Items>
+                                <asp:MenuItem NavigateUrl="prodservices.aspx" Text="&nbsp; &nbsp; &nbsp; &nbsp; Services" Value="Services" >                                        
+                                        <asp:MenuItem NavigateUrl="merchant.aspx" Text="US Merchant Services" Value="US Merchant Services">
+                                        </asp:MenuItem>
+
+                                        <asp:MenuItem NavigateUrl="gateways.aspx" Text="Secure Payment Gateways" Value="Secure Payment Gateways">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="CheckServices.aspx" Text="Check Services" Value="Electronic Checks">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="gift.aspx" Text="Gift/Loyalty" Value="Gift/Loyalty Card Services">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="CashAdvance.aspx" Text="Business Loan/Cash Advance" Value="Payroll">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="IntuitPayrollServices.aspx" Text="Payroll" Value="Payroll">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="prodservices.aspx" Text=" &nbsp; &nbsp; &nbsp; &nbsp; Products" Value="Products">
+                                        <asp:MenuItem NavigateUrl="software.aspx" Text="Software" Value="Software">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="equipment.aspx" Text="Equipment" Value="Equipment"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="PCI.aspx" Text="PCI Compliance" Value="PCI Compliancy">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="SSL.aspx" Text="SSL Certificates" Value="SSL Certificates">
+                                        </asp:MenuItem>
+                                 </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl= "infocenter.aspx" Text="Solutions" Value="Solutions">
+                                    <asp:MenuItem NavigateUrl="infocenter.aspx" Text="E-Commerce Solutions" Value="E-Commerce Solutions">                                        
+                                        <asp:MenuItem NavigateUrl="echeck.aspx" Text="Electronic Checks" Value="Electronic Checks">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="shopcart.aspx" Text="Shopping Carts" Value="Shopping Carts">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="Weblink.aspx" Text="Web Link" Value="Web Link">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>                                    
+                                    <asp:MenuItem NavigateUrl="Wireless.aspx" Text="Wireless Solutions" Value="Wireless Solutions">
+                                        <asp:MenuItem NavigateUrl="MobilePayments.aspx" Text="Mobile Payments">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="fieldServiceMgmtES.aspx" Text="Intuit Field Service Management">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="Laptop.aspx" Text="Laptop Payments">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="WirelessTerminals.aspx" Text="Wireless Terminals">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="POSSolutions.aspx" Text="POS Solutions" Value="POS Solutions"></asp:MenuItem>
+
+                                    <asp:MenuItem NavigateUrl="AccountingIntegration.aspx" Text="Accounting Integration" Value="Accounting Integration">
+                                        </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="virtualterminal.aspx" Text="Virtual Terminal" Value="Virtutal Terminal">
+                                        </asp:MenuItem>
+                                </asp:MenuItem>   
+                                <asp:MenuItem NavigateUrl="partnermain.aspx" Text="Partner Programs" Value="Partner Programs">
+                                    <asp:MenuItem NavigateUrl="partners.aspx" Text="Premier Partners" Value="Premier Partners">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="affiliate.aspx" Text="Affiliates" Value="Affiliates">
+                                    </asp:MenuItem>                                    
+                                    <asp:MenuItem NavigateUrl="reseller.aspx" Text="Resellers" Value="Resellers">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="agent.aspx" Text="Agents" Value="Agents">
+                                    </asp:MenuItem>                                    
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="faqs.aspx" Text="FAQS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" Value="Frequently Asked Questions">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="faqs.aspx" Text="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" Value="Frequently Asked Questions">
+                                </asp:MenuItem>
+                            </Items>                            
+                            <StaticItemTemplate>
+                                <%# Eval("Text") %>
+                            </StaticItemTemplate>
+                        </asp:Menu>
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                <td style="Color:#a1b6b6;">
+                <hr width="100%" size="1px" />
+                </td>
+                </tr>
+                <tr>
+                    <td style="background-color: #ffffff" align="center" valign="top">
+                        <table style="width: 75%;" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                
+
+                                <td align="center" valign="top" style="background-color: white">
+                                    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+                                    <asp:Label ID="lblErrorMessage" runat="server" Font-Bold="True" Font-Names="Arial"
+                                        Font-Size="Small" ForeColor="Red" Visible="False"></asp:Label>                                    
+                                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                <!-- INSERT MAIN CONTENT BELOW -->
+                                            </asp:ContentPlaceHolder>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                <td style="Color:#a1b6b6;">
+                <hr width="100%" size="1px" />
+                </td>
+                </tr>
+                <tr style="background-color: white">
+                <td style="width: 100%;" >
+                <div class="footer-main" ><div  style="overflow: auto;" > 
+                <div class="footer-columns grid">
+                <div  style="float:left;width:44.5%; ">&nbsp;</div> 
+
+                <div  style="float:left;width:5%; "><a href="https://www.facebook.com/ecenow" target="_blank">
+                    <img class="__mce_add_custom__" src="https://firstaffiliates.com/Affiliatewiz/Images/facebook.png" width="30" alt="facebook" /></a></div> 
+                
+                <div style="float:left;width:5%"><a href="https://www.linkedin.com/company/e-commerce-exchange-el-segundo?trk=nav_account_sub_nav_company_admin" target="_blank">
+                    <img class="__mce_add_custom__" src="https://firstaffiliates.com/Affiliatewiz/Images/linkedin.png" alt="linkedin" width="30"  /></a>
+                </div> 
+                <div style="float:left;width:5%">
+                <a href="https://www.youtube.com/channel/UCfztTkz20PdgVILtZO4kzEQ" target="_blank">
+                    <img class="__mce_add_custom__" src="https://firstaffiliates.com/Affiliatewiz/Images/youtube.jpg" alt="youtube" width="30"/></a>
+                </div>
+
+                <div  style="float:left;width:40.5%; ">&nbsp;</div> 
+                </div>
+                <div class="footer-columns grid">&nbsp;
+                </div>
+                <div class="footer-columns grid">&nbsp;
+                </div>
+        </div>
+        <div  style="overflow: auto;" > 
+                <div class="footer-columns grid" align="center">
+                <!--<div style="float:left;width:25%">
+                    &nbsp;
+                </div>-->
+                <div style="float:left;width:20%"><a target="_blank" id="bbblink" class="ruhzbum" href="http://www.bbb.org/losangelessiliconvalley/business-reviews/credit-card-merchant-services/e-commerce-exchange-in-el-segundo-ca-13133452#bbbseal" title="ECommerce Exchange, Credit Card  Merchant Services, El Segundo, CA" style="display: block;position: relative;overflow: hidden; width: 150px; height: 68px; margin: 0px; padding: 0px;"><img style="padding: 0px; border: none;" id="bbblinkimg" src="https://seal-sanjose.bbb.org/logo/ruhzbum/e-commerce-exchange-13133452.png" width="300" height="68" alt="ECommerce Exchange, Credit Card  Merchant Services, El Segundo, CA" /></a></div>
+               
+                <div style="float:left;width:20%">
+                    <img class="__mce_add_custom__" src="https://firstaffiliates.com/Affiliatewiz/Images/SagePartnerLogo.jpg" alt="Sage Partner" width="145"  />
+                </div> 
+               
+                <div  style="float:left;width:20%">
+                    <img class="__mce_add_custom__" src="https://www.firstaffiliates.com/Affiliatewiz/images/IntuitPremierReseller.jpg" alt="Intuit premier reseller" width="145"/></div> 
+
+
+                <div style="float:left;width:20%">
+                    <img class="__mce_add_custom__" src="https://cdn3.bigcommerce.com/s-1x33si/product_images/uploaded_images/channel-reseller.png?t=1518653538" alt="Revel reseller" width="140"  />
+                </div>
+                <div style="float:left;width:20%">
+                    <img class="__mce_add_custom__" src="https://www.authorize.net/files/PreferredReseller.gif" alt="authorize.net reseller" width="150"  />
+                </div> 
+
+
+                <!-- <div id='bk-data' style='display:none' data-total-amount='%%GLOBAL_CartItemTotal%%' data-total-items='%%GLOBAL_CartItems%%' data-cart-token='%%GLOBAL_OrderId%%' data-product-id='%%GLOBAL_ProductId%%' data-collection-id='%%GLOBAL_CatId%%' data-customer-email='%%GLOBAL_CustomerEmail%%'></div> -->
+
+<script>
+    var bkRawUrl = function () { return window.location.href } ();
+    (function (doc, scriptPath, apiKey) {
+        var sc, node, today = new Date(), dd = today.getDate(), mm = today.getMonth() + 1, yyyy = today.getFullYear(); if (dd < 10) dd = '0' + dd; if (mm < 10) mm = '0' + mm; today = yyyy + mm + dd;
+        window.BKShopApiKey = apiKey;
+        sc = doc.createElement("script");
+        sc.type = "text/javascript";
+        sc.async = !0;
+        sc.src = scriptPath + '?' + today;
+        node = doc.getElementsByTagName("script")[0];
+        node.parentNode.insertBefore(sc, node);
+    })(document, 'https://sdk.beeketing.com/js/beeketing.js', 'cbe3548aebf5b12a0a0522a40f6cc0a5');
+</script>
+
+
+
+                
+                <script type="text/javascript">    var bbbprotocol = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cscript src='" + bbbprotocol + 'seal-sanjose.bbb.org' + unescape('%2Flogo%2Fe-commerce-exchange-13133452.js') + "' type='text/javascript'%3E%3C/script%3E"));</script>
+                </div>
+        </div>
+        </div>
+                            </td>
+                            </tr>
+                            
+                            <tr>
+                            <td align="center" style="width: 100%; background-color: white" valign="top">
+
+
+                                    
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                <!--style="background-image: url(Images/fillertop.gif); background-repeat: repeat-x">-->
+                    <td colspan="2" align="center">
+                        <div align="center" class="DivHeader2" style="BackColor:#ffffff; ForeColor:#000000" >
+                            <span class="MenuHeader">   | </span>
+
+                            <asp:HyperLink  runat="server" CssClass="MenuFooter" style="BackColor:#ffffff; ForeColor:#000000"
+                                NavigateUrl="PrivacyPolicy.aspx">Policies</asp:HyperLink><span class="MenuHeader"> | </span></div></td>
+                </tr>
+        <tr>
+                <td align="center">
+                <span class="LabelsBodySmall">Commerce Technologies Corporation</span></td>
+        </tr>
+        <tr>
+                <td align="center">
+                <span class="LabelsBodySmall">American Express may require separate approval.</span></td>
+        </tr>
+                <!--<tr>
+                    <td align="center" valign="bottom" colspan="3">
+                        <span class="LabelsBodySmall">
+                        Commerce Technologies is a registered ISO of Wells Fargo Bank, N.A., Walnut Creek, CA.<br/>
+                        Wells Fargo, N.A. is not affiliated with International accounts.</span>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td align="center" valign="bottom" colspan="3"><div itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="LabelsBodySmall">Commerce Technologies is a registered ISO of Compass Bank an Alabama State Chartered Bank</span><br/>
+<span itemprop="company" class="LabelsBodySmall">Compass Bank an Alabama State Chartered Bank is not affiliated with International accounts.</span></td>
+                </tr>
+
+</div>
+            </table>
+        </form>
+
+
+
+</body>
+</html>

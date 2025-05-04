@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Ronald Deyo</BusName>
+      <DBA>Deyo Home Improvement</DBA>
+      <BusAddr>
+        <st_name>3033 Chimney Rock </st_name>
+        <city>Houston</city>
+        <state>TX</state>
+        <country>United States</country>
+        <zip>77056</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>3033 Chimney Rock </st_name>
+        <city>Houston</city>
+        <state>TX</state>
+        <country>United States</country>
+        <zip>77056</zip>
+      </MailAddr>
+      <LOS>24</LOS>
+      <FedTaxId>451457609</FedTaxId>
+      <BusPhone>832-729-3164</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>832-729-3164</CustPhone>
+      <ContactName>Ronald Deyo</ContactName>
+      <NumLocs>
+      </NumLocs>
+      <LOB>2</LOB>
+      <BusHrs>10am to 8pm</BusHrs>
+      <email>ronalddeyo@yahoo.com</email>
+      <url>
+      </url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>0</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>100</Moto>
+      <OwnershipType>Sole Proprietorship</OwnershipType>
+      <CustRefundPol>No Refund</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>Home improvement</ProdType>
+      <DelTime>0</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>0</EverProcessed>
+      <EverTerminated>0</EverTerminated>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Ronald</FirstName>
+      <LastName>Deyo</LastName>
+      <SSN>451457609</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>Owner</Title>
+      <Address>
+        <st_name>613 Saddlewood Lane </st_name>
+        <city>Houston</city>
+        <state>TX</state>
+        <country>United States</country>
+        <zip>77024</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>120</LOS>
+      <Phone>713-439-0050</Phone>
+      <DOB>08/17/1964</DOB>
+      <LicNum>23252174</LicNum>
+      <LicState>TX</LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>308347</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>2.09</DiscFee>
+          <MidQualFee>2.89</MidQualFee>
+          <NonQualFee>3.99</NonQualFee>
+        </CardPresent>
+        <TransFee>0.27</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>10.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>20.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.27</BatchHeaders>
+      <ExternalGWFee>10.00</ExternalGWFee>
+      <WirelessFee>
+      </WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>20000</MonthlyProcLimit>
+      <AvgTicket>1500</AvgTicket>
+      <NeedAmex>0</NeedAmex>
+      <NeedDiscover>0</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>Bank of America</BankName>
+      <BankAddr>701 Town And Country Blvd.</BankAddr>
+      <TransroutingNum>061000052</TransroutingNum>
+      <DDA>334011149515</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

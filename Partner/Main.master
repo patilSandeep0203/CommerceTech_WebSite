@@ -1,0 +1,529 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main"%>
+<!DOCtype html PUBLIC "-//W3C//Dtd XHTML 1.0 transitional//EN" "http://www.w3.org/tr/xhtml1/Dtd/xhtml1-transitional.dtd">
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+var cot_loc0=(window.location.protocol == "https:")? "https://secure.comodo.net/trustlogo/javascript/cot.js" :
+"http://www.trustlogo.com/trustlogo/javascript/cot.js";
+document.writeln('<scr' + 'ipt language="JavaScript" src="'+cot_loc0+'" type="text\/javascript">' + '<\/scr' + 'ipt>');
+//]]>
+
+
+function CountProduct(text) {
+    //asp.net textarea maxlength doesnt work; do it by hand
+    var maxlength = 150; //set your value here (or add a parm and pass it in)
+    var object = document.getElementById(text.id)  //get your object
+    if (object.value.length > maxlength) {
+        object.focus(); //set focus to prevent jumping
+        object.value = text.value.substring(0, maxlength); //truncate the value
+        object.scrollTop = object.scrollHeight; //scroll to the end to prevent jumping
+        return false;
+    }
+    return true;
+}
+
+function CountDeliveryComment(text) {
+    //asp.net textarea maxlength doesnt work; do it by hand
+    var maxlength = 250; //set your value here (or add a parm and pass it in)
+    var object = document.getElementById(text.id)  //get your object
+    if (object.value.length > maxlength) {
+        object.focus(); //set focus to prevent jumping
+        object.value = text.value.substring(0, maxlength); //truncate the value
+        object.scrollTop = object.scrollHeight; //scroll to the end to prevent jumping
+        return false;
+    }
+    return true;
+}
+</script>
+<head id="Head1" runat="server">
+    <title>Commerce Technologies | Online Application</title>
+        <meta http-equiv=”X-UA-Compatible” content=”IE=edge” />
+<meta http-equiv=”X-UA-Compatible” content=”IE=8″ />
+    <meta name="keywords" content="e-commerce, ecommerce, merchant accounts, e commerce, credit card processing, accept credit cards, merchant services, credit card merchant accounts, e-comerce, accept credit cards online, Commerce Technologies, 
+agents, accept, affordable, about us, affiliate, about ecx, accounts, authorized, application, approval, amex, American express, authorize, ACH, automated clearing house, advanced integration, agent program, Apollo,
+business, buying, buy, bank, banking, bank-approved, credit cards, checks, commerce, customer, convenient, complete, connectivity, cards, credit card processing, complete, e-commerce solution, capture, check guarantee, crosscheck, CPS, check acceptance, contact, customer service,
+discover, discover card, diners, diners card, debit card, date, Duvera, directions, easy, e-commerce, ecommerce, entry-level, experience, edge, enhanced, expand, Commerce Technologies, equipment, e-checks, electronic
+checks, e-xact, employment opportunities, five-star, fast, funds, free e-consultation, FAQ, free, finance, financial institutions, feedback, gateway, general, getting started, gift card, general inquires, high-risk, home business, history, internet, improve, increase, internet business, innovative
+gateway, IMS, integration kit, images, iPayment, JCB, JP Morgan chase bank, kurant, leverage, loyalty card services, money, market, merchant, MasterCard, master,
+merchant account, merchant master, MM Pro, marketing tools, merchant application, merchant login, Minolta national bank, Nova, nurit, northern leasing, national bank of redwoods, national city bank of kentucky, newsletter, offer, online, payment, profits, products, payment gateway, program, process, processor, processing, product line, payment transaction software, pre-auth,
+Paradata, PC Charge, premier, partners, premium support, quick commerce, quick, QucikCommerce, QucikCommerce Pro, rated, request, real-time, request application, resource, report,
+secure, solution, smaller, sales, start, store, storefront, scratch, service, secure, secure server connection, server, shopping, shopping cart, setup, startup, sale, software, standard, submit, settle, simple integration, Santa Rosa, today, traditional, transaction, terminal, testimonials,TeleCheck, technical,
+universal, virtual, verisign, virtual terminal, web, website, welcome, what’s new, what is needed, world, WorldPay">
+    <meta name="description" content="e-commerce merchant accounts, credit card processing, and merchant services by Commerce Technologies, a leading provider of e-commerce solutions for small business since 1989.">
+
+    <script type="text/javascript" language="javascript">
+    function popup()
+    {
+        pop = window.open('/OnlineApplication/ViewRates.aspx', 'rates','width=520,height=600,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no');        
+    }    
+    
+    function popupHelp(id)
+    {
+        strURL = "../help.aspx?ID="+id;
+        pop = window.open(strURL, 'rates','width=450,height=200,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');     
+    }
+    
+    function ConfirmLogout()
+    {
+        if ( confirm("You are about to Logout. If you have not saved your information, please click on Cancel and click on the Submit button to save your information before you logout."))
+        {
+            window.location.href="/OnlineApplication/logout.aspx";
+        }        
+    }
+    </script>
+
+    <link type="text/css" href="onlineappcss.css" rel="stylesheet" />
+    <link rel="icon" href="https://cdn11.bigcommerce.com/s-1x33si/product_images/uploaded_images/favicon2.png?t=1644943835&_gl=1*hvxnyw*_ga*MTIwMTU0MDM0OC4xNjI4MTAxMTYy*_ga_WS2VZYPC6G*MTY0NDk0MzgxOS4xNTYuMS4xNjQ0OTQzODM5LjQw" />
+
+        <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22103620-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</head>
+<a href="http://www.instantssl.com" id="comodoTL">SSL</a>
+<script language="JavaScript" type="text/javascript">
+COT("https://www.firstaffiliates.com/images/secure_site.gif", "SC2", "none");
+</script>
+<body topmargin="0px">
+    <center>
+        <form id="form1" runat="server">
+            <cc1:PopupControlExtender ID="PopupControlExtender4" runat="server" PopupControlID="pnlPDFMessage"
+                TargetControlID="imgPDFMessage" Position="Top" />
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 900px;">
+                <tr>
+                    <td align="left">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="left" style="width: 10%">
+                                    <a href="http://www.commercetech.com" target="_blank">
+                                        <img src="/OnlineApplication/Images/ctc-logo-3.png" name="commercetech" alt="" style="border: 0" /></a>
+                                </td>
+                                <td align="center" style="width: 47%">                                    
+                                </td>
+                                <td align="right" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>
+                                        <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink2" NavigateUrl="javascript:ConfirmLogout()">Logout</asp:HyperLink>&nbsp;</b></span></td>        
+                                <td align="right" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;
+                                        <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink3" Target="_blank" NavigateUrl="https://commercetech.com/about-us/">About Us</asp:HyperLink>&nbsp;</b></span></td>
+                                <td align="left" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;
+                                        <asp:HyperLink runat="server" CssClass="LinkSmall" ID="HyperLink4" Target="_blank" NavigateUrl="https://commercetech.com/contact-us/">Contact Us</asp:HyperLink>&nbsp;</b></span></td>
+                                <td align="left" valign="middle">
+                                    <span class="LabelsHeaderSmall"><b>&nbsp;|&nbsp;
+                                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="LinkSmall" NavigateUrl="tel:1-800-477-5363">800-477-5363</asp:HyperLink></b></span></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- END TOP NAVBAR -->
+                <tr>
+                    <td align="left" valign="middle">
+                        <!-- BEGIN MAIN -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td align="left" Width="20%" valign="top">
+                                    <table Width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                    <td>
+                                        <asp:Panel ID="pnlMerchantStatus" Width="100%" runat="server">
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" class="DivHeader2"
+                                                    valign="middle">
+                                                    <span class="MenuHeader"><strong>Merchant Account<br />Completion Status</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke" align="center" valign="middle">
+                                                    <asp:Panel ID="pnlMerchantView" runat="server" Width="100%">
+                                                        <table cellpadding="0" cellspacing="0" border="0" style="width: 80%; height: 80%;">
+                                                            <tr>
+                                                                <td align="center" valign="middle" style="height: 25px; width: 15px;">
+                                                                    <asp:Image ID="imgCardPctStatus" runat="server" />
+                                                                </td>
+                                                                <td id="tdMCardPct" align="left" valign="middle">
+                                                                    &nbsp;<asp:LinkButton ID="linkCardPct" CssClass="HMenu" Style="font-weight: bold;" Text="Card Percentages" runat="server" OnClick="linkCardPctClick"/>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" valign="middle" style="height: 25px; width: 15px;">
+                                                                    <asp:Image ID="imgCompanyStatus" runat="server" />
+                                                                </td>
+                                                                <td id="tdMCompany" align="left" valign="middle">
+                                                                    &nbsp;<asp:LinkButton ID="linkCompanyInfo" CssClass="HMenu" Style="font-weight: bold;" Text="Contact Information" runat="server" OnClick="linkCompanyClick"/>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" valign="middle" style="height: 25px; width: 15px;">
+                                                                    <asp:Image ID="imgBusinessStatus" runat="server" />
+                                                                </td>
+                                                                <td valign="middle" align="left">
+                                                                    &nbsp;<asp:LinkButton ID="linkBusiness" CssClass="HMenu" Style="font-weight: bold;" Text="Business Information" runat="server" OnClick="linkBusinessClick"/>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" valign="middle" style="height: 25px; width: 15px;">
+                                                                    <asp:Image ID="imgPrincipalStatus" runat="server" />
+                                                                </td>
+                                                                <td valign="middle" align="left">
+                                                                    &nbsp;<asp:LinkButton ID="linkPrincipal" CssClass="HMenu" Style="font-weight: bold;" Text="Principal Information" runat="server" OnClick="linkPrincipalClick"/>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" valign="middle" style="height: 25px; width: 15px;">
+                                                                    <asp:Image ID="imgBankingStatus" runat="server" />
+                                                                </td>
+                                                                <td valign="middle" align="left">
+                                                                    &nbsp;<asp:LinkButton ID="linkBanking" CssClass="HMenu" Style="font-weight: bold;" Text="Banking Information" runat="server" OnClick="linkBankingClick"/>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" valign="middle" style="height: 25px; width: 15px;">
+                                                                    <asp:Image ID="imgSigningStatus" runat="server" />
+                                                                </td>
+                                                                <td valign="middle" align="left">
+                                                                    &nbsp;<asp:LinkButton ID="linkPDF" CssClass="HMenu" Style="font-weight: bold;" Text="Sign application" runat="server" OnClick="linkPDFClick"/>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="DivWhiteSmoke" width="80%">
+                                                    <table width="70%" border="0" cellpadding="0" cellspacing="0" class="DivGray">
+                                                        <tr>
+                                                            <td align="center" valign="middle">
+                                                                <asp:Image ID="imgComplete" runat="server" ImageUrl="/OnlineApplication/Images/Complete.gif" /></td>
+                                                            <td valign="middle" align="left">
+                                                                <span class="LabelsHeaderSmall">&nbsp;<strong>Complete</strong></span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle">
+                                                                <asp:Image ID="imgAttention" runat="server" ImageUrl="/OnlineApplication/Images/Attention.gif" /></td>
+                                                            <td valign="middle" align="left">
+                                                                <span class="LabelsHeaderSmall">&nbsp;<strong>Incomplete</strong></span></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </asp:Panel>
+                                        <asp:Panel ID="pnlGatewayStatus" Width="100%" runat="server">
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" class="DivHeader2" valign="middle">
+                                                    <span class="MenuHeader"><strong>Payment Gateway<br />Completion Status</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 80%; height: 80%;" class="DivWhiteSmoke" align="center" valign="middle">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width: 80%; height: 80%;">
+                                                        <tr>
+                                                            <td align="center" width=15px valign="middle" style="height: 25px">
+                                                                <asp:Image ID="imgGCompanyStatus" runat="server" />
+                                                            </td>
+                                                            <td align="left" valign="middle">
+                                                                    <a class="HMenu" href="/OnlineApplication/Gateway/companyinfo.aspx">&nbsp;<b>Contact Information</b></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle" style="height: 25px">
+                                                                <asp:Image ID="imgGBusinessStatus" runat="server" />
+                                                            </td>
+                                                            <td align="left" valign="middle">
+                                                                    <a class="HMenu" href="/OnlineApplication/Gateway/businessinfo.aspx">&nbsp;<b>Business Information</b></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle" style="height: 25px">
+                                                                <asp:Image ID="imgGPrincipalStatus" runat="server" />
+                                                            </td>
+                                                            <td align="left" valign="middle">
+                                                                    <a class="HMenu" href="/OnlineApplication/Gateway/principalinfo.aspx">&nbsp;<b>Principal Information</b></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle" style="height: 25px">
+                                                                <asp:Image ID="imgGBankingStatus" runat="server" />
+                                                            </td>
+                                                            <td align="left" valign="middle">
+                                                                    <a class="HMenu" href="/OnlineApplication/Gateway/bankinginfo.aspx">&nbsp;<b>Banking Information</b></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle" style="height: 25px">
+                                                                <asp:Image ID="imgGPlatformStatus" runat="server" />
+                                                            </td>
+                                                            <td align="left" valign="middle">
+                                                                    <a class="HMenu" href="/OnlineApplication/Gateway/reprogram.aspx">&nbsp;<b>Platform Information</b></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="width: 80%;" class="DivWhiteSmoke">
+                                                    <table width="70%" border="0" cellpadding="0" cellspacing="0" class="DivGray">
+                                                        <tr>
+                                                            <td align="center" width=15 valign="middle">
+                                                                <asp:Image ID="Image1" runat="server" ImageUrl="/OnlineApplication/Images/Complete.gif" /></td>
+                                                            <td valign="middle" align="left">
+                                                                <span class="LabelsHeaderSmall">&nbsp;<strong>Complete</strong></span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="middle">
+                                                                <asp:Image ID="Image2" runat="server" ImageUrl="/OnlineApplication/Images/Attention.gif" /></td>
+                                                            <td valign="middle" align="left">
+                                                                <span class="LabelsHeaderSmall">&nbsp;<strong>Incomplete</strong></span></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </asp:Panel>
+                                        <asp:Panel ID="pnlStatus" runat="server" Width="100%">
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" class="DivHeader2" valign="middle">
+                                                    <span class="MenuHeader"><strong>Merchant Application Status</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 80%;" align="center" valign="middle" class="DivWhiteSmoke">
+                                                    <asp:Label ID="lblStatus" runat="server" Font-Bold="True" Visible="False"></asp:Label>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </asp:Panel>
+                                        <asp:Panel ID="pnlGeneratePDF" runat="server" Width="100%">
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" class="DivHeader2" valign="middle">
+                                                    <span class="MenuHeader"><strong>Generate PDF Application</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="width: 70%; height: 80%;" valign="middle" class="DivWhiteSmoke">
+                                                    <asp:LinkButton CssClass="HMenu" ID="lnkbtnCreatePDF" runat="server" CausesValidation="False" Font-Bold="True" 
+                                                        PostBackUrl="~/notice.aspx">Create PDF</asp:LinkButton>
+                                                    <asp:Image ID="imgPDFMessage" runat="server" Style="cursor:pointer" ImageUrl="/OnlineApplication/Images/help.gif" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                        <asp:Panel ID="pnlPDFMessage" runat="server" Style="display: none; z-index: 1;" Width="250px" CssClass="DivHelp">
+                                            Click on the Create PDF button to create a PDF file for your application.</asp:Panel>
+                                        </table>
+                                        </asp:Panel>
+                                        <asp:Panel ID="pnlStatusGW" runat="server" Width="100%">
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" class="DivHeader2" valign="middle">
+                                                    <span class="MenuHeader"><strong>Gateway Application Status</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 80%;" align="center" valign="middle" class="DivWhiteSmoke">
+                                                    <asp:Label ID="lblStatusGW" runat="server" Font-Bold="True" Visible="False"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;" class="DivWhiteSmoke">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </asp:Panel>
+                                        <asp:Panel ID="pnlSignups" runat="server" Width="100%">
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center" class="DivHeader2" valign="middle">
+                                                    <span class="MenuHeader"><strong>Additional Services</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle" width="80%" class="DivWhiteSmoke">
+                                                    <asp:Panel ID="pnlViewMerchantInfo" runat="server">
+                                                        <div style="height: 10px;"></div>
+                                                        <a class="HMenu" href="/OnlineApplication/notice.aspx"><b>View Merchant Account Information</b></a>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle" width="80%" class="DivWhiteSmoke">
+                                                    <asp:Panel ID="pnlViewGatewayInfo" runat="server">
+                                                        <div style="height: 10px;" ></div>
+                                                        <a class="HMenu" href="/OnlineApplication/Gateway/companyinfo.aspx"><b>View Payment Gateway Information</b></a>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center" valign="middle" width="80%" class="DivWhiteSmoke">
+                                                    <asp:Panel ID="pnlMerchantSignup" runat="server" Width="100%">
+                                                        <div style="height: 10px;" ></div>
+                                                        <a class="HMenu" href="/OnlineApplication/UpdateAcct.aspx"><b>Click here to Sign up for Merchant Account</b></a>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle" width="80%" class="DivWhiteSmoke">
+                                                    <asp:Panel ID="pnlGatewaySignup" runat="server" Width="100%">
+                                                        <div style="height: 10px;" ></div>
+                                                        <a class="HMenu" href="/OnlineApplication/UpdateAcctGW.aspx"><b>Click here to Sign up for Payment Gateway</b></a>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td align="center" valign="middle" width="80%" class="DivWhiteSmoke">
+                                                    <asp:Panel ID="pnlAddlServicesSignup" runat="server" Width="100%">
+                                                        <div style="height: 10px;" ></div>
+                                                        <a class="HMenu" href="/OnlineApplication/AddlServices.aspx"><b>Sign up for<br />Additional Services</b> </a>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>
+                                            <!--<tr>
+                                                <td align="center" valign="middle" width="80%" class="DivWhiteSmoke">
+                                                    <asp:Panel ID="pndAddlPDF" runat="server" Width="100%">
+                                                        <div style="height: 10px;" ></div>
+                                                        <a class="HMenu" href="/OnlineApplication/AddlServicesPDF.aspx"><b>Create <br />Additional Services PDF</b> </a>
+                                                    </asp:Panel>
+                                                </td>
+                                            </tr>-->
+                                            
+                                            <tr>
+                                                <td style="height: 10px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </asp:Panel>
+                                        <asp:Panel ID="pnlUserInfo" runat="server" Width="100%">  
+                                        <table Width="100%" class="Border" border="0" cellpadding="0" cellspacing="0">                                      
+                                            <tr>
+                                                <td align="center" class="DivHeader2"
+                                                    valign="middle">
+                                                    <span class="MenuHeader"><strong>User Information</strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle" class="DivWhiteSmoke">
+                                                    <a class="HMenu" href="javascript:popup()"><b>View Rates</b></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <a class="HMenu" href="/OnlineApplication/editprofile.aspx"><b>Edit Profile</b></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <a class="HMenu" href="javascript:ConfirmLogout()"><b>Logout</b></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 10px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </asp:Panel>
+                                        
+                                    </td>
+                                    </tr>                                    
+                                    </table>
+                                </td>
+                                <td valign="top" rowspan="1" align="center">
+                                    <asp:Label ID="lblErrorMsg" BackColor="#ffc0c0" BorderColor="Red" runat="server" Visible="False"></asp:Label>
+                                    <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+                                        <!-- INSERT MAIN CONTENT BELOW -->
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" class="DivHeader2">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <span class="MenuHeader">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp;|&nbsp;</span>
+                                </td>
+                                <td align="center">
+                                        <asp:HyperLink ID="lnkPrivacyPolicy" CssClass="MenuFooter" runat="server" target="_blank"
+                                            NavigateUrl="https://commercetech.com/policies/">Policies</asp:HyperLink>
+                                </td>
+                                <td>
+                                    <span class="MenuHeader">&nbsp;|&nbsp;</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

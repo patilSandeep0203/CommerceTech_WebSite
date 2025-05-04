@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<OnlineApp xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+  <Header>
+    <Status>ECX Digital App</Status>
+    <AttachedFileName>
+    </AttachedFileName>
+  </Header>
+  <AppData>
+    <UserDefinedAttributes>
+      <Att01>
+      </Att01>
+    </UserDefinedAttributes>
+    <GeneralInformation>
+      <BusName>Emineth Custom Homes Inc</BusName>
+      <DBA>Emineth Custom Homes</DBA>
+      <BusAddr>
+        <st_name>5965 rainbow ridge rd </st_name>
+        <city>Billings</city>
+        <state>MT</state>
+        <country>United States</country>
+        <zip>59101</zip>
+      </BusAddr>
+      <MailAddr>
+        <st_name>5965 rainbow ridge rd </st_name>
+        <city>Billings</city>
+        <state>MT </state>
+        <country>United States</country>
+        <zip>59101</zip>
+      </MailAddr>
+      <LOS>144</LOS>
+      <FedTaxId>202746106</FedTaxId>
+      <BusPhone>406-855-8109</BusPhone>
+      <BusFax>
+      </BusFax>
+      <CustPhone>406-855-8109</CustPhone>
+      <ContactName>Shane Emineth</ContactName>
+      <NumLocs>1</NumLocs>
+      <LOB>12</LOB>
+      <BusHrs>0</BusHrs>
+      <email>emineth@usadig.com</email>
+      <url>emineth@usadig.com</url>
+    </GeneralInformation>
+    <BusinessInformation>
+      <RetailCardSwipe>80</RetailCardSwipe>
+      <RetailManuallyKeyed>0</RetailManuallyKeyed>
+      <Internet>0</Internet>
+      <Moto>20</Moto>
+      <OwnershipType>Corporation</OwnershipType>
+      <CustRefundPol>No Refund</CustRefundPol>
+      <BusType>
+      </BusType>
+      <ProdType>custom home supplies, granite and concrete work</ProdType>
+      <DelTime>7</DelTime>
+      <Comments>
+      </Comments>
+    </BusinessInformation>
+    <ProcHistory>
+      <EverProcessed>0</EverProcessed>
+      <EverTerminated>0</EverTerminated>
+    </ProcHistory>
+    <Principal>
+      <FirstName>Shane</FirstName>
+      <LastName>Emineth</LastName>
+      <SSN>517989181</SSN>
+      <PercentOwnership>100</PercentOwnership>
+      <Title>owner</Title>
+      <Address>
+        <st_name>5965 rainbow ridge rd </st_name>
+        <city>Billings</city>
+        <state>MT  </state>
+        <country>United States</country>
+        <zip>59101</zip>
+      </Address>
+      <AddrType>Own</AddrType>
+      <LOS>144</LOS>
+      <Phone>406-896-8109</Phone>
+      <DOB>10/18/1968</DOB>
+      <LicNum>1000219684118</LicNum>
+      <LicState>MT  </LicState>
+    </Principal>
+    <RepInfo>
+      <RepName>Jay Scott</RepName>
+      <RepNum>40558</RepNum>
+    </RepInfo>
+    <CardBasedFees>
+      <CardFee>
+        <CardType>1</CardType>
+        <CardPresent>
+          <DiscFee>1.64</DiscFee>
+          <MidQualFee>2.44</MidQualFee>
+          <NonQualFee>3.54</NonQualFee>
+        </CardPresent>
+        <TransFee>0.25</TransFee>
+        <WattsSurchrg>
+        </WattsSurchrg>
+        <AVS>0.10</AVS>
+        <VoiceAuth>0.95</VoiceAuth>
+        <ARU>0</ARU>
+      </CardFee>
+    </CardBasedFees>
+    <AgentValues>
+      <MonthlyStatementFee>5.00</MonthlyStatementFee>
+      <MonthlyMinDiscFee>20.00</MonthlyMinDiscFee>
+      <ApplicationFee>
+      </ApplicationFee>
+      <SetupFee>
+      </SetupFee>
+      <BatchHeaders>0.25</BatchHeaders>
+      <ExternalGWFee>
+      </ExternalGWFee>
+      <WirelessFee>20.00</WirelessFee>
+    </AgentValues>
+    <MiscAgentValues>
+      <MonthlyProcLimit>15000</MonthlyProcLimit>
+      <AvgTicket>2500</AvgTicket>
+      <NeedAmex>0</NeedAmex>
+      <NeedDiscover>0</NeedDiscover>
+    </MiscAgentValues>
+    <Equipment>
+      <EquipType>G</EquipType>
+      <EquipModel>Others</EquipModel>
+      <EquipID>
+      </EquipID>
+    </Equipment>
+    <CardNums>
+      <AMEX>
+      </AMEX>
+      <Discover>
+      </Discover>
+      <Jcb>
+      </Jcb>
+    </CardNums>
+    <BankInfo>
+      <BankName>First Interstate Bank</BankName>
+      <BankAddr>
+      </BankAddr>
+      <TransroutingNum>092901683</TransroutingNum>
+      <DDA>2101018444</DDA>
+    </BankInfo>
+  </AppData>
+</OnlineApp>

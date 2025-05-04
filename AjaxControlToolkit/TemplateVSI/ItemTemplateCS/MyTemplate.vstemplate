@@ -1,0 +1,39 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyControl</DefaultName>
+    <Name>ASP.NET AJAX Extender Control</Name>
+    <Description>Easily create Extender Controls using ASP.NET AJAX</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System.Web.Extensions</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Web.Extensions.Design</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Design</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Web</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>mscorlib</Assembly>
+      </Reference>      
+    </References>
+
+    <CustomParameters>
+      <CustomParameter Name="$baseitemname$" Value="$fileinputname$"/>
+    </CustomParameters>    
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Extender.cs" ReplaceParameters="true">Extender.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Behavior.js" ReplaceParameters="true">Behavior.js</ProjectItem>    
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Designer.cs" ReplaceParameters="true">Designer.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

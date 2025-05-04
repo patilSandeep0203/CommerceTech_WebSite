@@ -1,0 +1,64 @@
+.comment-link {
+    padding-inline: 20px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.comment-reply-box {
+    background-color: rgb(243, 243, 243);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.main-commentbox-cnmPro {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5%;
+}
+
+.reply-hover-cursor-cnmpro {
+    cursor: pointer;
+}
+
+.single-commentbox-cnmPro {
+    padding: 5%;
+}
+
+.comment-inline {
+    display: inline;
+}
+
+.comment-text-padding {
+    padding-top: 4px;
+}
+
+.comment-replyEdit {
+    word-spacing: 10px;
+}
+
+.delete-comment-text-red {
+    color: red;
+    float: right;
+    font-weight: bold;
+}
+
+.comment-underline {
+    text-decoration: underline;
+}
+
+.comment-edit-paddingleft {
+    padding-left: 5px;
+    float: right;
+}
+
+.text-align-right-comments {
+    text-align: right;
+    float: right;
+}
+
+.comment-icon-font-size {
+    font-size: 15px;
+}

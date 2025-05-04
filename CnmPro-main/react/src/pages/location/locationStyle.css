@@ -1,0 +1,15 @@
+.has-val-error {
+    width: 100%;
+    margin-top: 0.25rem;
+    text-align: center;
+    font-size: 80%;
+    color: #ff2e63;
+}
+
+.autocomplete-container {
+    padding-top: 7%;
+}
+
+.custom-container {
+    padding-top: 7%;
+}
